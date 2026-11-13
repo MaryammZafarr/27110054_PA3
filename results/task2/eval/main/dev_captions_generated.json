@@ -1,0 +1,674 @@
+[
+ {
+  "image": "val2014:560623",
+  "reference": "Planes on a wet tarmac unloading at arrival gates.",
+  "generated": "A plane is sitting on the runway at the airport.",
+  "tokens": 11,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:458790",
+  "reference": "A view from the inside of a train from a side window.",
+  "generated": "A white car parked in front of a window.",
+  "tokens": 10,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:30067",
+  "reference": "A man is playing tennis with a racquet and ball.",
+  "generated": "A man is holding a tennis racket and a ball.",
+  "tokens": 11,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:573214",
+  "reference": "A biker riding down a street on a motorcycle.",
+  "generated": "A man riding a motorcycle on a street.",
+  "tokens": 9,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:461753",
+  "reference": "a group of young children holding up toothbrushes",
+  "generated": "A group of children playing with their toys and phones.",
+  "tokens": 11,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:25708",
+  "reference": "A bowl of pasta, broccoli, onion, and carrots.",
+  "generated": "A bowl of food with broccoli, carrots, and noodles.",
+  "tokens": 12,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:576017",
+  "reference": "There are two different street signs together in a different language",
+  "generated": "A street sign with a yellow color and a white background.",
+  "tokens": 12,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:258061",
+  "reference": "A man is surfing and crouches under a wave.",
+  "generated": "A young man surfing on a wave.",
+  "tokens": 8,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:102056",
+  "reference": "some people in line waiting to board a bus",
+  "generated": "A bus is parked in the snow with people in it.",
+  "tokens": 12,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:555772",
+  "reference": "A stop sign specifying about no zamboni crossing.",
+  "generated": "A stop sign with a red stripe on it.",
+  "tokens": 10,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:321579",
+  "reference": "Two pizzas siting on top of a table next to each other.",
+  "generated": "A pizza and wine on a table.",
+  "tokens": 8,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:484986",
+  "reference": "The view from the airplane shows a mountain range.",
+  "generated": "A mountainous area with a large plane in the sky.",
+  "tokens": 12,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:63516",
+  "reference": "a couple of horse that are walking in a field",
+  "generated": "Two horses standing in the grass.",
+  "tokens": 7,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:559790",
+  "reference": "A colorful train is waiting on the tracks at the station.",
+  "generated": "A blue train is parked at a station.",
+  "tokens": 9,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:148395",
+  "reference": "A truck and several vehicles inside a building.",
+  "generated": "A large number of motorcycles are parked in a parking lot.",
+  "tokens": 12,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:261186",
+  "reference": "A large elephant is climbing out of the muddy river.",
+  "generated": "A large elephant standing in the middle of a field.",
+  "tokens": 11,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:540733",
+  "reference": "A picture of a stop sign and some buildings.",
+  "generated": "A street sign with a stop sign and a beer sign.",
+  "tokens": 12,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:109092",
+  "reference": "A man in a suit stares at a chili dog with cheese.",
+  "generated": "A man with a tie and shirt holding a plant.",
+  "tokens": 11,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:579060",
+  "reference": "A male Tennis player is just about to hit the ball.",
+  "generated": "A man is holding a tennis racket and playing tennis.",
+  "tokens": 11,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:10766",
+  "reference": "a little asian girl holding a stuffed rabbit close to her face",
+  "generated": "A little girl with a teddy bear in her arms.",
+  "tokens": 12,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:225791",
+  "reference": "a skateboarder in a gray shirt is doing a trick",
+  "generated": "A man is riding a skateboard on a ramp.",
+  "tokens": 10,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:55017",
+  "reference": "A large sandwich cut in half on top of checkered paper.",
+  "generated": "A sandwich and some vegetables on a plate.",
+  "tokens": 9,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:8688",
+  "reference": "A mattress sitting above the mattress frame in a small room",
+  "generated": "A bed with a mattress on it and some pillows.",
+  "tokens": 11,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:205811",
+  "reference": "People dressed in business attire smile while sitting at a dinner table.",
+  "generated": "A group of people sitting at a table with food.",
+  "tokens": 11,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:490178",
+  "reference": "A little boy stands looking away from the camera holding on to a red suitcase.",
+  "generated": "A little boy is holding a suitcase.",
+  "tokens": 8,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:12827",
+  "reference": "A woman taking a selfie with a cat next to her.",
+  "generated": "A woman holding a cat in her hand while taking a picture.",
+  "tokens": 13,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:313924",
+  "reference": "a tennis player with a racket on a court",
+  "generated": "A woman holding a tennis racket in her hand.",
+  "tokens": 10,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:422391",
+  "reference": "A HORSE TRAILER WITH THE HORSE AND JOCKEY PICTURED ON IT",
+  "generated": "A man is standing next to a van with a horse.",
+  "tokens": 12,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:154584",
+  "reference": "a large bear is standing on a road near some people",
+  "generated": "A group of people walking through a forest.",
+  "tokens": 9,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:183500",
+  "reference": "A red and white plane flying through a cloudy sky.",
+  "generated": "A small plane flying in the sky.",
+  "tokens": 8,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:505157",
+  "reference": "A man performs a skateboard trick in the air.",
+  "generated": "A man is doing a trick on a skateboard.",
+  "tokens": 10,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:304320",
+  "reference": "Several cows standing while grazing in a field.",
+  "generated": "A herd of cows grazing in a field next to a building.",
+  "tokens": 13,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:576939",
+  "reference": "A bunch of surgical scissors are sitting on a table labeled with tags.",
+  "generated": "A bunch of scissors and a bunch of fruits are displayed.",
+  "tokens": 12,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:134178",
+  "reference": "several elderly europeans sitting on a bench and chatting",
+  "generated": "Two men sitting on a bench with a child next to them.",
+  "tokens": 13,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:540816",
+  "reference": "A large passenger jet flying through a blue sky.",
+  "generated": "A large airplane flying through the sky.",
+  "tokens": 8,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:266853",
+  "reference": "a wooden skate with a toy elephant inside of it",
+  "generated": "A wooden toy car is sitting on a grassy field.",
+  "tokens": 12,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:450599",
+  "reference": "A man in sandals playing tennis with two rackets",
+  "generated": "A man holding a tennis racket in his hand.",
+  "tokens": 10,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:263412",
+  "reference": "A clock tower stands on a sidewalk near parked cars and barren trees.",
+  "generated": "A street with a church and a street sign.",
+  "tokens": 10,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:166868",
+  "reference": "A herd of cattle grazing out in a grassy open field",
+  "generated": "A herd of cows standing in a field.",
+  "tokens": 9,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:332141",
+  "reference": "A body of water at night with two boats docked.",
+  "generated": "A boat is sitting on the water.",
+  "tokens": 8,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:573778",
+  "reference": "The giraffe is laying down on the grass.",
+  "generated": "A giraffe is sitting on a grassy field.",
+  "tokens": 11,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:490051",
+  "reference": "Three skiers and a snowboarder walking on the snow together.",
+  "generated": "Three people are skiing on a snowy hill.",
+  "tokens": 9,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:566576",
+  "reference": "A bus station with glass entry doors and roof.",
+  "generated": "A bus stop with a sign in front of it.",
+  "tokens": 11,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:575931",
+  "reference": "a child clings to his fathers back under an umbrella in a rain storm",
+  "generated": "A woman holding a baby in a rainstorm.",
+  "tokens": 10,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:360540",
+  "reference": "A view of a street corner with an umbrella on it.",
+  "generated": "A woman is standing in front of a store with a large umbrella.",
+  "tokens": 14,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:229342",
+  "reference": "A living room scene with a dog and a cat sleeping on the floor.",
+  "generated": "A dog is sitting on a couch in a living room.",
+  "tokens": 12,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:541493",
+  "reference": "The sink has a mirrored cabinet above it",
+  "generated": "A bathroom with a sink and a mirror.",
+  "tokens": 9,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:570952",
+  "reference": "A cat is sitting near a clock posing for the camera.",
+  "generated": "A cat is sitting on a chair next to a clock.",
+  "tokens": 12,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:97427",
+  "reference": "A small kitchen with a washer and dryer in the middle of it.",
+  "generated": "A kitchen with a refrigerator and a stove.",
+  "tokens": 9,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:502953",
+  "reference": "A girl is flying a kite near the water.",
+  "generated": "A person flying a kite in the sky.",
+  "tokens": 9,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:118181",
+  "reference": "A person sits on a couch in the restroom",
+  "generated": "A man sitting in a bathroom with a card in his hand.",
+  "tokens": 13,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:180541",
+  "reference": "A black double decker bus that gives ghost tours",
+  "generated": "A double decker bus is parked on the street.",
+  "tokens": 11,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:281722",
+  "reference": "The sailboat became beached during the recent storm.",
+  "generated": "A blue boat is sitting on the sand next to a boat.",
+  "tokens": 13,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:450169",
+  "reference": "A young child is brushing its teeth in the tub.",
+  "generated": "A baby brushing his teeth in a bathtub.",
+  "tokens": 9,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:321118",
+  "reference": "A pair of hairy objects sitting on a laptop next to a mouse.",
+  "generated": "A computer with a dog on it.",
+  "tokens": 8,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:489719",
+  "reference": "An adult elephant attending to a child elephant near some water.",
+  "generated": "A baby elephant is walking next to an elephant.",
+  "tokens": 10,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:101913",
+  "reference": "Three people watch a train drive by.",
+  "generated": "A group of people sitting on a bench.",
+  "tokens": 9,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:362812",
+  "reference": "A group of well dressed men and women.",
+  "generated": "A group of men in black suits and white shirts are sitting on a bus.",
+  "tokens": 16,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:531995",
+  "reference": "Cat on carpet looking into a black boot.",
+  "generated": "A black cat is sitting on a chair and looking at the floor.",
+  "tokens": 14,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:262425",
+  "reference": "A marine filled with boats floating on water.",
+  "generated": "A group of people sitting on a dock at night.",
+  "tokens": 11,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:518937",
+  "reference": "Some people are sitting at tables under umbrellas.",
+  "generated": "A person is sitting on a bench under an umbrella.",
+  "tokens": 11,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:6220",
+  "reference": "A variety of food dishes are shown on display.",
+  "generated": "A table with a variety of food and drinks.",
+  "tokens": 10,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:261333",
+  "reference": "A black cat drinking out of a blue cup.",
+  "generated": "A black cat is eating a blue bowl of water.",
+  "tokens": 11,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:351744",
+  "reference": "A train is passing by an empty platform",
+  "generated": "A train is parked at a station.",
+  "tokens": 8,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:529494",
+  "reference": "A clock is shown with birds replacing the numbers.",
+  "generated": "A clock with birds on it.",
+  "tokens": 7,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:141962",
+  "reference": "A person with a helmet on a blue motorcycle.",
+  "generated": "A man standing on a motorcycle in a blue suit.",
+  "tokens": 11,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:492785",
+  "reference": "A sandwich is cut in half and sitting on it's wrapper.",
+  "generated": "Two sandwiches on a plate with a white paper towel.",
+  "tokens": 11,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:520996",
+  "reference": "An elephant tied up in a city park.",
+  "generated": "An elephant standing on a fence with a stick.",
+  "tokens": 10,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:484573",
+  "reference": "A pile of food on a white plate.",
+  "generated": "A plate with a green and yellow broccoli and some meat.",
+  "tokens": 12,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:527060",
+  "reference": "The group of people are getting ready to eat cake.",
+  "generated": "A woman is holding a birthday cake with candles.",
+  "tokens": 10,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:363403",
+  "reference": "A man wearing a suit and tie walking down the street.",
+  "generated": "A man in a suit is standing in front of a mirror.",
+  "tokens": 13,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:260141",
+  "reference": "a bunch of boats all lined up on a dock.",
+  "generated": "A group of boats sitting on the water.",
+  "tokens": 9,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:441500",
+  "reference": "The child is putting the tooth brush in his mouth.",
+  "generated": "A little boy with a toothbrush and a toothbrush.",
+  "tokens": 12,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:82662",
+  "reference": "A small figure has been drawn on a stop sign.",
+  "generated": "A stop sign with a person standing on top of it.",
+  "tokens": 12,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:533896",
+  "reference": "Directional signs on pole near bricked roadway at intersection.",
+  "generated": "A street sign that is on a road in the middle of a field.",
+  "tokens": 15,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:556246",
+  "reference": "Five teenage boys are skateboarding in a skate park",
+  "generated": "A group of people skateboarding on a ramp.",
+  "tokens": 10,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:45603",
+  "reference": "A cat stares at its reflection in a mirror.",
+  "generated": "A cat is looking at another cat in a mirror.",
+  "tokens": 11,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:30356",
+  "reference": "a black gray and white cat a toilet sink and mirror",
+  "generated": "A cat is sitting in the toilet.",
+  "tokens": 8,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:410589",
+  "reference": "a sail boat and umbrella along a beach with tall grass",
+  "generated": "A small boat is sitting on a beach with a umbrella.",
+  "tokens": 12,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:511384",
+  "reference": "A person tossing an orange frisbee on top of a green field.",
+  "generated": "A person is playing with a frisbee in the grass.",
+  "tokens": 13,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:36561",
+  "reference": "A group of people gathered around a dining table.",
+  "generated": "A group of people sitting at a table drinking.",
+  "tokens": 10,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:576305",
+  "reference": "A little girl with a snack laughing on a bench.",
+  "generated": "A little girl is sitting on a bench and eating a food item.",
+  "tokens": 14,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:6473",
+  "reference": "A decorated birthday cake with a surfing theme",
+  "generated": "A birthday cake with a birthday cake with a birthday cake with a birthday cake with a birthday cake with a birthday cake with a birthday cake with a birthday cake with a birthday cake with a birthday cake with a birthday cake with a birthday cake with a birthday cake with a birthday cake with a birthday cake with a birthday cake with",
+  "tokens": 64,
+  "hit_cap": true
+ },
+ {
+  "image": "val2014:342770",
+  "reference": "Man in a white shirt standing next to a green truck.",
+  "generated": "A man and a woman are driving a truck.",
+  "tokens": 10,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:282346",
+  "reference": "A skate boarder at night prepairing to skate away.",
+  "generated": "A man is riding a skateboard on a street.",
+  "tokens": 10,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:226631",
+  "reference": "A cruise ship is near the dock towards buildings.",
+  "generated": "A white boat in the water with a white sail.",
+  "tokens": 11,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:420230",
+  "reference": "An elephant with tusks walking with a wet trunk.",
+  "generated": "A large elephant walking in a field.",
+  "tokens": 8,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:441286",
+  "reference": "Surfer riding large breaking wave on open ocean.",
+  "generated": "A person surfing on a wave in the ocean.",
+  "tokens": 10,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:207264",
+  "reference": "A herd of elephants are grazing in a vast prairie.",
+  "generated": "A herd of elephants and some other animals in a field.",
+  "tokens": 12,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:382584",
+  "reference": "A bus driving into parking garage, with a do not enter sign in front of it.",
+  "generated": "A bus is parked on the street.",
+  "tokens": 8,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:423125",
+  "reference": "A female surf boarder coming in from a wave.",
+  "generated": "Two people on a surfboard in the ocean.",
+  "tokens": 10,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:134981",
+  "reference": "Two people are going hiking in the snow.",
+  "generated": "Two people standing in the snow with their skis",
+  "tokens": 10,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:129690",
+  "reference": "Standing man talking to woman sitting on a park bench.",
+  "generated": "A man and woman sitting on a bench with hats and sunglasses.",
+  "tokens": 13,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:165518",
+  "reference": "a person that is on a motorcycle in the dark",
+  "generated": "A man riding a motorcycle in the dark.",
+  "tokens": 9,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:158084",
+  "reference": "A train with people in it touring the sights.",
+  "generated": "A train ride on a track with people in the seats.",
+  "tokens": 12,
+  "hit_cap": false
+ },
+ {
+  "image": "val2014:311295",
+  "reference": "A field with various wildlife and trees in the background.",
+  "generated": "A group of zebras and giraffes are standing in a field.",
+  "tokens": 15,
+  "hit_cap": false
+ }
+]

@@ -1,0 +1,650 @@
+[
+ {
+  "pair_id": "presence-val2014-43-171788-290196",
+  "suite": "grounding",
+  "kind": "presence",
+  "question": "Does this image contain a tennis racket?",
+  "category": "tennis racket",
+  "items": [
+   {
+    "image": "val2014:171788",
+    "image_id": 171788,
+    "target": "yes",
+    "canonical": "yes",
+    "answers": null,
+    "answers_norm": null
+   },
+   {
+    "image": "val2014:290196",
+    "image_id": 290196,
+    "target": "no",
+    "canonical": "no",
+    "answers": null,
+    "answers_norm": null
+   }
+  ]
+ },
+ {
+  "pair_id": "presence-val2014-6-258291-54603",
+  "suite": "grounding",
+  "kind": "presence",
+  "question": "Does this image contain a bus?",
+  "category": "bus",
+  "items": [
+   {
+    "image": "val2014:258291",
+    "image_id": 258291,
+    "target": "yes",
+    "canonical": "yes",
+    "answers": null,
+    "answers_norm": null
+   },
+   {
+    "image": "val2014:54603",
+    "image_id": 54603,
+    "target": "no",
+    "canonical": "no",
+    "answers": null,
+    "answers_norm": null
+   }
+  ]
+ },
+ {
+  "pair_id": "presence-val2014-73-83768-572229",
+  "suite": "grounding",
+  "kind": "presence",
+  "question": "Does this image contain a laptop?",
+  "category": "laptop",
+  "items": [
+   {
+    "image": "val2014:83768",
+    "image_id": 83768,
+    "target": "yes",
+    "canonical": "yes",
+    "answers": null,
+    "answers_norm": null
+   },
+   {
+    "image": "val2014:572229",
+    "image_id": 572229,
+    "target": "no",
+    "canonical": "no",
+    "answers": null,
+    "answers_norm": null
+   }
+  ]
+ },
+ {
+  "pair_id": "presence-val2014-58-569988-156935",
+  "suite": "grounding",
+  "kind": "presence",
+  "question": "Does this image contain a hot dog?",
+  "category": "hot dog",
+  "items": [
+   {
+    "image": "val2014:569988",
+    "image_id": 569988,
+    "target": "yes",
+    "canonical": "yes",
+    "answers": null,
+    "answers_norm": null
+   },
+   {
+    "image": "val2014:156935",
+    "image_id": 156935,
+    "target": "no",
+    "canonical": "no",
+    "answers": null,
+    "answers_norm": null
+   }
+  ]
+ },
+ {
+  "pair_id": "presence-val2014-44-197915-27371",
+  "suite": "grounding",
+  "kind": "presence",
+  "question": "Does this image contain a bottle?",
+  "category": "bottle",
+  "items": [
+   {
+    "image": "val2014:197915",
+    "image_id": 197915,
+    "target": "yes",
+    "canonical": "yes",
+    "answers": null,
+    "answers_norm": null
+   },
+   {
+    "image": "val2014:27371",
+    "image_id": 27371,
+    "target": "no",
+    "canonical": "no",
+    "answers": null,
+    "answers_norm": null
+   }
+  ]
+ },
+ {
+  "pair_id": "presence-val2014-75-430656-560890",
+  "suite": "grounding",
+  "kind": "presence",
+  "question": "Does this image contain a remote?",
+  "category": "remote",
+  "items": [
+   {
+    "image": "val2014:430656",
+    "image_id": 430656,
+    "target": "yes",
+    "canonical": "yes",
+    "answers": null,
+    "answers_norm": null
+   },
+   {
+    "image": "val2014:560890",
+    "image_id": 560890,
+    "target": "no",
+    "canonical": "no",
+    "answers": null,
+    "answers_norm": null
+   }
+  ]
+ },
+ {
+  "pair_id": "presence-val2014-64-127182-210346",
+  "suite": "grounding",
+  "kind": "presence",
+  "question": "Does this image contain a potted plant?",
+  "category": "potted plant",
+  "items": [
+   {
+    "image": "val2014:127182",
+    "image_id": 127182,
+    "target": "yes",
+    "canonical": "yes",
+    "answers": null,
+    "answers_norm": null
+   },
+   {
+    "image": "val2014:210346",
+    "image_id": 210346,
+    "target": "no",
+    "canonical": "no",
+    "answers": null,
+    "answers_norm": null
+   }
+  ]
+ },
+ {
+  "pair_id": "presence-val2014-36-18794-110460",
+  "suite": "grounding",
+  "kind": "presence",
+  "question": "Does this image contain a snowboard?",
+  "category": "snowboard",
+  "items": [
+   {
+    "image": "val2014:18794",
+    "image_id": 18794,
+    "target": "yes",
+    "canonical": "yes",
+    "answers": null,
+    "answers_norm": null
+   },
+   {
+    "image": "val2014:110460",
+    "image_id": 110460,
+    "target": "no",
+    "canonical": "no",
+    "answers": null,
+    "answers_norm": null
+   }
+  ]
+ },
+ {
+  "pair_id": "presence-val2014-48-340811-253825",
+  "suite": "grounding",
+  "kind": "presence",
+  "question": "Does this image contain a fork?",
+  "category": "fork",
+  "items": [
+   {
+    "image": "val2014:340811",
+    "image_id": 340811,
+    "target": "yes",
+    "canonical": "yes",
+    "answers": null,
+    "answers_norm": null
+   },
+   {
+    "image": "val2014:253825",
+    "image_id": 253825,
+    "target": "no",
+    "canonical": "no",
+    "answers": null,
+    "answers_norm": null
+   }
+  ]
+ },
+ {
+  "pair_id": "presence-val2014-34-119120-283881",
+  "suite": "grounding",
+  "kind": "presence",
+  "question": "Does this image contain a frisbee?",
+  "category": "frisbee",
+  "items": [
+   {
+    "image": "val2014:119120",
+    "image_id": 119120,
+    "target": "yes",
+    "canonical": "yes",
+    "answers": null,
+    "answers_norm": null
+   },
+   {
+    "image": "val2014:283881",
+    "image_id": 283881,
+    "target": "no",
+    "canonical": "no",
+    "answers": null,
+    "answers_norm": null
+   }
+  ]
+ },
+ {
+  "pair_id": "presence-val2014-78-34114-421028",
+  "suite": "grounding",
+  "kind": "presence",
+  "question": "Does this image contain a microwave?",
+  "category": "microwave",
+  "items": [
+   {
+    "image": "val2014:34114",
+    "image_id": 34114,
+    "target": "yes",
+    "canonical": "yes",
+    "answers": null,
+    "answers_norm": null
+   },
+   {
+    "image": "val2014:421028",
+    "image_id": 421028,
+    "target": "no",
+    "canonical": "no",
+    "answers": null,
+    "answers_norm": null
+   }
+  ]
+ },
+ {
+  "pair_id": "presence-val2014-3-503707-469599",
+  "suite": "grounding",
+  "kind": "presence",
+  "question": "Does this image contain a car?",
+  "category": "car",
+  "items": [
+   {
+    "image": "val2014:503707",
+    "image_id": 503707,
+    "target": "yes",
+    "canonical": "yes",
+    "answers": null,
+    "answers_norm": null
+   },
+   {
+    "image": "val2014:469599",
+    "image_id": 469599,
+    "target": "no",
+    "canonical": "no",
+    "answers": null,
+    "answers_norm": null
+   }
+  ]
+ },
+ {
+  "pair_id": "counting-val2014-36-355552-278801",
+  "suite": "grounding",
+  "kind": "counting",
+  "question": "How many snowboards can you see?",
+  "category": "snowboard",
+  "items": [
+   {
+    "image": "val2014:355552",
+    "image_id": 355552,
+    "target": "3",
+    "canonical": "3",
+    "answers": null,
+    "answers_norm": null
+   },
+   {
+    "image": "val2014:278801",
+    "image_id": 278801,
+    "target": "1",
+    "canonical": "1",
+    "answers": null,
+    "answers_norm": null
+   }
+  ],
+  "counts": [
+   3,
+   1
+  ]
+ },
+ {
+  "pair_id": "counting-val2014-18-131714-573759",
+  "suite": "grounding",
+  "kind": "counting",
+  "question": "How many dogs can you see?",
+  "category": "dog",
+  "items": [
+   {
+    "image": "val2014:131714",
+    "image_id": 131714,
+    "target": "4",
+    "canonical": "4",
+    "answers": null,
+    "answers_norm": null
+   },
+   {
+    "image": "val2014:573759",
+    "image_id": 573759,
+    "target": "3",
+    "canonical": "3",
+    "answers": null,
+    "answers_norm": null
+   }
+  ],
+  "counts": [
+   4,
+   3
+  ]
+ },
+ {
+  "pair_id": "counting-val2014-80-106351-175364",
+  "suite": "grounding",
+  "kind": "counting",
+  "question": "How many toasters can you see?",
+  "category": "toaster",
+  "items": [
+   {
+    "image": "val2014:106351",
+    "image_id": 106351,
+    "target": "1",
+    "canonical": "1",
+    "answers": null,
+    "answers_norm": null
+   },
+   {
+    "image": "val2014:175364",
+    "image_id": 175364,
+    "target": "2",
+    "canonical": "2",
+    "answers": null,
+    "answers_norm": null
+   }
+  ],
+  "counts": [
+   1,
+   2
+  ]
+ },
+ {
+  "pair_id": "counting-val2014-60-273086-553780",
+  "suite": "grounding",
+  "kind": "counting",
+  "question": "How many donuts can you see?",
+  "category": "donut",
+  "items": [
+   {
+    "image": "val2014:273086",
+    "image_id": 273086,
+    "target": "2",
+    "canonical": "2",
+    "answers": null,
+    "answers_norm": null
+   },
+   {
+    "image": "val2014:553780",
+    "image_id": 553780,
+    "target": "4",
+    "canonical": "4",
+    "answers": null,
+    "answers_norm": null
+   }
+  ],
+  "counts": [
+   2,
+   4
+  ]
+ },
+ {
+  "pair_id": "counting-val2014-51-181179-131725",
+  "suite": "grounding",
+  "kind": "counting",
+  "question": "How many bowls can you see?",
+  "category": "bowl",
+  "items": [
+   {
+    "image": "val2014:181179",
+    "image_id": 181179,
+    "target": "3",
+    "canonical": "3",
+    "answers": null,
+    "answers_norm": null
+   },
+   {
+    "image": "val2014:131725",
+    "image_id": 131725,
+    "target": "2",
+    "canonical": "2",
+    "answers": null,
+    "answers_norm": null
+   }
+  ],
+  "counts": [
+   3,
+   2
+  ]
+ },
+ {
+  "pair_id": "counting-val2014-58-569839-327590",
+  "suite": "grounding",
+  "kind": "counting",
+  "question": "How many hot dogs can you see?",
+  "category": "hot dog",
+  "items": [
+   {
+    "image": "val2014:569839",
+    "image_id": 569839,
+    "target": "1",
+    "canonical": "1",
+    "answers": null,
+    "answers_norm": null
+   },
+   {
+    "image": "val2014:327590",
+    "image_id": 327590,
+    "target": "3",
+    "canonical": "3",
+    "answers": null,
+    "answers_norm": null
+   }
+  ],
+  "counts": [
+   1,
+   3
+  ]
+ },
+ {
+  "pair_id": "counting-val2014-85-477435-248232",
+  "suite": "grounding",
+  "kind": "counting",
+  "question": "How many clocks can you see?",
+  "category": "clock",
+  "items": [
+   {
+    "image": "val2014:477435",
+    "image_id": 477435,
+    "target": "2",
+    "canonical": "2",
+    "answers": null,
+    "answers_norm": null
+   },
+   {
+    "image": "val2014:248232",
+    "image_id": 248232,
+    "target": "3",
+    "canonical": "3",
+    "answers": null,
+    "answers_norm": null
+   }
+  ],
+  "counts": [
+   2,
+   3
+  ]
+ },
+ {
+  "pair_id": "counting-val2014-21-226973-200217",
+  "suite": "grounding",
+  "kind": "counting",
+  "question": "How many cows can you see?",
+  "category": "cow",
+  "items": [
+   {
+    "image": "val2014:226973",
+    "image_id": 226973,
+    "target": "1",
+    "canonical": "1",
+    "answers": null,
+    "answers_norm": null
+   },
+   {
+    "image": "val2014:200217",
+    "image_id": 200217,
+    "target": "2",
+    "canonical": "2",
+    "answers": null,
+    "answers_norm": null
+   }
+  ],
+  "counts": [
+   1,
+   2
+  ]
+ },
+ {
+  "pair_id": "counting-val2014-76-499134-505043",
+  "suite": "grounding",
+  "kind": "counting",
+  "question": "How many keyboards can you see?",
+  "category": "keyboard",
+  "items": [
+   {
+    "image": "val2014:499134",
+    "image_id": 499134,
+    "target": "2",
+    "canonical": "2",
+    "answers": null,
+    "answers_norm": null
+   },
+   {
+    "image": "val2014:505043",
+    "image_id": 505043,
+    "target": "3",
+    "canonical": "3",
+    "answers": null,
+    "answers_norm": null
+   }
+  ],
+  "counts": [
+   2,
+   3
+  ]
+ },
+ {
+  "pair_id": "counting-val2014-65-345068-379101",
+  "suite": "grounding",
+  "kind": "counting",
+  "question": "How many beds can you see?",
+  "category": "bed",
+  "items": [
+   {
+    "image": "val2014:345068",
+    "image_id": 345068,
+    "target": "4",
+    "canonical": "4",
+    "answers": null,
+    "answers_norm": null
+   },
+   {
+    "image": "val2014:379101",
+    "image_id": 379101,
+    "target": "1",
+    "canonical": "1",
+    "answers": null,
+    "answers_norm": null
+   }
+  ],
+  "counts": [
+   4,
+   1
+  ]
+ },
+ {
+  "pair_id": "counting-val2014-64-248400-257656",
+  "suite": "grounding",
+  "kind": "counting",
+  "question": "How many potted plants can you see?",
+  "category": "potted plant",
+  "items": [
+   {
+    "image": "val2014:248400",
+    "image_id": 248400,
+    "target": "1",
+    "canonical": "1",
+    "answers": null,
+    "answers_norm": null
+   },
+   {
+    "image": "val2014:257656",
+    "image_id": 257656,
+    "target": "2",
+    "canonical": "2",
+    "answers": null,
+    "answers_norm": null
+   }
+  ],
+  "counts": [
+   1,
+   2
+  ]
+ },
+ {
+  "pair_id": "counting-val2014-77-11494-133034",
+  "suite": "grounding",
+  "kind": "counting",
+  "question": "How many cell phones can you see?",
+  "category": "cell phone",
+  "items": [
+   {
+    "image": "val2014:11494",
+    "image_id": 11494,
+    "target": "1",
+    "canonical": "1",
+    "answers": null,
+    "answers_norm": null
+   },
+   {
+    "image": "val2014:133034",
+    "image_id": 133034,
+    "target": "2",
+    "canonical": "2",
+    "answers": null,
+    "answers_norm": null
+   }
+  ],
+  "counts": [
+   1,
+   2
+  ]
+ }
+]

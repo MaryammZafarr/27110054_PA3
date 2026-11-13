@@ -1,0 +1,52 @@
+[
+ {
+  "check": "live: 50 questions x 5 calls (single, 3 parallel, revision)",
+  "status": "PASS",
+  "detail": "250 calls"
+ },
+ {
+  "check": "live: pinned model revision, FP16, batch size 1",
+  "status": "PASS",
+  "detail": "aa8e72537993ba99e69dfaafa59ed015b17504d1"
+ },
+ {
+  "check": "live: token caps 3072 / 1024 / 2048 respected",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "live: independent seeds per call",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "live: revision conditioned on the first parallel response + fixed review instruction",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "live: prompts, responses, seeds, lengths, truncation, runtime saved",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "live: GPU",
+  "status": "PASS",
+  "detail": "Tesla T4"
+ },
+ {
+  "check": "report artefact live_strategies.csv",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "report artefact live_transitions.json",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "report artefact live_qualitative.md",
+  "status": "PASS",
+  "detail": ""
+ }
+]

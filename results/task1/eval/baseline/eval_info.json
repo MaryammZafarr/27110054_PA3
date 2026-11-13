@@ -1,0 +1,11 @@
+{
+  "build_s": 13.611326932907104,
+  "lmeval_s": 2561.7174673080444,
+  "qual_s": 110.37616539001465,
+  "dtype": "float16",
+  "condition": [
+    "baseline",
+    null,
+    0
+  ]
+}

@@ -1,0 +1,202 @@
+[
+ {
+  "qid": "test:943",
+  "gold": "14"
+ },
+ {
+  "qid": "test:2688",
+  "gold": "-1"
+ },
+ {
+  "qid": "test:3504",
+  "gold": "216"
+ },
+ {
+  "qid": "test:4335",
+  "gold": "5040"
+ },
+ {
+  "qid": "test:2460",
+  "gold": "154"
+ },
+ {
+  "qid": "test:1324",
+  "gold": "\\frac{3}{16}"
+ },
+ {
+  "qid": "test:2340",
+  "gold": "6"
+ },
+ {
+  "qid": "test:1577",
+  "gold": "14"
+ },
+ {
+  "qid": "test:639",
+  "gold": "-9"
+ },
+ {
+  "qid": "test:2892",
+  "gold": "-71"
+ },
+ {
+  "qid": "test:4702",
+  "gold": "59"
+ },
+ {
+  "qid": "test:1709",
+  "gold": "75"
+ },
+ {
+  "qid": "test:4041",
+  "gold": "56"
+ },
+ {
+  "qid": "test:2119",
+  "gold": "28"
+ },
+ {
+  "qid": "test:2087",
+  "gold": "7"
+ },
+ {
+  "qid": "test:4549",
+  "gold": "11"
+ },
+ {
+  "qid": "test:2732",
+  "gold": "\\frac{266664}{5}"
+ },
+ {
+  "qid": "test:1433",
+  "gold": "\\frac{1}{4}"
+ },
+ {
+  "qid": "test:3285",
+  "gold": "0"
+ },
+ {
+  "qid": "test:29",
+  "gold": "16"
+ },
+ {
+  "qid": "test:2948",
+  "gold": "1+\\sqrt 2,\\ 1-\\sqrt 2,\\ 2+\\sqrt 3,\\ 2-\\sqrt 3"
+ },
+ {
+  "qid": "test:1997",
+  "gold": "120"
+ },
+ {
+  "qid": "test:414",
+  "gold": "1"
+ },
+ {
+  "qid": "test:1808",
+  "gold": "2"
+ },
+ {
+  "qid": "test:4962",
+  "gold": "(4,\\pi)"
+ },
+ {
+  "qid": "test:274",
+  "gold": "2"
+ },
+ {
+  "qid": "test:916",
+  "gold": "14"
+ },
+ {
+  "qid": "test:534",
+  "gold": "56"
+ },
+ {
+  "qid": "test:2177",
+  "gold": "18"
+ },
+ {
+  "qid": "test:1043",
+  "gold": "2"
+ },
+ {
+  "qid": "test:373",
+  "gold": "11"
+ },
+ {
+  "qid": "test:1379",
+  "gold": "\\frac{10}{19}"
+ },
+ {
+  "qid": "test:196",
+  "gold": "81"
+ },
+ {
+  "qid": "test:2134",
+  "gold": "15"
+ },
+ {
+  "qid": "test:771",
+  "gold": "\\frac{160}{33}"
+ },
+ {
+  "qid": "test:3572",
+  "gold": "22"
+ },
+ {
+  "qid": "test:2358",
+  "gold": "2 \\sqrt{5}"
+ },
+ {
+  "qid": "test:2019",
+  "gold": "5"
+ },
+ {
+  "qid": "test:4144",
+  "gold": "5"
+ },
+ {
+  "qid": "test:3314",
+  "gold": "15"
+ },
+ {
+  "qid": "test:3239",
+  "gold": "4"
+ },
+ {
+  "qid": "test:4678",
+  "gold": "6"
+ },
+ {
+  "qid": "test:1122",
+  "gold": "5"
+ },
+ {
+  "qid": "test:4168",
+  "gold": "0.6"
+ },
+ {
+  "qid": "test:1300",
+  "gold": "1"
+ },
+ {
+  "qid": "test:4516",
+  "gold": "\\frac{25 \\sqrt{10}}{4}"
+ },
+ {
+  "qid": "test:1903",
+  "gold": "80"
+ },
+ {
+  "qid": "test:1916",
+  "gold": "144"
+ },
+ {
+  "qid": "test:3409",
+  "gold": "3"
+ },
+ {
+  "qid": "test:3617",
+  "gold": "9"
+ }
+]

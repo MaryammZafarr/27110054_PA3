@@ -1,0 +1,481 @@
+[{"stream_name":"stdout","time":0.662787105,"data":"\n"}
+,{"stream_name":"stdout","time":0.662828042,"data":"=== [0.00 h] pip install -q -U 'transformers\u003e=4.51' safetensors pillow matplotlib\n"}
+,{"stream_name":"stderr","time":33.30818165,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":33.308253268,"data":"bigframes 2.48.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":33.30826227,"data":"ydata-profiling 4.18.4 requires matplotlib\u003c=3.10,\u003e=3.5, but you have matplotlib 3.11.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":33.308267768,"data":"gradio 6.26.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stdout","time":33.698813416,"data":"code from /kaggle/input/datasets/maryamzafarkhan/pa3-task2-code | previous output: /nonexistent | files: ['analyze.py', 'cache_features.py', 'common.py', 'evaluate.py', 'prepare_data.py', 'selftest.py', 'train.py', 'verify.py']\n"}
+,{"stream_name":"stdout","time":33.699263539,"data":"\n"}
+,{"stream_name":"stdout","time":33.699294843,"data":"=== [0.01 h] python selftest.py\n"}
+,{"stream_name":"stdout","time":54.140356028,"data":"PASS normalise: articles, number words, punctuation  (2 dogs)\n"}
+,{"stream_name":"stdout","time":54.140409722,"data":"PASS normalise: contractions, commas between digits\n"}
+,{"stream_name":"stdout","time":54.140416658,"data":"PASS soft accuracy (10-way average): 4 of 10 -\u003e 1.0, 3 -\u003e 0.9, 2 -\u003e 0.6, 0 -\u003e 0\n"}
+,{"stream_name":"stdout","time":54.140422671,"data":"PASS consensus: normalised majority, agreement, original target string  (('2', 9, '2'))\n"}
+,{"stream_name":"stdout","time":54.140444089,"data":"PASS visual slots right after the user header\n"}
+,{"stream_name":"stdout","time":54.140449006,"data":"PASS labels only on answer tokens (+ end of turn)\n"}
+,{"stream_name":"stdout","time":54.140453807,"data":"PASS per-example mean NLL matches reference  ([4.879073143005371, 4.875234603881836])\n"}
+,{"stream_name":"stdout","time":54.140458575,"data":"PASS loss = mean of per-example means (each example equal weight)\n"}
+,{"stream_name":"stdout","time":54.140463231,"data":"PASS connector receives gradients; LM params get none\n"}
+,{"stream_name":"stdout","time":54.140467925,"data":"PASS no-image rebuild: 196 fewer tokens, same text ids, contiguous positions\n"}
+,{"stream_name":"stdout","time":54.140472733,"data":"PASS batched KV-cache greedy (left padded) == unbatched full recompute  ((['\\x050\\x1e\u003c\\x133', '\\x050\\x1e\u003c\\x13t'], ['\\x050\\x1e\u003c\\x133', '\\x050\\x1e\u003c\\x13t']))\n"}
+,{"stream_name":"stdout","time":54.140479543,"data":"PASS LoRA (B=0) leaves outputs unchanged\n"}
+,{"stream_name":"stdout","time":54.140484158,"data":"PASS LoRA targets exactly q/k/v/o_proj in every layer\n"}
+,{"stream_name":"stdout","time":54.14048967,"data":"PASS LoRA parameter count r*(din+dout)\n"}
+,{"stream_name":"stdout","time":54.140494276,"data":"PASS 2x2 block average of the 14x14 grid\n"}
+,{"stream_name":"stdout","time":54.140498709,"data":"PASS LR: warmup reaches peak at 5%, ends at 10% of peak  ((111, 0.1))\n"}
+,{"stream_name":"stdout","time":54.140503313,"data":"PASS pair bootstrap: point = mean, CI brackets it  ((0.625, 0.5, 0.75))\n"}
+,{"stream_name":"stdout","time":54.140508046,"data":"\n"}
+,{"stream_name":"stdout","time":54.140513755,"data":"17/17 checks passed\n"}
+,{"stream_name":"stdout","time":57.451683033,"data":"\n"}
+,{"stream_name":"stdout","time":57.451724422,"data":"=== [0.02 h] python prepare_data.py --out /kaggle/working/task2_out --raw_dir /tmp/t2raw\n"}
+,{"stream_name":"stderr","time":63.896219,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":68.24692993,"data":"downloading http://images.cocodataset.org/annotations/annotations_trainval2014.zip\n"}
+,{"stream_name":"stdout","time":88.824695381,"data":"downloading https://s3.amazonaws.com/cvmlp/vqa/mscoco/vqa/v2_Questions_Train_mscoco.zip\n"}
+,{"stream_name":"stdout","time":91.641568706,"data":"downloading https://s3.amazonaws.com/cvmlp/vqa/mscoco/vqa/v2_Questions_Val_mscoco.zip\n"}
+,{"stream_name":"stdout","time":93.654329772,"data":"downloading https://s3.amazonaws.com/cvmlp/vqa/mscoco/vqa/v2_Annotations_Train_mscoco.zip\n"}
+,{"stream_name":"stdout","time":97.558175878,"data":"downloading https://s3.amazonaws.com/cvmlp/vqa/mscoco/vqa/v2_Annotations_Val_mscoco.zip\n"}
+,{"stream_name":"stdout","time":100.405520617,"data":"downloading https://s3.amazonaws.com/cvmlp/vqa/mscoco/vqa/v2_Complementary_Pairs_Train_mscoco.zip\n"}
+,{"stream_name":"stdout","time":102.164371676,"data":"downloading https://s3.amazonaws.com/cvmlp/vqa/mscoco/vqa/v2_Complementary_Pairs_Val_mscoco.zip\n"}
+,{"stream_name":"stdout","time":700.837163891,"data":"{\n"}
+,{"stream_name":"stdout","time":700.837266881,"data":" \"vqa_filter_train\": {\n"}
+,{"stream_name":"stdout","time":700.837273198,"data":"  \"agreement\u003c8\": 121255,\n"}
+,{"stream_name":"stdout","time":700.837276847,"data":"  \"same_or_empty_consensus\": 7093,\n"}
+,{"stream_name":"stdout","time":700.837279854,"data":"  \"answer_type_differs\": 84,\n"}
+,{"stream_name":"stdout","time":700.837282809,"data":"  \"kept\": 71962\n"}
+,{"stream_name":"stdout","time":700.83728572,"data":" },\n"}
+,{"stream_name":"stdout","time":700.837288936,"data":" \"vqa_filter_val\": {\n"}
+,{"stream_name":"stdout","time":700.837309444,"data":"  \"agreement\u003c8\": 57777,\n"}
+,{"stream_name":"stdout","time":700.837314607,"data":"  \"same_or_empty_consensus\": 3384,\n"}
+,{"stream_name":"stdout","time":700.837319576,"data":"  \"answer_type_differs\": 64,\n"}
+,{"stream_name":"stdout","time":700.837324394,"data":"  \"kept\": 33919\n"}
+,{"stream_name":"stdout","time":700.837328371,"data":" },\n"}
+,{"stream_name":"stdout","time":700.837332617,"data":" \"n_caption_train\": 18000,\n"}
+,{"stream_name":"stdout","time":700.837336761,"data":" \"n_caption_train_images\": 6000,\n"}
+,{"stream_name":"stdout","time":700.837341404,"data":" \"n_caption_dev\": 96,\n"}
+,{"stream_name":"stdout","time":700.83734614,"data":" \"n_vqa\": {\n"}
+,{"stream_name":"stdout","time":700.837350611,"data":"  \"train\": 1536,\n"}
+,{"stream_name":"stdout","time":700.837354945,"data":"  \"dev\": 32,\n"}
+,{"stream_name":"stdout","time":700.837360325,"data":"  \"test\": 96\n"}
+,{"stream_name":"stdout","time":700.837364837,"data":" },\n"}
+,{"stream_name":"stdout","time":700.837368994,"data":" \"n_grounding\": {\n"}
+,{"stream_name":"stdout","time":700.837373794,"data":"  \"dev\": 24,\n"}
+,{"stream_name":"stdout","time":700.837378342,"data":"  \"test\": 96\n"}
+,{"stream_name":"stdout","time":700.837382936,"data":" },\n"}
+,{"stream_name":"stdout","time":700.837387192,"data":" \"grounding_pool\": {\n"}
+,{"stream_name":"stdout","time":700.837391394,"data":"  \"presence\": 10049,\n"}
+,{"stream_name":"stdout","time":700.837395345,"data":"  \"counting\": 10096,\n"}
+,{"stream_name":"stdout","time":700.837399696,"data":"  \"images\": 8741\n"}
+,{"stream_name":"stdout","time":700.837404054,"data":" },\n"}
+,{"stream_name":"stdout","time":700.837421961,"data":" \"n_images\": {\n"}
+,{"stream_name":"stdout","time":700.837425805,"data":"  \"train\": 8741,\n"}
+,{"stream_name":"stdout","time":700.837429581,"data":"  \"eval\": 592\n"}
+,{"stream_name":"stdout","time":700.837432685,"data":" },\n"}
+,{"stream_name":"stdout","time":700.8374360830001,"data":" \"label_filters\": {\n"}
+,{"stream_name":"stdout","time":700.837440053,"data":"  \"min_area_px\": 1024,\n"}
+,{"stream_name":"stdout","time":700.837444148,"data":"  \"counting\": \"no crowd boxes and every instance \u003e= min area, count 1-4\",\n"}
+,{"stream_name":"stdout","time":700.837449264,"data":"  \"presence\": \"positive: \u003e=1 non-crowd instance \u003e= min area; negative: no annotation of the category\"\n"}
+,{"stream_name":"stdout","time":700.837452953,"data":" },\n"}
+,{"stream_name":"stdout","time":700.837456567,"data":" \"caption_instruction\": \"Write a short caption describing this image.\",\n"}
+,{"stream_name":"stdout","time":700.837459946,"data":" \"qa_instruction\": \"Answer the question using a single word or phrase.\",\n"}
+,{"stream_name":"stdout","time":700.837463287,"data":" \"seconds_selection\": 318.02541422843933\n"}
+,{"stream_name":"stdout","time":700.837466608,"data":"}\n"}
+,{"stream_name":"stdout","time":701.871464261,"data":"\n"}
+,{"stream_name":"stdout","time":701.871509349,"data":"=== [0.19 h] python cache_features.py --out /kaggle/working/task2_out --delete_train_images\n"}
+,{"stream_name":"stderr","time":710.452096336,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":722.244180108,"data":"\rLoading weights:   0%|          | 0/208 [00:00\u003c?, ?it/s]\rLoading weights: 100%|██████████| 208/208 [00:00\u003c00:00, 2560.60it/s]\n"}
+,{"stream_name":"stderr","time":722.253323466,"data":"[transformers] \u001b[1mSiglipVisionModel LOAD REPORT\u001b[0m from: google/siglip-base-patch16-224\n"}
+,{"stream_name":"stderr","time":722.253378709,"data":"Key                                                          | Status     |  | \n"}
+,{"stream_name":"stderr","time":722.253384809,"data":"-------------------------------------------------------------+------------+--+-\n"}
+,{"stream_name":"stderr","time":722.253388657,"data":"text_model.encoder.layers.{0...11}.self_attn.q_proj.bias     | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":722.253392814,"data":"text_model.encoder.layers.{0...11}.mlp.fc2.weight            | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":722.253396803,"data":"text_model.encoder.layers.{0...11}.self_attn.v_proj.weight   | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":722.253400287,"data":"text_model.encoder.layers.{0...11}.mlp.fc2.bias              | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":722.253403661,"data":"text_model.encoder.layers.{0...11}.layer_norm2.weight        | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":722.253406967,"data":"text_model.encoder.layers.{0...11}.self_attn.k_proj.bias     | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":722.253410337,"data":"text_model.encoder.layers.{0...11}.layer_norm2.bias          | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":722.25341364,"data":"text_model.encoder.layers.{0...11}.self_attn.k_proj.weight   | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":722.253417016,"data":"text_model.encoder.layers.{0...11}.self_attn.out_proj.weight | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":722.253420551,"data":"text_model.encoder.layers.{0...11}.mlp.fc1.bias              | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":722.253437432,"data":"text_model.encoder.layers.{0...11}.self_attn.q_proj.weight   | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":722.253439912,"data":"text_model.encoder.layers.{0...11}.mlp.fc1.weight            | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":722.253442608,"data":"text_model.encoder.layers.{0...11}.layer_norm1.weight        | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":722.253456143,"data":"text_model.encoder.layers.{0...11}.self_attn.out_proj.bias   | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":722.253459924,"data":"text_model.encoder.layers.{0...11}.self_attn.v_proj.bias     | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":722.253463811,"data":"text_model.encoder.layers.{0...11}.layer_norm1.bias          | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":722.253467446,"data":"text_model.embeddings.position_embedding.weight              | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":722.253471319,"data":"text_model.head.weight                                       | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":722.253474781,"data":"text_model.final_layer_norm.weight                           | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":722.253477929,"data":"logit_bias                                                   | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":722.253480874,"data":"text_model.final_layer_norm.bias                             | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":722.253483889,"data":"text_model.head.bias                                         | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":722.25348953,"data":"logit_scale                                                  | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":722.253493395,"data":"text_model.embeddings.token_embedding.weight                 | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":722.253497164,"data":"\n"}
+,{"stream_name":"stderr","time":722.253500326,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":722.253503599,"data":"- UNEXPECTED:\tcan be ignored when loading from different task/architecture; not ok if you expect identical arch.\n"}
+,{"stream_name":"stdout","time":724.857456765,"data":"cached 64/9333\n"}
+,{"stream_name":"stdout","time":749.762636556,"data":"cached 1344/9333\n"}
+,{"stream_name":"stdout","time":775.490047696,"data":"cached 2624/9333\n"}
+,{"stream_name":"stdout","time":801.331036131,"data":"cached 3904/9333\n"}
+,{"stream_name":"stdout","time":827.343970353,"data":"cached 5184/9333\n"}
+,{"stream_name":"stdout","time":854.130940549,"data":"cached 6464/9333\n"}
+,{"stream_name":"stdout","time":882.441403068,"data":"cached 7744/9333\n"}
+,{"stream_name":"stdout","time":911.907160458,"data":"cached 9024/9333\n"}
+,{"stream_name":"stdout","time":919.235591506,"data":"{\n"}
+,{"stream_name":"stdout","time":919.235664373,"data":" \"vision_model\": \"google/siglip-base-patch16-224\",\n"}
+,{"stream_name":"stdout","time":919.235671931,"data":" \"n_images\": 9333,\n"}
+,{"stream_name":"stdout","time":919.235676622,"data":" \"shape\": [\n"}
+,{"stream_name":"stdout","time":919.235680832,"data":"  9333,\n"}
+,{"stream_name":"stdout","time":919.235684931,"data":"  196,\n"}
+,{"stream_name":"stdout","time":919.235689046,"data":"  768\n"}
+,{"stream_name":"stdout","time":919.235693744,"data":" ],\n"}
+,{"stream_name":"stdout","time":919.235698664,"data":" \"dtype\": \"float16\",\n"}
+,{"stream_name":"stdout","time":919.235703614,"data":" \"seconds\": 196.12186765670776,\n"}
+,{"stream_name":"stdout","time":919.235708654,"data":" \"images_per_s\": 47.587758119540794,\n"}
+,{"stream_name":"stdout","time":919.23573241,"data":" \"peak_gpu_mem_GB\": 1.328993797302246,\n"}
+,{"stream_name":"stdout","time":919.235737019,"data":" \"file_bytes\": 2809755776,\n"}
+,{"stream_name":"stdout","time":919.235741042,"data":" \"layernorm_check\": {\n"}
+,{"stream_name":"stdout","time":919.23574535,"data":"  \"last_equals_postLN_of_last_block\": true,\n"}
+,{"stream_name":"stdout","time":919.235749194,"data":"  \"last_differs_from_pre_LN\": true,\n"}
+,{"stream_name":"stdout","time":919.235753187,"data":"  \"shape\": [\n"}
+,{"stream_name":"stdout","time":919.23575739,"data":"   64,\n"}
+,{"stream_name":"stdout","time":919.235761192,"data":"   196,\n"}
+,{"stream_name":"stdout","time":919.235765162,"data":"   768\n"}
+,{"stream_name":"stdout","time":919.23576891,"data":"  ],\n"}
+,{"stream_name":"stdout","time":919.235772746,"data":"  \"token_order\": \"row-major 14x14 patch grid (no CLS token in SigLIP)\"\n"}
+,{"stream_name":"stdout","time":919.235776599,"data":" },\n"}
+,{"stream_name":"stdout","time":919.235780456,"data":" \"deterministic_reencode\": false,\n"}
+,{"stream_name":"stdout","time":919.235784362,"data":" \"gpu\": \"Tesla T4\",\n"}
+,{"stream_name":"stdout","time":919.235790706,"data":" \"partial_resume_from\": 0\n"}
+,{"stream_name":"stdout","time":919.235794353,"data":"}\n"}
+,{"stream_name":"stdout","time":920.983664707,"data":"\n"}
+,{"stream_name":"stdout","time":920.983710345,"data":"=== [0.26 h] python train.py --out /kaggle/working/task2_out --run main --tokens 196 --resume --time_budget_h 10.74\n"}
+,{"stream_name":"stderr","time":931.550256271,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":948.039877153,"data":"\rLoading weights:   0%|          | 0/311 [00:00\u003c?, ?it/s]\rLoading weights:   0%|          | 1/311 [00:00\u003c02:44,  1.89it/s]\rLoading weights:  82%|████████▏ | 254/311 [00:00\u003c00:00, 537.39it/s]\rLoading weights: 100%|██████████| 311/311 [00:00\u003c00:00, 439.40it/s]\n"}
+,{"stream_name":"stderr","time":958.629441344,"data":"/kaggle/working/task2/train.py:286: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stderr","time":958.629509377,"data":"Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stderr","time":958.629518738,"data":"  loss_tot += float(loss)\n"}
+,{"stream_name":"stdout","time":959.277441459,"data":"calibration: {'rule': 'scale = mean ||text embedding|| (training text tokens, frequency weighted) / mean ||connector output|| at init (256 training images x 196 tokens)', 'text_embedding_norm': 0.8119615316390991, 'connector_output_norm_at_init': 15.846739768981934, 'scale': 0.05123839625538719, 'n_text_token_types': 8027, 'n_text_tokens': 1829296, 'n_images': 256}\n"}
+,{"stream_name":"stdout","time":959.277502081,"data":"interface checks: {'feature_shape': [2, 196, 768], 'connector_output_shape': [2, 196, 1024], 'lm_hidden': 1024, 'visual_slots_per_example': 196, 'visual_slots_start_after_user_header': True, 'user_header_text': '\u003c|im_start|\u003euser\\n', 'labels_only_on_target': True, 'connector_grad_norm': 1039.2129955291748, 'connector_receives_gradient': True, 'backbone_trainable_params': 0, 'backbone_has_grads': False, 'no_image_length_reduction': 196, 'no_image_positions_contiguous': True, 'split_isolation': 'asserted in prepare_data.py (eval sets mutually image-disjoint, none in training/replay)'}\n"}
+,{"stream_name":"stdout","time":959.277514006,"data":"[caption_alignment] update 1/4500 loss=5.2945 lr=8.93e-06 gn=nan SKIPPED\n"}
+,{"stream_name":"stdout","time":990.025971679,"data":"[caption_alignment] update 25/4500 loss=3.7746 lr=2.23e-04 gn=21.67\n"}
+,{"stream_name":"stdout","time":1022.557187467,"data":"[caption_alignment] update 50/4500 loss=3.1719 lr=4.46e-04 gn=2.99\n"}
+,{"stream_name":"stdout","time":1053.363403942,"data":"[caption_alignment] update 75/4500 loss=3.0965 lr=6.70e-04 gn=1.42\n"}
+,{"stream_name":"stdout","time":1084.933539702,"data":"[caption_alignment] update 100/4500 loss=2.7998 lr=8.93e-04 gn=2.03\n"}
+,{"stream_name":"stdout","time":1116.663091772,"data":"[caption_alignment] update 125/4500 loss=3.0270 lr=1.00e-03 gn=1.09\n"}
+,{"stream_name":"stdout","time":1148.061451805,"data":"[caption_alignment] update 150/4500 loss=2.8344 lr=9.99e-04 gn=1.08\n"}
+,{"stream_name":"stdout","time":1179.775912672,"data":"[caption_alignment] update 175/4500 loss=3.4627 lr=9.98e-04 gn=1.25\n"}
+,{"stream_name":"stdout","time":1211.641482095,"data":"[caption_alignment] update 200/4500 loss=2.7452 lr=9.96e-04 gn=0.85\n"}
+,{"stream_name":"stdout","time":1243.14751526,"data":"[caption_alignment] update 225/4500 loss=3.1699 lr=9.94e-04 gn=0.94\n"}
+,{"stream_name":"stdout","time":1274.770394425,"data":"[caption_alignment] update 250/4500 loss=2.8506 lr=9.91e-04 gn=0.78\n"}
+,{"stream_name":"stdout","time":1306.348155433,"data":"[caption_alignment] update 275/4500 loss=2.9734 lr=9.87e-04 gn=0.81\n"}
+,{"stream_name":"stdout","time":1338.471893076,"data":"[caption_alignment] update 300/4500 loss=2.7925 lr=9.83e-04 gn=0.87\n"}
+,{"stream_name":"stdout","time":1370.055952756,"data":"[caption_alignment] update 325/4500 loss=2.9073 lr=9.78e-04 gn=1.08\n"}
+,{"stream_name":"stdout","time":1401.876530307,"data":"[caption_alignment] update 350/4500 loss=2.5110 lr=9.73e-04 gn=0.78\n"}
+,{"stream_name":"stdout","time":1433.718066932,"data":"[caption_alignment] update 375/4500 loss=2.8828 lr=9.67e-04 gn=0.72\n"}
+,{"stream_name":"stdout","time":1465.63556532,"data":"[caption_alignment] update 400/4500 loss=2.4434 lr=9.61e-04 gn=0.78\n"}
+,{"stream_name":"stdout","time":1497.424042557,"data":"[caption_alignment] update 425/4500 loss=2.1632 lr=9.53e-04 gn=0.68\n"}
+,{"stream_name":"stdout","time":1529.175163035,"data":"[caption_alignment] update 450/4500 loss=2.8224 lr=9.46e-04 gn=0.70\n"}
+,{"stream_name":"stdout","time":1560.904080914,"data":"[caption_alignment] update 475/4500 loss=2.5696 lr=9.38e-04 gn=0.83\n"}
+,{"stream_name":"stdout","time":1592.608660197,"data":"[caption_alignment] update 500/4500 loss=2.9213 lr=9.29e-04 gn=0.88\n"}
+,{"stream_name":"stdout","time":1600.158364173,"data":"dev 500 {'caption_loss': 2.57220525542895, 'grounding_dev': 0.3703, 'vqa_dev': 0.5273}\n"}
+,{"stream_name":"stdout","time":1631.987504277,"data":"[caption_alignment] update 525/4500 loss=2.1779 lr=9.20e-04 gn=0.61\n"}
+,{"stream_name":"stdout","time":1663.709501946,"data":"[caption_alignment] update 550/4500 loss=2.4405 lr=9.10e-04 gn=0.61\n"}
+,{"stream_name":"stdout","time":1695.303439763,"data":"[caption_alignment] update 575/4500 loss=2.4336 lr=9.00e-04 gn=0.82\n"}
+,{"stream_name":"stdout","time":1727.297320767,"data":"[caption_alignment] update 600/4500 loss=2.1126 lr=8.90e-04 gn=0.62\n"}
+,{"stream_name":"stdout","time":1759.011567885,"data":"[caption_alignment] update 625/4500 loss=2.4649 lr=8.78e-04 gn=0.69\n"}
+,{"stream_name":"stdout","time":1790.863012239,"data":"[caption_alignment] update 650/4500 loss=2.8510 lr=8.67e-04 gn=0.88\n"}
+,{"stream_name":"stdout","time":1822.659855694,"data":"[caption_alignment] update 675/4500 loss=2.4805 lr=8.55e-04 gn=0.69\n"}
+,{"stream_name":"stdout","time":1854.526518064,"data":"[caption_alignment] update 700/4500 loss=2.5788 lr=8.43e-04 gn=0.68\n"}
+,{"stream_name":"stdout","time":1886.862480993,"data":"[caption_alignment] update 725/4500 loss=2.6975 lr=8.30e-04 gn=0.66\n"}
+,{"stream_name":"stdout","time":1918.789454786,"data":"[caption_alignment] update 750/4500 loss=2.1354 lr=8.17e-04 gn=0.61\n"}
+,{"stream_name":"stdout","time":1950.734875383,"data":"[caption_alignment] update 775/4500 loss=2.3645 lr=8.03e-04 gn=0.67\n"}
+,{"stream_name":"stdout","time":1982.572525238,"data":"[caption_alignment] update 800/4500 loss=2.4281 lr=7.89e-04 gn=0.66\n"}
+,{"stream_name":"stdout","time":2014.436318985,"data":"[caption_alignment] update 825/4500 loss=2.4253 lr=7.75e-04 gn=0.61\n"}
+,{"stream_name":"stdout","time":2046.120218095,"data":"[caption_alignment] update 850/4500 loss=2.1357 lr=7.61e-04 gn=0.60\n"}
+,{"stream_name":"stdout","time":2077.733965746,"data":"[caption_alignment] update 875/4500 loss=2.9650 lr=7.46e-04 gn=0.73\n"}
+,{"stream_name":"stdout","time":2109.543919135,"data":"[caption_alignment] update 900/4500 loss=2.2569 lr=7.31e-04 gn=0.65\n"}
+,{"stream_name":"stdout","time":2141.140596467,"data":"[caption_alignment] update 925/4500 loss=2.5114 lr=7.16e-04 gn=0.70\n"}
+,{"stream_name":"stdout","time":2172.903208997,"data":"[caption_alignment] update 950/4500 loss=2.4204 lr=7.00e-04 gn=0.56\n"}
+,{"stream_name":"stdout","time":2204.704029067,"data":"[caption_alignment] update 975/4500 loss=2.3796 lr=6.85e-04 gn=0.72\n"}
+,{"stream_name":"stdout","time":2236.765794583,"data":"[caption_alignment] update 1000/4500 loss=2.2476 lr=6.69e-04 gn=0.70\n"}
+,{"stream_name":"stdout","time":2244.333123455,"data":"dev 1000 {'caption_loss': 2.403074520329634, 'grounding_dev': 0.6187, 'vqa_dev': 0.6347}\n"}
+,{"stream_name":"stdout","time":2276.26541867,"data":"[caption_alignment] update 1025/4500 loss=2.3601 lr=6.53e-04 gn=0.65\n"}
+,{"stream_name":"stdout","time":2308.125973257,"data":"[caption_alignment] update 1050/4500 loss=2.5460 lr=6.36e-04 gn=0.72\n"}
+,{"stream_name":"stdout","time":2340.242623981,"data":"[caption_alignment] update 1075/4500 loss=2.2506 lr=6.20e-04 gn=0.57\n"}
+,{"stream_name":"stdout","time":2372.078871259,"data":"[caption_alignment] update 1100/4500 loss=2.2290 lr=6.04e-04 gn=0.63\n"}
+,{"stream_name":"stdout","time":2404.102163888,"data":"[caption_alignment] update 1125/4500 loss=2.5635 lr=5.87e-04 gn=0.66\n"}
+,{"stream_name":"stdout","time":2436.028252376,"data":"[caption_alignment] update 1150/4500 loss=2.1979 lr=5.71e-04 gn=0.68\n"}
+,{"stream_name":"stdout","time":2467.909922863,"data":"[caption_alignment] update 1175/4500 loss=2.2550 lr=5.54e-04 gn=0.71\n"}
+,{"stream_name":"stdout","time":2499.984238577,"data":"[caption_alignment] update 1200/4500 loss=2.0667 lr=5.38e-04 gn=0.74\n"}
+,{"stream_name":"stdout","time":2531.953462152,"data":"[caption_alignment] update 1225/4500 loss=2.0457 lr=5.21e-04 gn=0.64\n"}
+,{"stream_name":"stdout","time":2564.017901846,"data":"[caption_alignment] update 1250/4500 loss=2.4307 lr=5.05e-04 gn=0.64\n"}
+,{"stream_name":"stdout","time":2595.919950368,"data":"[caption_alignment] update 1275/4500 loss=2.4347 lr=4.88e-04 gn=0.65\n"}
+,{"stream_name":"stdout","time":2627.897077125,"data":"[caption_alignment] update 1300/4500 loss=1.9084 lr=4.72e-04 gn=0.59\n"}
+,{"stream_name":"stdout","time":2659.695941742,"data":"[caption_alignment] update 1325/4500 loss=2.2258 lr=4.56e-04 gn=0.65\n"}
+,{"stream_name":"stdout","time":2691.602648179,"data":"[caption_alignment] update 1350/4500 loss=2.1257 lr=4.40e-04 gn=0.71\n"}
+,{"stream_name":"stdout","time":2723.199824183,"data":"[caption_alignment] update 1375/4500 loss=2.1451 lr=4.24e-04 gn=0.66\n"}
+,{"stream_name":"stdout","time":2754.754984448,"data":"[caption_alignment] update 1400/4500 loss=2.4712 lr=4.08e-04 gn=0.83\n"}
+,{"stream_name":"stdout","time":2786.859997471,"data":"[caption_alignment] update 1425/4500 loss=2.4092 lr=3.92e-04 gn=0.69\n"}
+,{"stream_name":"stdout","time":2818.514233088,"data":"[caption_alignment] update 1450/4500 loss=2.6051 lr=3.77e-04 gn=0.91\n"}
+,{"stream_name":"stdout","time":2850.247524527,"data":"[caption_alignment] update 1475/4500 loss=2.3403 lr=3.62e-04 gn=0.72\n"}
+,{"stream_name":"stdout","time":2882.157884922,"data":"[caption_alignment] update 1500/4500 loss=2.1769 lr=3.47e-04 gn=0.75\n"}
+,{"stream_name":"stdout","time":2889.692819426,"data":"dev 1500 {'caption_loss': 2.3127896251777806, 'grounding_dev': 0.6615, 'vqa_dev': 0.8122}\n"}
+,{"stream_name":"stdout","time":2921.255259193,"data":"[caption_alignment] update 1525/4500 loss=2.9128 lr=3.32e-04 gn=0.88\n"}
+,{"stream_name":"stdout","time":2953.05064654,"data":"[caption_alignment] update 1550/4500 loss=1.7794 lr=3.18e-04 gn=0.64\n"}
+,{"stream_name":"stdout","time":2984.994544877,"data":"[caption_alignment] update 1575/4500 loss=2.3641 lr=3.04e-04 gn=0.78\n"}
+,{"stream_name":"stdout","time":3017.069680936,"data":"[caption_alignment] update 1600/4500 loss=2.3447 lr=2.90e-04 gn=0.70\n"}
+,{"stream_name":"stdout","time":3048.996866105,"data":"[caption_alignment] update 1625/4500 loss=2.2852 lr=2.77e-04 gn=0.77\n"}
+,{"stream_name":"stdout","time":3080.807372787,"data":"[caption_alignment] update 1650/4500 loss=2.1871 lr=2.64e-04 gn=0.77\n"}
+,{"stream_name":"stdout","time":3112.60731955,"data":"[caption_alignment] update 1675/4500 loss=2.3067 lr=2.51e-04 gn=0.74\n"}
+,{"stream_name":"stdout","time":3144.534891971,"data":"[caption_alignment] update 1700/4500 loss=2.0616 lr=2.39e-04 gn=0.64\n"}
+,{"stream_name":"stdout","time":3176.338531332,"data":"[caption_alignment] update 1725/4500 loss=2.2361 lr=2.28e-04 gn=0.70\n"}
+,{"stream_name":"stdout","time":3208.095540853,"data":"[caption_alignment] update 1750/4500 loss=2.2361 lr=2.16e-04 gn=0.87\n"}
+,{"stream_name":"stdout","time":3240.121033872,"data":"[caption_alignment] update 1775/4500 loss=2.0491 lr=2.05e-04 gn=0.83\n"}
+,{"stream_name":"stdout","time":3272.005455699,"data":"[caption_alignment] update 1800/4500 loss=2.1772 lr=1.95e-04 gn=0.77\n"}
+,{"stream_name":"stdout","time":3303.906989461,"data":"[caption_alignment] update 1825/4500 loss=2.1366 lr=1.85e-04 gn=0.74\n"}
+,{"stream_name":"stdout","time":3335.890382938,"data":"[caption_alignment] update 1850/4500 loss=2.0577 lr=1.76e-04 gn=0.72\n"}
+,{"stream_name":"stdout","time":3367.816946117,"data":"[caption_alignment] update 1875/4500 loss=2.1527 lr=1.67e-04 gn=0.83\n"}
+,{"stream_name":"stdout","time":3399.717843533,"data":"[caption_alignment] update 1900/4500 loss=2.0636 lr=1.58e-04 gn=0.79\n"}
+,{"stream_name":"stdout","time":3431.675608471,"data":"[caption_alignment] update 1925/4500 loss=2.2119 lr=1.50e-04 gn=0.75\n"}
+,{"stream_name":"stdout","time":3463.718202903,"data":"[caption_alignment] update 1950/4500 loss=2.4043 lr=1.43e-04 gn=0.82\n"}
+,{"stream_name":"stdout","time":3495.404296725,"data":"[caption_alignment] update 1975/4500 loss=2.2967 lr=1.36e-04 gn=0.71\n"}
+,{"stream_name":"stdout","time":3527.007907225,"data":"[caption_alignment] update 2000/4500 loss=2.6193 lr=1.30e-04 gn=0.88\n"}
+,{"stream_name":"stdout","time":3534.545982867,"data":"dev 2000 {'caption_loss': 2.270085117469231, 'grounding_dev': 0.6077, 'vqa_dev': 0.7998}\n"}
+,{"stream_name":"stdout","time":3566.365799348,"data":"[caption_alignment] update 2025/4500 loss=2.4767 lr=1.24e-04 gn=0.75\n"}
+,{"stream_name":"stdout","time":3598.280292036,"data":"[caption_alignment] update 2050/4500 loss=2.2879 lr=1.19e-04 gn=0.74\n"}
+,{"stream_name":"stdout","time":3630.172416178,"data":"[caption_alignment] update 2075/4500 loss=2.5534 lr=1.15e-04 gn=0.74\n"}
+,{"stream_name":"stdout","time":3662.049116618,"data":"[caption_alignment] update 2100/4500 loss=2.4897 lr=1.11e-04 gn=0.87\n"}
+,{"stream_name":"stdout","time":3694.271988911,"data":"[caption_alignment] update 2125/4500 loss=2.0801 lr=1.08e-04 gn=0.77\n"}
+,{"stream_name":"stdout","time":3726.235576435,"data":"[caption_alignment] update 2150/4500 loss=2.0414 lr=1.05e-04 gn=0.81\n"}
+,{"stream_name":"stdout","time":3758.164169736,"data":"[caption_alignment] update 2175/4500 loss=2.2588 lr=1.03e-04 gn=0.94\n"}
+,{"stream_name":"stdout","time":3790.015410199,"data":"[caption_alignment] update 2200/4500 loss=2.1166 lr=1.01e-04 gn=0.68\n"}
+,{"stream_name":"stdout","time":3821.746545728,"data":"[caption_alignment] update 2225/4500 loss=2.0680 lr=1.00e-04 gn=0.78\n"}
+,{"stream_name":"stdout","time":3853.525242469,"data":"[caption_alignment] update 2250/4500 loss=2.2866 lr=1.00e-04 gn=0.69\n"}
+,{"stream_name":"stdout","time":3861.114133144,"data":"dev 2250 {'caption_loss': 2.2683003122607865, 'grounding_dev': 0.5934, 'vqa_dev': 0.8011}\n"}
+,{"stream_name":"stdout","time":3899.088615853,"data":"[visual_instruction] update 2275/4500 loss=1.7206 lr=3.33e-05 gn=5.03\n"}
+,{"stream_name":"stdout","time":3937.080815053,"data":"[visual_instruction] update 2300/4500 loss=1.1348 lr=6.67e-05 gn=4.74\n"}
+,{"stream_name":"stdout","time":3974.949371914,"data":"[visual_instruction] update 2325/4500 loss=1.3762 lr=1.00e-04 gn=2.39\n"}
+,{"stream_name":"stdout","time":4013.668129168,"data":"[visual_instruction] update 2350/4500 loss=0.9148 lr=9.99e-05 gn=2.81\n"}
+,{"stream_name":"stdout","time":4051.822777518,"data":"[visual_instruction] update 2375/4500 loss=1.0634 lr=9.97e-05 gn=2.92\n"}
+,{"stream_name":"stdout","time":4089.801772626,"data":"[visual_instruction] update 2400/4500 loss=0.8158 lr=9.94e-05 gn=6.23\n"}
+,{"stream_name":"stdout","time":4127.355032053,"data":"[visual_instruction] update 2425/4500 loss=1.2854 lr=9.89e-05 gn=2.19\n"}
+,{"stream_name":"stdout","time":4164.755263957,"data":"[visual_instruction] update 2450/4500 loss=0.7342 lr=9.83e-05 gn=2.34\n"}
+,{"stream_name":"stdout","time":4203.172936904,"data":"[visual_instruction] update 2475/4500 loss=0.6365 lr=9.76e-05 gn=4.43\n"}
+,{"stream_name":"stdout","time":4240.56937547,"data":"[visual_instruction] update 2500/4500 loss=1.3777 lr=9.67e-05 gn=3.82\n"}
+,{"stream_name":"stdout","time":4249.369975397,"data":"dev 2500 {'caption_loss': 2.257788196206093, 'grounding_dev': 2.4531, 'vqa_dev': 1.3942}\n"}
+,{"stream_name":"stdout","time":4287.025915345,"data":"[visual_instruction] update 2525/4500 loss=0.3221 lr=9.57e-05 gn=3.57\n"}
+,{"stream_name":"stdout","time":4325.12179462,"data":"[visual_instruction] update 2550/4500 loss=0.5304 lr=9.46e-05 gn=5.29\n"}
+,{"stream_name":"stdout","time":4362.788784672,"data":"[visual_instruction] update 2575/4500 loss=1.0241 lr=9.34e-05 gn=2.77\n"}
+,{"stream_name":"stdout","time":4400.500539032,"data":"[visual_instruction] update 2600/4500 loss=0.8894 lr=9.20e-05 gn=2.09\n"}
+,{"stream_name":"stdout","time":4438.46904078,"data":"[visual_instruction] update 2625/4500 loss=1.1300 lr=9.06e-05 gn=4.06\n"}
+,{"stream_name":"stdout","time":4476.106596479,"data":"[visual_instruction] update 2650/4500 loss=0.9496 lr=8.90e-05 gn=2.75\n"}
+,{"stream_name":"stdout","time":4513.74775552,"data":"[visual_instruction] update 2675/4500 loss=0.7460 lr=8.73e-05 gn=1.80\n"}
+,{"stream_name":"stdout","time":4551.80596274,"data":"[visual_instruction] update 2700/4500 loss=1.0150 lr=8.55e-05 gn=3.43\n"}
+,{"stream_name":"stdout","time":4589.998091808,"data":"[visual_instruction] update 2725/4500 loss=0.5801 lr=8.37e-05 gn=6.66\n"}
+,{"stream_name":"stdout","time":4627.860417927,"data":"[visual_instruction] update 2750/4500 loss=0.8115 lr=8.17e-05 gn=5.44\n"}
+,{"stream_name":"stdout","time":4666.44116691,"data":"[visual_instruction] update 2775/4500 loss=0.8967 lr=7.97e-05 gn=2.57\n"}
+,{"stream_name":"stdout","time":4704.602097629,"data":"[visual_instruction] update 2800/4500 loss=0.6303 lr=7.76e-05 gn=4.01\n"}
+,{"stream_name":"stdout","time":4742.317483489,"data":"[visual_instruction] update 2825/4500 loss=0.3321 lr=7.54e-05 gn=3.07\n"}
+,{"stream_name":"stdout","time":4780.204541526,"data":"[visual_instruction] update 2850/4500 loss=0.5283 lr=7.31e-05 gn=1.52\n"}
+,{"stream_name":"stdout","time":4817.608721318,"data":"[visual_instruction] update 2875/4500 loss=0.8049 lr=7.08e-05 gn=5.58\n"}
+,{"stream_name":"stdout","time":4856.314960393,"data":"[visual_instruction] update 2900/4500 loss=0.5303 lr=6.85e-05 gn=3.20\n"}
+,{"stream_name":"stdout","time":4893.434613193,"data":"[visual_instruction] update 2925/4500 loss=0.7176 lr=6.61e-05 gn=7.27\n"}
+,{"stream_name":"stdout","time":4931.380804326,"data":"[visual_instruction] update 2950/4500 loss=0.4989 lr=6.37e-05 gn=5.91\n"}
+,{"stream_name":"stdout","time":4970.022647478,"data":"[visual_instruction] update 2975/4500 loss=0.6170 lr=6.12e-05 gn=2.37\n"}
+,{"stream_name":"stdout","time":5007.827662013,"data":"[visual_instruction] update 3000/4500 loss=1.2588 lr=5.88e-05 gn=2.95\n"}
+,{"stream_name":"stdout","time":5016.683436214,"data":"dev 3000 {'caption_loss': 2.2620666958391666, 'grounding_dev': 3.1344, 'vqa_dev': 1.4564}\n"}
+,{"stream_name":"stdout","time":5055.279801396,"data":"[visual_instruction] update 3025/4500 loss=1.0672 lr=5.63e-05 gn=3.55\n"}
+,{"stream_name":"stdout","time":5093.434378573,"data":"[visual_instruction] update 3050/4500 loss=0.8201 lr=5.38e-05 gn=5.42\n"}
+,{"stream_name":"stdout","time":5131.956069467,"data":"[visual_instruction] update 3075/4500 loss=0.4610 lr=5.13e-05 gn=2.90\n"}
+,{"stream_name":"stdout","time":5169.284408971,"data":"[visual_instruction] update 3100/4500 loss=1.0257 lr=4.89e-05 gn=4.52\n"}
+,{"stream_name":"stdout","time":5207.492745302,"data":"[visual_instruction] update 3125/4500 loss=1.0781 lr=4.64e-05 gn=2.68\n"}
+,{"stream_name":"stdout","time":5245.582491586,"data":"[visual_instruction] update 3150/4500 loss=0.4349 lr=4.40e-05 gn=4.51\n"}
+,{"stream_name":"stdout","time":5283.911878556,"data":"[visual_instruction] update 3175/4500 loss=0.1936 lr=4.16e-05 gn=5.35\n"}
+,{"stream_name":"stdout","time":5322.716116024,"data":"[visual_instruction] update 3200/4500 loss=0.9196 lr=3.93e-05 gn=3.44\n"}
+,{"stream_name":"stdout","time":5360.761386337,"data":"[visual_instruction] update 3225/4500 loss=1.2558 lr=3.70e-05 gn=3.31\n"}
+,{"stream_name":"stdout","time":5398.428541011,"data":"[visual_instruction] update 3250/4500 loss=0.3951 lr=3.47e-05 gn=3.10\n"}
+,{"stream_name":"stdout","time":5436.827626245,"data":"[visual_instruction] update 3275/4500 loss=0.4772 lr=3.25e-05 gn=1.18\n"}
+,{"stream_name":"stdout","time":5475.817310689,"data":"[visual_instruction] update 3300/4500 loss=0.5201 lr=3.04e-05 gn=5.42\n"}
+,{"stream_name":"stdout","time":5514.368097419,"data":"[visual_instruction] update 3325/4500 loss=0.3546 lr=2.84e-05 gn=7.40\n"}
+,{"stream_name":"stdout","time":5552.682527612,"data":"[visual_instruction] update 3350/4500 loss=0.5442 lr=2.64e-05 gn=4.52\n"}
+,{"stream_name":"stdout","time":5590.319386835,"data":"[visual_instruction] update 3375/4500 loss=0.7285 lr=2.45e-05 gn=2.77\n"}
+,{"stream_name":"stdout","time":5627.744254891,"data":"[visual_instruction] update 3400/4500 loss=0.8549 lr=2.28e-05 gn=4.74\n"}
+,{"stream_name":"stdout","time":5666.25415191,"data":"[visual_instruction] update 3425/4500 loss=0.3882 lr=2.11e-05 gn=7.51\n"}
+,{"stream_name":"stdout","time":5704.42833497,"data":"[visual_instruction] update 3450/4500 loss=0.7425 lr=1.95e-05 gn=5.07\n"}
+,{"stream_name":"stdout","time":5742.517033993,"data":"[visual_instruction] update 3475/4500 loss=0.8313 lr=1.80e-05 gn=4.41\n"}
+,{"stream_name":"stdout","time":5779.99014419,"data":"[visual_instruction] update 3500/4500 loss=0.6584 lr=1.67e-05 gn=6.78\n"}
+,{"stream_name":"stdout","time":5788.766708191,"data":"dev 3500 {'caption_loss': 2.242841146265467, 'grounding_dev': 3.7904, 'vqa_dev': 1.7228}\n"}
+,{"stream_name":"stdout","time":5826.831898388,"data":"[visual_instruction] update 3525/4500 loss=0.6096 lr=1.54e-05 gn=6.07\n"}
+,{"stream_name":"stdout","time":5864.89760176,"data":"[visual_instruction] update 3550/4500 loss=0.2709 lr=1.43e-05 gn=3.61\n"}
+,{"stream_name":"stdout","time":5903.350805079,"data":"[visual_instruction] update 3575/4500 loss=0.7060 lr=1.33e-05 gn=4.30\n"}
+,{"stream_name":"stdout","time":5941.637415477,"data":"[visual_instruction] update 3600/4500 loss=1.0382 lr=1.24e-05 gn=5.49\n"}
+,{"stream_name":"stdout","time":5979.562739828,"data":"[visual_instruction] update 3625/4500 loss=0.7570 lr=1.17e-05 gn=1.51\n"}
+,{"stream_name":"stdout","time":6017.094470634,"data":"[visual_instruction] update 3650/4500 loss=0.0782 lr=1.11e-05 gn=2.27\n"}
+,{"stream_name":"stdout","time":6054.868157554,"data":"[visual_instruction] update 3675/4500 loss=0.2729 lr=1.06e-05 gn=2.42\n"}
+,{"stream_name":"stdout","time":6093.001126258,"data":"[visual_instruction] update 3700/4500 loss=0.3844 lr=1.03e-05 gn=3.26\n"}
+,{"stream_name":"stdout","time":6131.39359226,"data":"[visual_instruction] update 3725/4500 loss=0.7267 lr=1.01e-05 gn=7.56\n"}
+,{"stream_name":"stdout","time":6169.965714125,"data":"[visual_instruction] update 3750/4500 loss=0.8451 lr=1.00e-05 gn=3.27\n"}
+,{"stream_name":"stdout","time":6178.80526367,"data":"dev 3750 {'caption_loss': 2.2443604096770287, 'grounding_dev': 3.9753, 'vqa_dev': 1.7631}\n"}
+,{"stream_name":"stdout","time":6216.246644325,"data":"[natural_vqa] update 3775/4500 loss=0.4503 lr=3.29e-05 gn=4.40\n"}
+,{"stream_name":"stdout","time":6253.472498081,"data":"[natural_vqa] update 3800/4500 loss=0.3780 lr=5.00e-05 gn=3.79\n"}
+,{"stream_name":"stdout","time":6290.60758219,"data":"[natural_vqa] update 3825/4500 loss=0.8533 lr=4.97e-05 gn=5.02\n"}
+,{"stream_name":"stdout","time":6327.922424143,"data":"[natural_vqa] update 3850/4500 loss=0.3577 lr=4.92e-05 gn=4.14\n"}
+,{"stream_name":"stdout","time":6365.279016992,"data":"[natural_vqa] update 3875/4500 loss=0.5135 lr=4.84e-05 gn=4.94\n"}
+,{"stream_name":"stdout","time":6402.368869433,"data":"[natural_vqa] update 3900/4500 loss=0.7320 lr=4.73e-05 gn=8.09\n"}
+,{"stream_name":"stdout","time":6439.799529124,"data":"[natural_vqa] update 3925/4500 loss=1.4013 lr=4.61e-05 gn=5.36\n"}
+,{"stream_name":"stdout","time":6476.901708562,"data":"[natural_vqa] update 3950/4500 loss=0.4746 lr=4.45e-05 gn=4.30\n"}
+,{"stream_name":"stdout","time":6514.195596923,"data":"[natural_vqa] update 3975/4500 loss=0.5095 lr=4.28e-05 gn=2.34\n"}
+,{"stream_name":"stdout","time":6551.490098066,"data":"[natural_vqa] update 4000/4500 loss=0.3614 lr=4.09e-05 gn=4.96\n"}
+,{"stream_name":"stdout","time":6560.340037174,"data":"dev 4000 {'caption_loss': 2.2567482131222882, 'grounding_dev': 2.5413, 'vqa_dev': 1.4463}\n"}
+,{"stream_name":"stdout","time":6598.102119499,"data":"[natural_vqa] update 4025/4500 loss=0.2775 lr=3.88e-05 gn=4.63\n"}
+,{"stream_name":"stdout","time":6635.626574507,"data":"[natural_vqa] update 4050/4500 loss=1.4425 lr=3.66e-05 gn=9.36\n"}
+,{"stream_name":"stdout","time":6672.830358634,"data":"[natural_vqa] update 4075/4500 loss=0.4749 lr=3.43e-05 gn=7.41\n"}
+,{"stream_name":"stdout","time":6709.882562571,"data":"[natural_vqa] update 4100/4500 loss=0.8630 lr=3.19e-05 gn=3.16\n"}
+,{"stream_name":"stdout","time":6747.250848948,"data":"[natural_vqa] update 4125/4500 loss=0.4453 lr=2.94e-05 gn=3.16\n"}
+,{"stream_name":"stdout","time":6784.26785837,"data":"[natural_vqa] update 4150/4500 loss=0.5614 lr=2.70e-05 gn=5.49\n"}
+,{"stream_name":"stdout","time":6821.799444654,"data":"[natural_vqa] update 4175/4500 loss=0.8901 lr=2.45e-05 gn=4.56\n"}
+,{"stream_name":"stdout","time":6859.142357967,"data":"[natural_vqa] update 4200/4500 loss=0.6778 lr=2.20e-05 gn=4.48\n"}
+,{"stream_name":"stdout","time":6896.274674915,"data":"[natural_vqa] update 4225/4500 loss=0.7165 lr=1.97e-05 gn=5.60\n"}
+,{"stream_name":"stdout","time":6933.641645358,"data":"[natural_vqa] update 4250/4500 loss=0.7845 lr=1.74e-05 gn=3.66\n"}
+,{"stream_name":"stdout","time":6970.692898498,"data":"[natural_vqa] update 4275/4500 loss=0.8262 lr=1.52e-05 gn=4.80\n"}
+,{"stream_name":"stdout","time":7007.784445035,"data":"[natural_vqa] update 4300/4500 loss=0.5794 lr=1.32e-05 gn=3.02\n"}
+,{"stream_name":"stdout","time":7044.846641742,"data":"[natural_vqa] update 4325/4500 loss=0.6000 lr=1.14e-05 gn=5.57\n"}
+,{"stream_name":"stdout","time":7082.213816426,"data":"[natural_vqa] update 4350/4500 loss=1.0406 lr=9.76e-06 gn=10.36\n"}
+,{"stream_name":"stdout","time":7119.343207656,"data":"[natural_vqa] update 4375/4500 loss=0.4644 lr=8.35e-06 gn=6.33\n"}
+,{"stream_name":"stdout","time":7156.663149989,"data":"[natural_vqa] update 4400/4500 loss=1.6455 lr=7.16e-06 gn=8.27\n"}
+,{"stream_name":"stdout","time":7193.739007894,"data":"[natural_vqa] update 4425/4500 loss=0.6042 lr=6.22e-06 gn=6.02\n"}
+,{"stream_name":"stdout","time":7230.873757809,"data":"[natural_vqa] update 4450/4500 loss=0.9440 lr=5.55e-06 gn=7.14\n"}
+,{"stream_name":"stdout","time":7267.752915181,"data":"[natural_vqa] update 4475/4500 loss=0.4444 lr=5.14e-06 gn=6.63\n"}
+,{"stream_name":"stdout","time":7305.07603578,"data":"[natural_vqa] update 4500/4500 loss=0.6439 lr=5.00e-06 gn=4.27\n"}
+,{"stream_name":"stdout","time":7313.87325378,"data":"dev 4500 {'caption_loss': 2.260101106017828, 'grounding_dev': 2.9701, 'vqa_dev': 1.6581}\n"}
+,{"stream_name":"stdout","time":7314.219061858,"data":"training complete\n"}
+,{"stream_name":"stdout","time":7315.474051765,"data":"\n"}
+,{"stream_name":"stdout","time":7315.474096471,"data":"=== [2.03 h] python evaluate.py --out /kaggle/working/task2_out --run main\n"}
+,{"stream_name":"stderr","time":7325.629321419,"data":"\rLoading weights:   0%|          | 0/311 [00:00\u003c?, ?it/s]\rLoading weights:   0%|          | 1/311 [00:00\u003c01:19,  3.91it/s]\rLoading weights:  53%|█████▎    | 164/311 [00:00\u003c00:00, 584.32it/s]\rLoading weights:  84%|████████▎ | 260/311 [00:00\u003c00:00, 614.67it/s]\rLoading weights: 100%|██████████| 311/311 [00:00\u003c00:00, 549.55it/s]\n"}
+,{"stream_name":"stdout","time":7339.013724673,"data":"grounding_test  correct    acc=0.708 nll=0.771\n"}
+,{"stream_name":"stdout","time":7351.045108254,"data":"grounding_test  swap       acc=0.115 nll=3.437\n"}
+,{"stream_name":"stdout","time":7363.50970557,"data":"grounding_test  mismatched acc=0.307 nll=2.323\n"}
+,{"stream_name":"stdout","time":7367.653396878,"data":"grounding_test  none       acc=0.375 nll=1.466\n"}
+,{"stream_name":"stdout","time":7380.841430336,"data":"vqa_test        correct    acc=0.644 nll=1.168\n"}
+,{"stream_name":"stdout","time":7393.684969617,"data":"vqa_test        swap       acc=0.268 nll=2.804\n"}
+,{"stream_name":"stdout","time":7406.249115076,"data":"vqa_test        mismatched acc=0.324 nll=2.773\n"}
+,{"stream_name":"stdout","time":7410.880242468,"data":"vqa_test        none       acc=0.317 nll=2.407\n"}
+,{"stream_name":"stdout","time":7429.825119228,"data":"\n"}
+,{"stream_name":"stdout","time":7429.825178642,"data":"=== [2.06 h] python analyze.py --out /kaggle/working/task2_out --run main\n"}
+,{"stream_name":"stdout","time":7449.894132991,"data":"audit sheet not filled yet; skipping robustness table\n"}
+,{"stream_name":"stdout","time":7449.894243529,"data":"report artefacts in /kaggle/working/task2_out/report_t2\n"}
+,{"stream_name":"stdout","time":7449.894252427,"data":"   dev_captions_sample.md\n"}
+,{"stream_name":"stdout","time":7449.894256243,"data":"   fig_final_accuracy_by_condition.pdf\n"}
+,{"stream_name":"stdout","time":7449.894259834,"data":"   fig_final_accuracy_by_condition.png\n"}
+,{"stream_name":"stdout","time":7449.894263868,"data":"   fig_learning_curves.pdf\n"}
+,{"stream_name":"stdout","time":7449.894267866,"data":"   fig_learning_curves.png\n"}
+,{"stream_name":"stdout","time":7449.894271285,"data":"   fig_qualitative_grounding_test.pdf\n"}
+,{"stream_name":"stdout","time":7449.894274681,"data":"   fig_qualitative_grounding_test.png\n"}
+,{"stream_name":"stdout","time":7449.894277937,"data":"   fig_qualitative_vqa_test.pdf\n"}
+,{"stream_name":"stdout","time":7449.894281098,"data":"   fig_qualitative_vqa_test.png\n"}
+,{"stream_name":"stdout","time":7449.894284325,"data":"   qualitative_pairs.md\n"}
+,{"stream_name":"stdout","time":7449.894287777,"data":"   table_correct_image_advantage.csv\n"}
+,{"stream_name":"stdout","time":7449.894291183,"data":"   table_correct_image_advantage.md\n"}
+,{"stream_name":"stdout","time":7449.894294884,"data":"   table_correct_image_advantage.tex\n"}
+,{"stream_name":"stdout","time":7449.894298628,"data":"   table_dev_curves.csv\n"}
+,{"stream_name":"stdout","time":7449.894302055,"data":"   table_dev_curves.md\n"}
+,{"stream_name":"stdout","time":7449.894305666,"data":"   table_dev_curves.tex\n"}
+,{"stream_name":"stdout","time":7449.894308971,"data":"   table_final_by_type.csv\n"}
+,{"stream_name":"stdout","time":7449.894312925,"data":"   table_final_by_type.md\n"}
+,{"stream_name":"stdout","time":7449.89431646,"data":"   table_final_by_type.tex\n"}
+,{"stream_name":"stdout","time":7449.894319744,"data":"   table_final_main.csv\n"}
+,{"stream_name":"stdout","time":7449.894323772,"data":"   table_final_main.md\n"}
+,{"stream_name":"stdout","time":7449.894327179,"data":"   table_final_main.tex\n"}
+,{"stream_name":"stdout","time":7449.894330908,"data":"   table_mixture_counts.csv\n"}
+,{"stream_name":"stdout","time":7449.894334401,"data":"   table_mixture_counts.md\n"}
+,{"stream_name":"stdout","time":7449.89433866,"data":"   table_mixture_counts.tex\n"}
+,{"stream_name":"stdout","time":7449.894342446,"data":"   table_resources.csv\n"}
+,{"stream_name":"stdout","time":7449.894346459,"data":"   table_resources.md\n"}
+,{"stream_name":"stdout","time":7449.894350119,"data":"   table_resources.tex\n"}
+,{"stream_name":"stdout","time":7449.89435464,"data":"   table_swap_behaviour.csv\n"}
+,{"stream_name":"stdout","time":7449.894358619,"data":"   table_swap_behaviour.md\n"}
+,{"stream_name":"stdout","time":7449.894362708,"data":"   table_swap_behaviour.tex\n"}
+,{"stream_name":"stdout","time":7450.596634934,"data":"\n"}
+,{"stream_name":"stdout","time":7450.596698328,"data":"=== [2.07 h] python verify.py --out /kaggle/working/task2_out --run main\n"}
+,{"stream_name":"stdout","time":7458.118367949,"data":"[PASS] caption training: 6,000 images x 3 captions = 18,000 — 18000\n"}
+,{"stream_name":"stdout","time":7458.118401689,"data":"[PASS] caption development: 96 images, one caption each — 96\n"}
+,{"stream_name":"stdout","time":7458.118406497,"data":"[PASS] VQAv2 train: yes/no/number/other = 640/256/640 pairs — {'yes/no': 640, 'number': 256, 'other': 640}\n"}
+,{"stream_name":"stdout","time":7458.118410653,"data":"[PASS] VQAv2 train: \u003e=8/10 agreement, differing consensus, same question, 10 answers kept\n"}
+,{"stream_name":"stdout","time":7458.118414845,"data":"[PASS] VQAv2 train: training target is an original string from the consensus group\n"}
+,{"stream_name":"stdout","time":7458.118433122,"data":"[PASS] VQAv2 dev: yes/no/number/other = 12/8/12 pairs — {'yes/no': 12, 'number': 8, 'other': 12}\n"}
+,{"stream_name":"stdout","time":7458.118437278,"data":"[PASS] VQAv2 dev: \u003e=8/10 agreement, differing consensus, same question, 10 answers kept\n"}
+,{"stream_name":"stdout","time":7458.118440818,"data":"[PASS] VQAv2 dev: training target is an original string from the consensus group\n"}
+,{"stream_name":"stdout","time":7458.11844397,"data":"[PASS] VQAv2 test: yes/no/number/other = 36/24/36 pairs — {'yes/no': 36, 'number': 24, 'other': 36}\n"}
+,{"stream_name":"stdout","time":7458.118447355,"data":"[PASS] VQAv2 test: \u003e=8/10 agreement, differing consensus, same question, 10 answers kept\n"}
+,{"stream_name":"stdout","time":7458.118450767,"data":"[PASS] VQAv2 test: training target is an original string from the consensus group\n"}
+,{"stream_name":"stdout","time":7458.118454082,"data":"[PASS] grounding dev: presence/counting = 12/12 pairs — {'presence': 12, 'counting': 12}\n"}
+,{"stream_name":"stdout","time":7458.11845732,"data":"[PASS] grounding dev: presence yes/no targets, counting 1-4 and different\n"}
+,{"stream_name":"stdout","time":7458.118460545,"data":"[PASS] grounding test: presence/counting = 48/48 pairs — {'presence': 48, 'counting': 48}\n"}
+,{"stream_name":"stdout","time":7458.118463647,"data":"[PASS] grounding test: presence yes/no targets, counting 1-4 and different\n"}
+,{"stream_name":"stdout","time":7458.118467522,"data":"[PASS] grounding training pools exist (presence and counting) — {'presence': 10049, 'counting': 10096}\n"}
+,{"stream_name":"stdout","time":7458.118470845,"data":"[PASS] all development and final-test sets are mutually image-disjoint\n"}
+,{"stream_name":"stdout","time":7458.118474012,"data":"[PASS] no evaluation image in training or replay; train=train2014, eval=val2014\n"}
+,{"stream_name":"stdout","time":7458.118477053,"data":"[PASS] mismatched-image mapping fixed, excludes both pair images, drawn from the same suite\n"}
+,{"stream_name":"stdout","time":7458.118480333,"data":"[PASS] content-token caps respected (question 80, answer 16, caption 64)\n"}
+,{"stream_name":"stdout","time":7458.118483603,"data":"[PASS] label audit sheet created\n"}
+,{"stream_name":"stdout","time":7458.118487405,"data":"[WARN] label audit filled in by hand (MANUAL step) — 0/240 labels checked\n"}
+,{"stream_name":"stdout","time":7458.118490857,"data":"[PASS] features: (N, 196, 768) FP16 for every image — [9333, 196, 768]\n"}
+,{"stream_name":"stdout","time":7458.118494688,"data":"[PASS] SigLIP final LayerNorm applied exactly once\n"}
+,{"stream_name":"stdout","time":7458.118498073,"data":"[WARN] deterministic preprocessing / re-encoding\n"}
+,{"stream_name":"stdout","time":7458.118501225,"data":"[PASS] feature-caching time and memory recorded\n"}
+,{"stream_name":"stdout","time":7458.118506043,"data":"[PASS] training finished (train_summary.json)\n"}
+,{"stream_name":"stdout","time":7458.118509473,"data":"[PASS] not a smoke run\n"}
+,{"stream_name":"stdout","time":7458.11851271,"data":"[PASS] 4,500 consecutive updates logged (72,000 presentations) — 4500\n"}
+,{"stream_name":"stdout","time":7458.118515772,"data":"[PASS] stage 1 'caption_alignment' has 2250 updates — 2250\n"}
+,{"stream_name":"stdout","time":7458.118519129,"data":"[PASS] stage 1: connector peak LR 0.001, ends at 10% of peak — peak 0.001, last 0.0001\n"}
+,{"stream_name":"stdout","time":7458.11852267,"data":"[PASS] stage 1: connector only (no LoRA)\n"}
+,{"stream_name":"stdout","time":7458.118526063,"data":"[PASS] stage 2 'visual_instruction' has 1500 updates — 1500\n"}
+,{"stream_name":"stdout","time":7458.118529469,"data":"[PASS] stage 2: connector peak LR 0.0001, ends at 10% of peak — peak 0.0001, last 1e-05\n"}
+,{"stream_name":"stdout","time":7458.118537409,"data":"[PASS] stage 2: LoRA peak LR 2e-05\n"}
+,{"stream_name":"stdout","time":7458.118540963,"data":"[PASS] stage 2: realised mixture close to {'presence': 0.5, 'counting': 0.25, 'caption': 0.25} — {'presence': 0.505, 'counting': 0.258, 'caption': 0.237}\n"}
+,{"stream_name":"stdout","time":7458.118544703,"data":"[PASS] stage 3 'natural_vqa' has 750 updates — 750\n"}
+,{"stream_name":"stdout","time":7458.118548444,"data":"[PASS] stage 3: connector peak LR 5e-05, ends at 10% of peak — peak 5e-05, last 5e-06\n"}
+,{"stream_name":"stdout","time":7458.11855197,"data":"[PASS] stage 3: LoRA peak LR 1e-05\n"}
+,{"stream_name":"stdout","time":7458.118556078,"data":"[PASS] stage 3: realised mixture close to {'vqa': 0.7, 'presence': 0.1, 'counting': 0.1, 'caption': 0.1} — {'vqa': 0.691, 'presence': 0.103, 'counting': 0.103, 'caption': 0.102}\n"}
+,{"stream_name":"stdout","time":7458.118559865,"data":"[PASS] skipped (inf/NaN) updates logged — [1, 2, 3, 4, 8]\n"}
+,{"stream_name":"stdout","time":7458.118563554,"data":"[PASS] trainable parameters by stage recorded (connector 1,837,056; + LoRA 4,587,520 in stages 2-3) — {'caption_alignment': {'connector': 1837056, 'lora': 0, 'total': 1837056}, 'visual_instruction': {'connector': 1837056, 'lora': 4587520, 'total': 6424576}, 'natural_vqa': {'connector': 1837056, 'lora'\n"}
+,{"stream_name":"stdout","time":7458.118569528,"data":"[PASS] development evaluation at [0, 500, 1000, 1500, 2000, np.int64(2250), 2500, 3000, 3500, np.int64(3750), 4000, 4500] — [0, 500, 1000, 1500, 2000, 2250, 2500, 3000, 3500, 3750, 4000, 4500]\n"}
+,{"stream_name":"stdout","time":7458.118573202,"data":"[PASS] dev metrics: caption loss + answer NLL (correct/swap/none) + ΔNLL for both suites\n"}
+,{"stream_name":"stdout","time":7458.11857653,"data":"[PASS] weights saved: stage1\n"}
+,{"stream_name":"stdout","time":7458.118579772,"data":"[PASS] weights saved: stage2\n"}
+,{"stream_name":"stdout","time":7458.118583092,"data":"[PASS] weights saved: stage3\n"}
+,{"stream_name":"stdout","time":7458.118586735,"data":"[PASS] weights saved: final\n"}
+,{"stream_name":"stdout","time":7458.118589893,"data":"[PASS] resumable checkpoints every 250 updates + stage ends (optimizer, scaler, sampler position, RNG) — missing []\n"}
+,{"stream_name":"stdout","time":7458.118593222,"data":"[PASS] connector magnitude calibration rule and scale recorded — scale=0.05124\n"}
+,{"stream_name":"stdout","time":7458.118597061,"data":"[PASS] interface checks: shapes, frozen backbone, connector gradients, visual slots, no-image rebuild — {'feature_shape': [2, 196, 768], 'connector_output_shape': [2, 196, 1024]}\n"}
+,{"stream_name":"stdout","time":7458.118600962,"data":"[PASS] runtime and peak memory per stage recorded — {'caption_alignment': 1.5420494079589844, 'visual_instruction': 1.5640873908996582, 'natural_vqa': 1.5602731704711914}\n"}
+,{"stream_name":"stdout","time":7458.118604614,"data":"[PASS] final evaluation finished\n"}
+,{"stream_name":"stdout","time":7458.118607892,"data":"[PASS] predictions: 2 suites x 4 conditions x all questions — 1536\n"}
+,{"stream_name":"stdout","time":7458.118611245,"data":"[PASS] 16-new-token cap respected\n"}
+,{"stream_name":"stdout","time":7458.118614632,"data":"[PASS] raw references, generations and per-example metrics saved\n"}
+,{"stream_name":"stdout","time":7458.11861773,"data":"[PASS] greedy, batch size 8, 16 tokens\n"}
+,{"stream_name":"stdout","time":7458.118621026,"data":"[PASS] grounding_test: no-image answers identical within each pair (same text -\u003e same greedy output) — 100.0%\n"}
+,{"stream_name":"stdout","time":7458.118624712,"data":"[PASS] vqa_test: no-image answers identical within each pair (same text -\u003e same greedy output) — 100.0%\n"}
+,{"stream_name":"stdout","time":7458.11863179,"data":"[PASS] report artefact fig_learning_curves.png\n"}
+,{"stream_name":"stdout","time":7458.118635229,"data":"[PASS] report artefact table_dev_curves.csv\n"}
+,{"stream_name":"stdout","time":7458.118638586,"data":"[PASS] report artefact table_final_main.csv\n"}
+,{"stream_name":"stdout","time":7458.118666553,"data":"[PASS] report artefact table_final_by_type.csv\n"}
+,{"stream_name":"stdout","time":7458.118670276,"data":"[PASS] report artefact table_correct_image_advantage.csv\n"}
+,{"stream_name":"stdout","time":7458.118673575,"data":"[PASS] report artefact table_swap_behaviour.csv\n"}
+,{"stream_name":"stdout","time":7458.118677375,"data":"[PASS] report artefact fig_final_accuracy_by_condition.png\n"}
+,{"stream_name":"stdout","time":7458.118680496,"data":"[PASS] report artefact fig_qualitative_grounding_test.png\n"}
+,{"stream_name":"stdout","time":7458.118683983,"data":"[PASS] report artefact fig_qualitative_vqa_test.png\n"}
+,{"stream_name":"stdout","time":7458.11868753,"data":"[PASS] report artefact qualitative_pairs.md\n"}
+,{"stream_name":"stdout","time":7458.118690827,"data":"[PASS] report artefact table_resources.csv\n"}
+,{"stream_name":"stdout","time":7458.118694107,"data":"[PASS] report artefact table_mixture_counts.csv\n"}
+,{"stream_name":"stdout","time":7458.118697306,"data":"\n"}
+,{"stream_name":"stdout","time":7458.11870062,"data":"69 passed, 2 warnings, 0 failed\n"}
+,{"stream_name":"stdout","time":7458.805960294,"data":"done at 2.07 h\n"}
+,{"stream_name":"stderr","time":7460.838669406,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":7460.838700711,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":7461.038135475,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":7461.038215074,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":7461.804050732,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":7462.714050315,"data":"[NbConvertApp] Writing 286012 bytes to __results__.html\n"}
+]

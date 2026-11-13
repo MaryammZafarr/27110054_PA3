@@ -1,0 +1,9 @@
+policy,accuracy_pct,mean_token_cost,mean_rollouts,minus_fixed32_pp
+fixed N=1 self-consistency,64.35,669.772625,1,
+fixed N=2 self-consistency,64.35,1339.8654999999999,2,
+fixed N=4 self-consistency,69.2,2679.694125,4,
+fixed N=8 self-consistency,71.7875,5344.108499999999,8,
+fixed N=16 self-consistency,73.1125,10677.74275,16,
+fixed N=32 self-consistency,73.7875,21347.0175,32,
+"adaptive agreement (tau=0.625, gamma=None)",73.6375,10139.980999999998,11.824000000000002,"-0.1 [-0.5, +0.2]"
+"adaptive quality (tau=0.5, gamma=0.0)",73.17500000000001,7663.055375,9.0075,"-0.6 [-1.2, -0.1]"

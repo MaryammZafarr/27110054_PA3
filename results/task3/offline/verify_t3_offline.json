@@ -1,0 +1,242 @@
+[
+ {
+  "check": "math: 32,000 rows, 1,000 questions x 32 rollouts, files joined on (dataset, sample_id, rollout_id)",
+  "status": "PASS",
+  "detail": "32000"
+ },
+ {
+  "check": "math: every per-token list aligned with generated_token_ids",
+  "status": "PASS",
+  "detail": "[32000, 32000, 32000]"
+ },
+ {
+  "check": "math: totals match README (tokens 20,742,094, capped 523, null 521)",
+  "status": "PASS",
+  "detail": "(20742094, 523, 521)"
+ },
+ {
+  "check": "mathvista: 32,000 rows, 1,000 questions x 32 rollouts, files joined on (dataset, sample_id, rollout_id)",
+  "status": "PASS",
+  "detail": "32000"
+ },
+ {
+  "check": "mathvista: every per-token list aligned with generated_token_ids",
+  "status": "PASS",
+  "detail": "[32000, 32000, 32000, 32000]"
+ },
+ {
+  "check": "mathvista: attention n_generated_text_tokens lists are 0..N-1; first generated-text attention is 0",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "mathvista: totals match README (tokens 8,961,703, capped 487, null 3032)",
+  "status": "PASS",
+  "detail": "(8961703, 487, 3032)"
+ },
+ {
+  "check": "scorer fixed and versioned before evaluation",
+  "status": "PASS",
+  "detail": "0.9.0"
+ },
+ {
+  "check": "math: 200 dev / 800 eval, disjoint, from sorted IDs permuted with default_rng(6304)",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "math: 10 saved reveal orders per question",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "mathvista: 200 dev / 800 eval, disjoint, from sorted IDs permuted with default_rng(6304)",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "mathvista: 10 saved reveal orders per question",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "live subset = first 50 MATH evaluation questions",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "math: all required methods at N in {1,2,4,8,16,32} x 10 orders x 1,000 questions",
+  "status": "PASS",
+  "detail": "360000"
+ },
+ {
+  "check": "math: at N=1 every rule returns the only candidate",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "math: oracle coverage non-decreasing over nested prefixes",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "math: FirstAns charged only its first candidate; others charged all N",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "math: adaptive settings chosen on dev within 1 pp of fixed-32 SC and frozen before held-out evaluation",
+  "status": "PASS",
+  "detail": "{'agreement': {'tau': 0.625, 'gamma': None, 'dev': {'acc': 0.8260000000000001, 'cost': 7088.955499999999, 'rollouts': 9.15}}, 'quality': {'tau': 0.5, 'gamma': 0.0, 'dev': {'acc': 0.8215, 'cost': 5479.528499999999, 'rollouts': 7.152}}}"
+ },
+ {
+  "check": "math: adaptive held-out results for 800 questions x 10 orders x 2 controllers",
+  "status": "PASS",
+  "detail": "16000"
+ },
+ {
+  "check": "math: stopping only at 4, 8, 16 or 32",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "mathvista: all required methods at N in {1,2,4,8,16,32} x 10 orders x 1,000 questions",
+  "status": "PASS",
+  "detail": "720000"
+ },
+ {
+  "check": "mathvista: at N=1 every rule returns the only candidate",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "mathvista: oracle coverage non-decreasing over nested prefixes",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "mathvista: FirstAns charged only its first candidate; others charged all N",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "mathvista: adaptive settings chosen on dev within 1 pp of fixed-32 SC and frozen before held-out evaluation",
+  "status": "PASS",
+  "detail": "{'agreement': {'tau': 0.5, 'gamma': None, 'dev': {'acc': 0.636, 'cost': 3705.4309999999996, 'rollouts': 9.36}}, 'quality': {'tau': 0.5, 'gamma': 0.0, 'dev': {'acc': 0.6395000000000001, 'cost': 4120.647, 'rollouts': 10.686}}}"
+ },
+ {
+  "check": "mathvista: adaptive held-out results for 800 questions x 10 orders x 2 controllers",
+  "status": "PASS",
+  "detail": "16000"
+ },
+ {
+  "check": "mathvista: stopping only at 4, 8, 16 or 32",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "tokenwise fusion identity Z_token - Z = Cov(c, v) holds numerically",
+  "status": "PASS",
+  "detail": "1.8686544672741334e-09"
+ },
+ {
+  "check": "report artefact fig_math_accuracy_vs_budget.png",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "report artefact math_accuracy_by_budget.csv",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "report artefact math_method_comparison.csv",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "report artefact math_failure_decomposition.csv",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "report artefact math_signal_associations.csv",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "report artefact math_adaptive_vs_fixed.csv",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "report artefact math_adaptive_stopping.csv",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "report artefact fig_math_adaptive_cost.png",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "report artefact math_qualitative.md",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "report artefact fig_mathvista_accuracy_vs_budget.png",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "report artefact mathvista_accuracy_by_budget.csv",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "report artefact mathvista_method_comparison.csv",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "report artefact mathvista_failure_decomposition.csv",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "report artefact mathvista_signal_associations.csv",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "report artefact mathvista_adaptive_vs_fixed.csv",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "report artefact mathvista_adaptive_stopping.csv",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "report artefact fig_mathvista_adaptive_cost.png",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "report artefact mathvista_qualitative.md",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "report artefact mathvista_confidence_vision.csv",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "report artefact fig_mathvista_trajectories.png",
+  "status": "PASS",
+  "detail": ""
+ }
+]

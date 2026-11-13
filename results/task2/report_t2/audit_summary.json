@@ -1,0 +1,23 @@
+{
+ "n_checked_labels": 240,
+ "n_bad_labels": 25,
+ "n_pairs_with_bad_label": 22,
+ "by_suite_kind": {
+  "grounding_dev/presence": {
+   "checked": 24,
+   "bad": 1
+  },
+  "grounding_dev/counting": {
+   "checked": 24,
+   "bad": 4
+  },
+  "grounding_test/presence": {
+   "checked": 96,
+   "bad": 3
+  },
+  "grounding_test/counting": {
+   "checked": 96,
+   "bad": 17
+  }
+ }
+}

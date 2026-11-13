@@ -1,0 +1,10 @@
+| policy | accuracy_pct | mean_token_cost | mean_rollouts | minus_fixed32_pp |
+|---|---|---|---|---|
+| fixed N=1 self-consistency | 53.600 | 277.796 | 1 |  |
+| fixed N=2 self-consistency | 53.600 | 551.250 | 2 |  |
+| fixed N=4 self-consistency | 57.987 | 1111.592 | 4 |  |
+| fixed N=8 self-consistency | 60.513 | 2229.902 | 8 |  |
+| fixed N=16 self-consistency | 61.850 | 4461.842 | 16 |  |
+| fixed N=32 self-consistency | 63.125 | 8897.757 | 32 |  |
+| adaptive agreement (tau=0.5, gamma=None) | 62.075 | 3060.484 | 9.011 | -1.0 [-2.1, +0.1] |
+| adaptive quality (tau=0.5, gamma=0.0) | 62.550 | 3427.687 | 10.216 | -0.6 [-1.4, +0.4] |

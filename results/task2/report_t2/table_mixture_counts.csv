@@ -1,0 +1,4 @@
+stage,caption,presence,counting,vqa,total,caption_frac,presence_frac,counting_frac,vqa_frac
+caption_alignment,36000,0,0,0,36000,1.0,0.0,0.0,0.0
+visual_instruction,5690,12126,6184,0,24000,0.23708333333333334,0.50525,0.25766666666666665,0.0
+natural_vqa,1230,1242,1236,8292,12000,0.1025,0.1035,0.103,0.691

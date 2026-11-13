@@ -1,0 +1,23 @@
+| suite | comparison | accuracy_advantage_pp | pair_accuracy_advantage_pp | nll_advantage |
+|---|---|---|---|---|
+| grounding_test | correct vs swap | 63.3 [51.3, 74.7] | 59.5 [46.8, 70.9] | 2.873 [2.500, 3.261] |
+| grounding_test |   counting: correct vs swap | 29.4 [10.3, 48.5] |  | 1.845 [1.249, 2.463] |
+| grounding_test |   presence: correct vs swap | 88.9 [80.0, 97.8] |  | 3.650 [3.259, 4.030] |
+| grounding_test | correct vs mismatched | 41.1 [33.5, 48.7] | 62.0 [50.6, 72.2] | 1.596 [1.369, 1.838] |
+| grounding_test |   counting: correct vs mismatched | 30.9 [16.2, 45.6] |  | 1.555 [1.114, 2.017] |
+| grounding_test |   presence: correct vs mismatched | 48.9 [43.3, 54.4] |  | 1.627 [1.396, 1.853] |
+| grounding_test | correct vs none | 34.8 [27.8, 41.8] | 62.0 [50.6, 72.2] | 0.702 [0.557, 0.852] |
+| grounding_test |   counting: correct vs none | 22.1 [7.4, 36.8] |  | 0.756 [0.464, 1.058] |
+| grounding_test |   presence: correct vs none | 44.4 [40.0, 48.9] |  | 0.661 [0.514, 0.778] |
+| vqa_test | correct vs swap | 37.7 [28.7, 47.2] | 36.5 [27.1, 45.8] | 1.636 [1.257, 2.036] |
+| vqa_test |   number: correct vs swap | 29.4 [14.4, 46.0] |  | 1.675 [1.177, 2.230] |
+| vqa_test |   other: correct vs swap | 49.6 [34.3, 65.8] |  | 2.654 [1.895, 3.541] |
+| vqa_test |   yes/no: correct vs swap | 31.2 [17.4, 46.3] |  | 0.591 [0.352, 0.862] |
+| vqa_test | correct vs mismatched | 32.0 [24.1, 39.8] | 32.3 [21.9, 42.7] | 1.605 [1.163, 2.125] |
+| vqa_test |   number: correct vs mismatched | 36.7 [22.3, 51.9] |  | 2.301 [1.490, 3.162] |
+| vqa_test |   other: correct vs mismatched | 45.8 [31.9, 61.1] |  | 2.326 [1.404, 3.466] |
+| vqa_test |   yes/no: correct vs mismatched | 15.0 [6.7, 23.9] |  | 0.420 [0.200, 0.673] |
+| vqa_test | correct vs none | 32.8 [25.7, 39.9] | 36.5 [27.1, 45.8] | 1.238 [0.904, 1.604] |
+| vqa_test |   number: correct vs none | 24.4 [11.9, 37.5] |  | 0.917 [0.596, 1.238] |
+| vqa_test |   other: correct vs none | 50.0 [37.5, 62.5] |  | 2.236 [1.524, 3.033] |
+| vqa_test |   yes/no: correct vs none | 21.1 [12.9, 29.4] |  | 0.455 [0.311, 0.597] |

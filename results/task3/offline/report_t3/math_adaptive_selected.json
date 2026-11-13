@@ -1,0 +1,30 @@
+{
+ "selection_rule": "lowest mean dev token cost with dev accuracy >= fixed-32 SC accuracy - 1 pp; ties: higher accuracy, then smaller tau, then smaller gamma; always-32 fallback included",
+ "fixed32_dev": {
+  "acc": 0.825,
+  "cost": 18322.4,
+  "rollouts": 32.0
+ },
+ "chosen": {
+  "agreement": {
+   "tau": 0.625,
+   "gamma": null,
+   "dev": {
+    "acc": 0.8260000000000001,
+    "cost": 7088.955499999999,
+    "rollouts": 9.15
+   }
+  },
+  "quality": {
+   "tau": 0.5,
+   "gamma": 0.0,
+   "dev": {
+    "acc": 0.8215,
+    "cost": 5479.528499999999,
+    "rollouts": 7.152
+   }
+  }
+ },
+ "frozen_at": "2026-10-30 18:19:11",
+ "quality_score": "self-certainty"
+}

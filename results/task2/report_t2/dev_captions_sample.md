@@ -1,0 +1,38 @@
+# Generated captions on development images (first 12 in saved order)
+
+- `val2014:560623`
+  - reference: Planes on a wet tarmac unloading at arrival gates.
+  - generated: A plane is sitting on the runway at the airport.
+- `val2014:458790`
+  - reference: A view from the inside of a train from a side window.
+  - generated: A white car parked in front of a window.
+- `val2014:30067`
+  - reference: A man is playing tennis with a racquet and ball.
+  - generated: A man is holding a tennis racket and a ball.
+- `val2014:573214`
+  - reference: A biker riding down a street on a motorcycle.
+  - generated: A man riding a motorcycle on a street.
+- `val2014:461753`
+  - reference: a group of young children holding up toothbrushes
+  - generated: A group of children playing with their toys and phones.
+- `val2014:25708`
+  - reference: A bowl of pasta, broccoli, onion, and carrots.
+  - generated: A bowl of food with broccoli, carrots, and noodles.
+- `val2014:576017`
+  - reference: There are two different street signs together in a different language
+  - generated: A street sign with a yellow color and a white background.
+- `val2014:258061`
+  - reference: A man is surfing and crouches under a wave.
+  - generated: A young man surfing on a wave.
+- `val2014:102056`
+  - reference: some people in line waiting to board a bus
+  - generated: A bus is parked in the snow with people in it.
+- `val2014:555772`
+  - reference: A stop sign specifying about no zamboni crossing.
+  - generated: A stop sign with a red stripe on it.
+- `val2014:321579`
+  - reference: Two pizzas siting on top of a table next to each other.
+  - generated: A pizza and wine on a table.
+- `val2014:484986`
+  - reference: The view from the airplane shows a mountain range.
+  - generated: A mountainous area with a large plane in the sky.

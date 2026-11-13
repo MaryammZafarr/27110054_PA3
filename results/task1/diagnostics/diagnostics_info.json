@@ -1,0 +1,19 @@
+{
+  "basis_source": "oplora_training_bases",
+  "layers": [
+    0,
+    13,
+    27
+  ],
+  "k": 128,
+  "n_math": 32,
+  "n_nonmath": 32,
+  "conditions": [
+    "full_ft",
+    "full_ft_mid",
+    "l2sp",
+    "lora16",
+    "lora4",
+    "oplora16"
+  ]
+}

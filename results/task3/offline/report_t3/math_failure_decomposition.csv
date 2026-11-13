@@ -1,0 +1,25 @@
+method,N,correct_pct,no_correct_candidate_pct,correct_available_but_missed_pct
+FirstAns,1,64.35,35.65,0.0
+FirstAns,2,64.35,27.5125,8.137500000000001
+FirstAns,4,64.35,20.925,14.725
+FirstAns,8,64.35,15.65,20.0
+FirstAns,16,64.35,11.55,24.1
+FirstAns,32,64.35,8.625,27.025
+Self-consistency,1,64.35,35.65,0.0
+Self-consistency,2,64.35,27.5125,8.137500000000001
+Self-consistency,4,69.2,20.925,9.875
+Self-consistency,8,71.7875,15.65,12.562499999999998
+Self-consistency,16,73.1125,11.55,15.3375
+Self-consistency,32,73.7875,8.625,17.5875
+Self-certainty + RWC,1,64.35,35.65,0.0
+Self-certainty + RWC,2,66.7625,27.5125,5.7250000000000005
+Self-certainty + RWC,4,69.7,20.925,9.375
+Self-certainty + RWC,8,72.8625,15.65,11.4875
+Self-certainty + RWC,16,74.65,11.55,13.8
+Self-certainty + RWC,32,75.55,8.625,15.825
+Max self-certainty,1,64.35,35.65,0.0
+Max self-certainty,2,66.7625,27.5125,5.7250000000000005
+Max self-certainty,4,68.775,20.925,10.3
+Max self-certainty,8,70.1375,15.65,14.2125
+Max self-certainty,16,70.7,11.55,17.75
+Max self-certainty,32,70.625,8.625,20.75

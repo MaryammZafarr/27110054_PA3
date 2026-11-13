@@ -1,0 +1,125 @@
+{
+ "run": "main",
+ "tokens": 196,
+ "updates": "4500",
+ "example_presentations": "72000",
+ "stages": [
+  {
+   "name": "caption_alignment",
+   "updates": 2250,
+   "lr_conn": 0.001,
+   "lr_lora": null,
+   "mix": {
+    "caption": 1.0
+   }
+  },
+  {
+   "name": "visual_instruction",
+   "updates": 1500,
+   "lr_conn": 0.0001,
+   "lr_lora": 2e-05,
+   "mix": {
+    "presence": 0.5,
+    "counting": 0.25,
+    "caption": 0.25
+   }
+  },
+  {
+   "name": "natural_vqa",
+   "updates": 750,
+   "lr_conn": 5e-05,
+   "lr_lora": 1e-05,
+   "mix": {
+    "vqa": 0.7,
+    "presence": 0.1,
+    "counting": 0.1,
+    "caption": 0.1
+   }
+  }
+ ],
+ "stage_ends": [
+  "2250",
+  "3750",
+  "4500"
+ ],
+ "micro_bs": 8,
+ "grad_accum": 2,
+ "eff_bs": 16,
+ "weight_decay": 0.01,
+ "clip": 1.0,
+ "warmup_frac": 0.05,
+ "min_lr_frac": 0.1,
+ "lora": {
+  "r": 16,
+  "alpha": 32,
+  "dropout": 0.05,
+  "targets": [
+   "q_proj",
+   "k_proj",
+   "v_proj",
+   "o_proj"
+  ]
+ },
+ "caps": {
+  "question": 80,
+  "caption": 64,
+  "answer": 16
+ },
+ "train_time_s_by_stage": {
+  "caption_alignment": 2864.464682817459,
+  "visual_instruction": 2281.0196118354797,
+  "natural_vqa": 1116.657883644104
+ },
+ "train_time_s": 6262.142178297043,
+ "dev_eval_time_s": 97.81955933570862,
+ "peak_gpu_mem_GB_by_stage": {
+  "caption_alignment": 1.5420494079589844,
+  "visual_instruction": 1.5640873908996582,
+  "natural_vqa": 1.5602731704711914
+ },
+ "trainable_by_stage": {
+  "caption_alignment": {
+   "connector": 1837056,
+   "lora": 0,
+   "total": 1837056
+  },
+  "visual_instruction": {
+   "connector": 1837056,
+   "lora": 4587520,
+   "total": 6424576
+  },
+  "natural_vqa": {
+   "connector": 1837056,
+   "lora": 4587520,
+   "total": 6424576
+  }
+ },
+ "skipped_updates": [
+  1,
+  2,
+  3,
+  4,
+  8
+ ],
+ "calibration": {
+  "rule": "scale = mean ||text embedding|| (training text tokens, frequency weighted) / mean ||connector output|| at init (256 training images x 196 tokens)",
+  "text_embedding_norm": 0.8119615316390991,
+  "connector_output_norm_at_init": 15.846739768981934,
+  "scale": 0.05123839625538719,
+  "n_text_token_types": 8027,
+  "n_text_tokens": 1829296,
+  "n_images": 256
+ },
+ "smoke": false,
+ "seed": 6304,
+ "gpu": "Tesla T4",
+ "weights_bytes": {
+  "stage2_lora.safetensors": 18374600,
+  "stage3_connector.pt": 7351100,
+  "final_connector.pt": 7351089,
+  "final_lora.safetensors": 18374600,
+  "stage2_connector.pt": 7351100,
+  "stage3_lora.safetensors": 18374600,
+  "stage1_connector.pt": 7351100
+ }
+}

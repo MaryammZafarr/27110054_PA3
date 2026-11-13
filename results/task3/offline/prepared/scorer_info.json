@@ -1,0 +1,7 @@
+{
+ "scorer": "t3-scorer-1 (math-verify for MATH; MathVista normalize_extracted_answer port, letters for MC)",
+ "math_verify": "0.9.0",
+ "mathvista_rule": "evaluation/calculate_score.py normalize_extracted_answer (lupantech/MathVista), MC mapped to option letters; unparseable non-MC extractions form their own (incorrect) group; missing -> NO_ANSWER",
+ "grouping": "first-representative equivalence in rollout-id order, gold not consulted",
+ "frozen_at": "2026-10-30 18:18:27"
+}

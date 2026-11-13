@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pt
+*.safetensors
+*.pkl
+*.bin
+*.ckpt
+*.zip
+.env
+kaggle.json

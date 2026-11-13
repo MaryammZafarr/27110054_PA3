@@ -1,0 +1,316 @@
+[{"stream_name":"stdout","time":1.388690401,"data":"\n"}
+,{"stream_name":"stdout","time":1.388739892,"data":"=== [0.00 h] pip install -q 'math-verify[antlr4_13_2]' gdown datasets pyarrow\n"}
+,{"stream_name":"stderr","time":9.17155791,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":9.171590564,"data":"omegaconf 2.3.1 requires antlr4-python3-runtime==4.9.*, but you have antlr4-python3-runtime 4.13.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":9.81936405,"data":"\n"}
+,{"stream_name":"stdout","time":9.81939892,"data":"=== [0.00 h] gdown --folder 'https://drive.google.com/drive/folders/1utX-Gfi9vvaoi1mi0pzNpDGL1o1fAh23' -O /tmp/t3data\n"}
+,{"stream_name":"stderr","time":11.239285749,"data":"Retrieving folder contents\n"}
+,{"stream_name":"stderr","time":12.668616005,"data":"Retrieving folder contents completed\n"}
+,{"stream_name":"stderr","time":12.668649961,"data":"Building directory structure\n"}
+,{"stream_name":"stderr","time":12.668655539,"data":"Building directory structure completed\n"}
+,{"stream_name":"stderr","time":14.573894408,"data":"Downloading...\n"}
+,{"stream_name":"stderr","time":14.573922094,"data":"From: https://drive.google.com/uc?id=1SaWxZ4mpycw2BWZ5G0dahoYZ6Hh8tPWP\n"}
+,{"stream_name":"stderr","time":14.573928072,"data":"To: /tmp/t3data/qwen25-math/generations.parquet\n"}
+,{"stream_name":"stdout","time":14.613884617,"data":"Retrieving folder 1Nqtmbk1eriY3B-qAlv7dgPvmc2Uo8ffI qwen25-math\n"}
+,{"stream_name":"stdout","time":14.613919922000001,"data":"Processing file 1SaWxZ4mpycw2BWZ5G0dahoYZ6Hh8tPWP generations.parquet\n"}
+,{"stream_name":"stdout","time":14.613925533,"data":"Processing file 1RCYHrTnUKtF7gHLSTe92x6W9ZsCOekfQ probability_metrics.parquet\n"}
+,{"stream_name":"stdout","time":14.613930014,"data":"Retrieving folder 1hr1BDTBT2PUqkhy8WRsCFOqNJHMMUYZn qwen25vl-mathvista\n"}
+,{"stream_name":"stdout","time":14.613934354,"data":"Processing file 1Nzg2VwE2qFzA10BF1lTxEcBZCePBe51q attention_metrics.parquet\n"}
+,{"stream_name":"stdout","time":14.613938711,"data":"Processing file 1sedMpWLI_UgPvAQVj7tS3HYVH0ARS1yA generations.parquet\n"}
+,{"stream_name":"stdout","time":14.613943034,"data":"Processing file 1f2XAu_J5NviYHEhtkRrFbKc7b2us1WiW probability_metrics.parquet\n"}
+,{"stream_name":"stdout","time":14.613947434,"data":"Processing file 1ZuUjXRtePOMKJYhj0BnZ4NuThXpwMLbK .DS_Store\n"}
+,{"stream_name":"stdout","time":14.613952063,"data":"Processing file 1RARGiUK_jZpOii-b8kyGLoejaldMUAa3 README.MD\n"}
+,{"stream_name":"stderr","time":15.439686707,"data":"\r  0%|          | 0.00/26.9M [00:00\u003c?, ?B/s]\r 18%|█▊        | 4.72M/26.9M [00:00\u003c00:00, 26.6MB/s]\r 29%|██▉       | 7.86M/26.9M [00:00\u003c00:00, 24.9MB/s]\r 41%|████      | 11.0M/26.9M [00:00\u003c00:00, 27.0MB/s]\r 56%|█████▋    | 15.2M/26.9M [00:00\u003c00:00, 29.9MB/s]\r 72%|███████▏  | 19.4M/26.9M [00:00\u003c00:00, 28.2MB/s]\r 95%|█████████▌| 25.7M/26.9M [00:00\u003c00:00, 35.3MB/s]\r100%|██████████| 26.9M/26.9M [00:00\u003c00:00, 32.6MB/s]\n"}
+,{"stream_name":"stderr","time":17.432809307,"data":"Downloading...\n"}
+,{"stream_name":"stderr","time":17.432878081,"data":"From (original): https://drive.google.com/uc?id=1RCYHrTnUKtF7gHLSTe92x6W9ZsCOekfQ\n"}
+,{"stream_name":"stderr","time":17.432885099,"data":"From (redirected): https://drive.google.com/uc?id=1RCYHrTnUKtF7gHLSTe92x6W9ZsCOekfQ\u0026confirm=t\u0026uuid=d167f97d-de10-4532-b055-be1356e7f790\n"}
+,{"stream_name":"stderr","time":17.432891081,"data":"To: /tmp/t3data/qwen25-math/probability_metrics.parquet\n"}
+,{"stream_name":"stderr","time":19.336676334,"data":"\r  0%|          | 0.00/155M [00:00\u003c?, ?B/s]\r  3%|▎         | 4.72M/155M [00:00\u003c00:07, 19.3MB/s]\r  6%|▋         | 9.96M/155M [00:00\u003c00:04, 31.3MB/s]\r 18%|█▊        | 27.8M/155M [00:00\u003c00:01, 69.1MB/s]\r 23%|██▎       | 35.7M/155M [00:00\u003c00:01, 64.1MB/s]\r 32%|███▏      | 50.3M/155M [00:00\u003c00:01, 86.5MB/s]\r 39%|███▉      | 60.3M/155M [00:00\u003c00:01, 70.6MB/s]\r 48%|████▊     | 73.9M/155M [00:01\u003c00:00, 83.7MB/s]\r 54%|█████▎    | 83.4M/155M [00:01\u003c00:00, 78.8MB/s]\r 63%|██████▎   | 97.5M/155M [00:01\u003c00:00, 93.9MB/s]\r 70%|██████▉   | 108M/155M [00:01\u003c00:00, 79.6MB/s] \r 81%|████████  | 126M/155M [00:01\u003c00:00, 102MB/s] \r 89%|████████▉ | 138M/155M [00:01\u003c00:00, 83.9MB/s]\r 98%|█████████▊| 152M/155M [00:01\u003c00:00, 94.9MB/s]\r100%|██████████| 155M/155M [00:01\u003c00:00, 81.6MB/s]\n"}
+,{"stream_name":"stderr","time":21.24835054,"data":"Downloading...\n"}
+,{"stream_name":"stderr","time":21.248377921,"data":"From (original): https://drive.google.com/uc?id=1Nzg2VwE2qFzA10BF1lTxEcBZCePBe51q\n"}
+,{"stream_name":"stderr","time":21.248383612,"data":"From (redirected): https://drive.google.com/uc?id=1Nzg2VwE2qFzA10BF1lTxEcBZCePBe51q\u0026confirm=t\u0026uuid=a255f850-c92a-4c07-a5e8-ef1f5d77d8d7\n"}
+,{"stream_name":"stderr","time":21.248389258,"data":"To: /tmp/t3data/qwen25vl-mathvista/attention_metrics.parquet\n"}
+,{"stream_name":"stderr","time":23.356392877,"data":"\r  0%|          | 0.00/138M [00:00\u003c?, ?B/s]\r  3%|▎         | 4.72M/138M [00:00\u003c00:10, 13.0MB/s]\r 11%|█         | 15.2M/138M [00:00\u003c00:03, 38.9MB/s]\r 22%|██▏       | 29.9M/138M [00:00\u003c00:02, 50.8MB/s]\r 28%|██▊       | 38.3M/138M [00:00\u003c00:01, 54.4MB/s]\r 37%|███▋      | 50.9M/138M [00:00\u003c00:01, 70.4MB/s]\r 43%|████▎     | 59.8M/138M [00:01\u003c00:01, 67.9MB/s]\r 49%|████▉     | 67.6M/138M [00:01\u003c00:01, 63.8MB/s]\r 58%|█████▊    | 80.2M/138M [00:01\u003c00:00, 78.0MB/s]\r 64%|██████▍   | 89.1M/138M [00:01\u003c00:00, 67.0MB/s]\r 72%|███████▏  | 100M/138M [00:01\u003c00:00, 76.4MB/s] \r 79%|███████▊  | 109M/138M [00:01\u003c00:00, 73.9MB/s]\r 85%|████████▍ | 117M/138M [00:01\u003c00:00, 71.9MB/s]\r 92%|█████████▏| 127M/138M [00:01\u003c00:00, 77.1MB/s]\r 98%|█████████▊| 135M/138M [00:02\u003c00:00, 75.4MB/s]\r100%|██████████| 138M/138M [00:02\u003c00:00, 65.7MB/s]\n"}
+,{"stream_name":"stderr","time":24.870635602,"data":"Downloading...\n"}
+,{"stream_name":"stderr","time":24.870664955,"data":"From: https://drive.google.com/uc?id=1sedMpWLI_UgPvAQVj7tS3HYVH0ARS1yA\n"}
+,{"stream_name":"stderr","time":24.870676541999998,"data":"To: /tmp/t3data/qwen25vl-mathvista/generations.parquet\n"}
+,{"stream_name":"stderr","time":25.638739963,"data":"\r  0%|          | 0.00/17.1M [00:00\u003c?, ?B/s]\r 15%|█▌        | 2.62M/17.1M [00:00\u003c00:02, 7.23MB/s]\r 40%|███▉      | 6.82M/17.1M [00:00\u003c00:01, 9.67MB/s]\r100%|██████████| 17.1M/17.1M [00:00\u003c00:00, 22.3MB/s]\n"}
+,{"stream_name":"stderr","time":30.289847262,"data":"Downloading...\n"}
+,{"stream_name":"stderr","time":30.289879514,"data":"From: https://drive.google.com/uc?id=1f2XAu_J5NviYHEhtkRrFbKc7b2us1WiW\n"}
+,{"stream_name":"stderr","time":30.289885707,"data":"To: /tmp/t3data/qwen25vl-mathvista/probability_metrics.parquet\n"}
+,{"stream_name":"stderr","time":32.809648845,"data":"\r  0%|          | 0.00/81.1M [00:00\u003c?, ?B/s]\r  6%|▌         | 4.72M/81.1M [00:00\u003c00:05, 12.9MB/s]\r  8%|▊         | 6.82M/81.1M [00:00\u003c00:07, 9.83MB/s]\r 24%|██▍       | 19.4M/81.1M [00:00\u003c00:01, 32.0MB/s]\r 30%|███       | 24.6M/81.1M [00:01\u003c00:02, 23.4MB/s]\r 45%|████▍     | 36.2M/81.1M [00:01\u003c00:01, 28.0MB/s]\r 50%|████▉     | 40.4M/81.1M [00:01\u003c00:01, 29.7MB/s]\r 65%|██████▌   | 53.0M/81.1M [00:01\u003c00:00, 34.7MB/s]\r 70%|███████   | 57.1M/81.1M [00:02\u003c00:00, 33.7MB/s]\r 75%|███████▍  | 60.8M/81.1M [00:02\u003c00:00, 27.4MB/s]\r 89%|████████▊ | 71.8M/81.1M [00:02\u003c00:00, 38.7MB/s]\r 96%|█████████▋| 78.1M/81.1M [00:02\u003c00:00, 42.9MB/s]\r100%|██████████| 81.1M/81.1M [00:02\u003c00:00, 32.2MB/s]\n"}
+,{"stream_name":"stderr","time":34.348642953,"data":"Downloading...\n"}
+,{"stream_name":"stderr","time":34.348678314,"data":"From: https://drive.google.com/uc?id=1ZuUjXRtePOMKJYhj0BnZ4NuThXpwMLbK\n"}
+,{"stream_name":"stderr","time":34.348683705,"data":"To: /tmp/t3data/.DS_Store\n"}
+,{"stream_name":"stderr","time":34.349393899,"data":"\r  0%|          | 0.00/6.15k [00:00\u003c?, ?B/s]\r100%|██████████| 6.15k/6.15k [00:00\u003c00:00, 16.1MB/s]\n"}
+,{"stream_name":"stderr","time":35.873815802,"data":"Downloading...\n"}
+,{"stream_name":"stderr","time":35.873857509,"data":"From: https://drive.google.com/uc?id=1RARGiUK_jZpOii-b8kyGLoejaldMUAa3\n"}
+,{"stream_name":"stderr","time":35.873864851,"data":"To: /tmp/t3data/README.MD\n"}
+,{"stream_name":"stderr","time":35.87466371,"data":"\r  0%|          | 0.00/4.41k [00:00\u003c?, ?B/s]\r100%|██████████| 4.41k/4.41k [00:00\u003c00:00, 13.0MB/s]\n"}
+,{"stream_name":"stderr","time":35.876974645,"data":"Download completed\n"}
+,{"stream_name":"stdout","time":35.961011201,"data":"data root: /tmp/t3data\n"}
+,{"stream_name":"stdout","time":35.961042109,"data":"\n"}
+,{"stream_name":"stdout","time":35.961048481,"data":"=== [0.01 h] python selftest.py\n"}
+,{"stream_name":"stdout","time":40.747402284,"data":"PASS last_boxed: nested braces, last box, strip\n"}
+,{"stream_name":"stdout","time":40.747442389,"data":"PASS last_boxed: absent / empty / unclosed -\u003e None\n"}
+,{"stream_name":"stdout","time":40.747448226,"data":"PASS math-verify equivalence: 1/2 == 0.5 == \\frac{1}{2}\n"}
+,{"stream_name":"stdout","time":40.747452394,"data":"PASS math-verify grading uses gold; NO_ANSWER always wrong\n"}
+,{"stream_name":"stdout","time":40.747456416,"data":"PASS groups: equivalents merged, all missing -\u003e one NO_ANSWER group  ([0, 1, 0, 2, 1, 0])\n"}
+,{"stream_name":"stdout","time":40.747460565,"data":"PASS MathVista MC: letter, '(B) text', free text -\u003e option letters\n"}
+,{"stream_name":"stdout","time":40.747464328,"data":"PASS MathVista integer/float precision rules\n"}
+,{"stream_name":"stdout","time":40.747467978,"data":"PASS average descending ranks with ties\n"}
+,{"stream_name":"stdout","time":40.747471601,"data":"PASS RWC weights (N - r)/(N - 1)\n"}
+,{"stream_name":"stdout","time":40.747475196,"data":"PASS vote tie -\u003e earliest supporting rollout\n"}
+,{"stream_name":"stdout","time":40.747478972,"data":"PASS highest score tie -\u003e earliest\n"}
+,{"stream_name":"stdout","time":40.747482896,"data":"PASS RWC margin\n"}
+,{"stream_name":"stdout","time":40.747486556,"data":"PASS fast calibrated-confidence mean == brute force  ((0.47177479656780313, np.float64(0.4717747965678037)))\n"}
+,{"stream_name":"stdout","time":40.747490596,"data":"PASS tokenwise fusion identity Z_tok - V*C == Cov(c, v)\n"}
+,{"stream_name":"stdout","time":40.747494352,"data":"PASS calibration pools only the given candidates (linear percentiles)\n"}
+,{"stream_name":"stdout","time":40.747498086,"data":"PASS splits: lexicographic sort then default_rng(6304) permutation; 200/800; order-invariant\n"}
+,{"stream_name":"stdout","time":40.747516836,"data":"PASS 10 orders per question, each a permutation of 0..31\n"}
+,{"stream_name":"stdout","time":40.747520238,"data":"PASS paired bootstrap point estimate and CI\n"}
+,{"stream_name":"stdout","time":40.747523281,"data":"\n"}
+,{"stream_name":"stdout","time":40.747526289,"data":"18/18 checks passed\n"}
+,{"stream_name":"stdout","time":40.940102561,"data":"\n"}
+,{"stream_name":"stdout","time":40.940145102,"data":"=== [0.01 h] python prepare.py --data /tmp/t3data --out /kaggle/working/task3_out\n"}
+,{"stream_name":"stderr","time":48.340052306,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":59.104720104,"data":"\rGenerating testmini split:   0%|          | 0/1000 [00:00\u003c?, ? examples/s]\rGenerating testmini split:  10%|█         | 100/1000 [00:01\u003c00:17, 52.73 examples/s]\rGenerating testmini split:  60%|██████    | 600/1000 [00:02\u003c00:01, 389.45 examples/s]\rGenerating testmini split: 100%|██████████| 1000/1000 [00:02\u003c00:00, 687.74 examples/s]\rGenerating testmini split: 100%|██████████| 1000/1000 [00:02\u003c00:00, 460.75 examples/s]\n"}
+,{"stream_name":"stderr","time":60.509334386,"data":"\rGenerating test split:   0%|          | 0/5141 [00:00\u003c?, ? examples/s]\rGenerating test split:  10%|▉         | 500/5141 [00:00\u003c00:01, 3569.38 examples/s]\rGenerating test split:  21%|██▏       | 1100/5141 [00:00\u003c00:01, 3821.90 examples/s]\rGenerating test split:  35%|███▌      | 1800/5141 [00:00\u003c00:00, 4505.35 examples/s]\rGenerating test split:  45%|████▍     | 2300/5141 [00:00\u003c00:00, 4005.14 examples/s]\rGenerating test split:  56%|█████▌    | 2871/5141 [00:00\u003c00:00, 2912.24 examples/s]\rGenerating test split:  68%|██████▊   | 3471/5141 [00:00\u003c00:00, 3308.84 examples/s]\rGenerating test split:  77%|███████▋  | 3971/5141 [00:01\u003c00:00, 3384.07 examples/s]\rGenerating test split:  87%|████████▋ | 4471/5141 [00:01\u003c00:00, 3526.28 examples/s]\rGenerating test split:  97%|█████████▋| 4971/5141 [00:01\u003c00:00, 3725.52 examples/s]\rGenerating test split: 100%|██████████| 5141/5141 [00:01\u003c00:00, 3662.01 examples/s]\n"}
+,{"stream_name":"stderr","time":410.151594357,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":415.218413828,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":420.285978019,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":425.366148267,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":430.444610861,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":435.520247846,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":440.593476585,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":445.670234854,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":450.89577985,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":455.971577447,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":461.107812657,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":466.183093743,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":471.327481591,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":476.344922133,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":481.367589281,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":486.382447713,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":491.399508203,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":496.422972635,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":501.440395855,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":506.458094152,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":511.474836501,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":516.491637858,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":521.509273152,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":526.526284645,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":531.543531884,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":536.559964604,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":541.787929874,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":546.862789902,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":552.037167736,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":557.054947922,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":562.102746705,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":567.185756322,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":572.296240778,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":577.312973184,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":582.495155609,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":587.565155881,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":592.721524682,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":597.739599183,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":602.849918494,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":607.922396852,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":613.03581885,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":618.053370589,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":623.1329728,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":628.139753297,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":633.146311478,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":638.152662892,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":643.159591789,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":648.16629815,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":653.173235063,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":658.179633561,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":663.186692998,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":668.234738538,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":673.282756799,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":678.289578448,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":683.295852306,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":688.302873618,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":693.339416846,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":698.356438825,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":703.356793215,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":708.363509707,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":713.370870006,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":718.377242887,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":723.383978044,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":728.390261583,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":733.397339155,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":738.404529943,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":743.479579185,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":748.552637484,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":753.719647696,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":758.808299417,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":763.946257815,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":768.961227591,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":774.081426563,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":779.087939351,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":784.157649134,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":789.270005946,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":794.340533828,"data":"Timeout during comparison\n"}
+,{"stream_name":"stdout","time":833.806694481,"data":"math {'rows': 32000, 'questions': 1000, 'ids_len_eq_n': 32000, 'logp_len_eq_n': 32000, 'kl_len_eq_n': 32000, 'keys_joined': True, 'rollouts_per_question_32': True, 'total_tokens': 20742094, 'capped': 523, 'null_extractions': 521, 'readme': {'tokens': 20742094, 'capped': 523, 'null': 521}} {'model': 'qwen2_5_3b_instruct', 'questions': 1000, 'mean_groups': 5.653, 'rollout_accuracy': 0.66315625, 'oracle_at_32': 0.919, 'no_answer_rate': 0.01628125}\n"}
+,{"stream_name":"stdout","time":838.182909993,"data":"mathvista {'rows': 32000, 'questions': 1000, 'ids_len_eq_n': 32000, 'logp_len_eq_n': 32000, 'kl_len_eq_n': 32000, 'keys_joined': True, 'rollouts_per_question_32': True, 'total_tokens': 8961703, 'capped': 487, 'null_extractions': 3032, 'readme': {'tokens': 8961703, 'capped': 487, 'null': 3032}, 'att_len_eq_n': 32000, 'att_counts_are_0_to_N_minus_1': True, 'first_token_generated_attention_zero': True} {'model': 'qwen2_5_vl_3b', 'questions': 1000, 'mean_groups': 4.996, 'rollout_accuracy': 0.5364375, 'oracle_at_32': 0.894, 'no_answer_rate': 0.09475}\n"}
+,{"stream_name":"stdout","time":839.57977747,"data":"\n"}
+,{"stream_name":"stdout","time":839.579869792,"data":"=== [0.23 h] python offline.py --out /kaggle/working/task3_out\n"}
+,{"stream_name":"stdout","time":840.248733437,"data":"math: 0/1000 questions, 0s\n"}
+,{"stream_name":"stdout","time":841.113795746,"data":"math: 100/1000 questions, 1s\n"}
+,{"stream_name":"stdout","time":841.99922309,"data":"math: 200/1000 questions, 2s\n"}
+,{"stream_name":"stdout","time":842.845644815,"data":"math: 300/1000 questions, 3s\n"}
+,{"stream_name":"stdout","time":843.722090376,"data":"math: 400/1000 questions, 3s\n"}
+,{"stream_name":"stdout","time":844.574460378,"data":"math: 500/1000 questions, 4s\n"}
+,{"stream_name":"stdout","time":845.438806871,"data":"math: 600/1000 questions, 5s\n"}
+,{"stream_name":"stdout","time":846.285014721,"data":"math: 700/1000 questions, 6s\n"}
+,{"stream_name":"stdout","time":847.136858498,"data":"math: 800/1000 questions, 7s\n"}
+,{"stream_name":"stdout","time":847.976055036,"data":"math: 900/1000 questions, 8s\n"}
+,{"stream_name":"stdout","time":894.317125898,"data":"math done {'seconds': 54.04018831253052}\n"}
+,{"stream_name":"stdout","time":894.613468962,"data":"mathvista: 0/1000 questions, 0s\n"}
+,{"stream_name":"stdout","time":900.978306893,"data":"mathvista: 100/1000 questions, 6s\n"}
+,{"stream_name":"stdout","time":907.428408196,"data":"mathvista: 200/1000 questions, 13s\n"}
+,{"stream_name":"stdout","time":913.881755623,"data":"mathvista: 300/1000 questions, 19s\n"}
+,{"stream_name":"stdout","time":920.342969334,"data":"mathvista: 400/1000 questions, 26s\n"}
+,{"stream_name":"stdout","time":926.661499893,"data":"mathvista: 500/1000 questions, 32s\n"}
+,{"stream_name":"stdout","time":932.917225133,"data":"mathvista: 600/1000 questions, 38s\n"}
+,{"stream_name":"stdout","time":939.249978644,"data":"mathvista: 700/1000 questions, 45s\n"}
+,{"stream_name":"stdout","time":945.682199198,"data":"mathvista: 800/1000 questions, 51s\n"}
+,{"stream_name":"stdout","time":952.058441784,"data":"mathvista: 900/1000 questions, 58s\n"}
+,{"stream_name":"stdout","time":1017.479518621,"data":"mathvista done {'seconds': 122.84862613677979}\n"}
+,{"stream_name":"stdout","time":1017.604477312,"data":"\n"}
+,{"stream_name":"stdout","time":1017.60451408,"data":"=== [0.28 h] python analyze.py --out /kaggle/working/task3_out\n"}
+,{"stream_name":"stdout","time":1027.558538705,"data":"report artefacts in /kaggle/working/task3_out/report_t3\n"}
+,{"stream_name":"stdout","time":1027.558603901,"data":"   fig_math_accuracy_vs_budget.pdf\n"}
+,{"stream_name":"stdout","time":1027.558610641,"data":"   fig_math_accuracy_vs_budget.png\n"}
+,{"stream_name":"stdout","time":1027.558616562,"data":"   fig_math_adaptive_cost.pdf\n"}
+,{"stream_name":"stdout","time":1027.558621575,"data":"   fig_math_adaptive_cost.png\n"}
+,{"stream_name":"stdout","time":1027.558625965,"data":"   fig_mathvista_accuracy_vs_budget.pdf\n"}
+,{"stream_name":"stdout","time":1027.558629861,"data":"   fig_mathvista_accuracy_vs_budget.png\n"}
+,{"stream_name":"stdout","time":1027.558633543,"data":"   fig_mathvista_adaptive_cost.pdf\n"}
+,{"stream_name":"stdout","time":1027.558637113,"data":"   fig_mathvista_adaptive_cost.png\n"}
+,{"stream_name":"stdout","time":1027.558640708,"data":"   fig_mathvista_trajectories.pdf\n"}
+,{"stream_name":"stdout","time":1027.558644272,"data":"   fig_mathvista_trajectories.png\n"}
+,{"stream_name":"stdout","time":1027.558648021,"data":"   math_accuracy_by_budget.csv\n"}
+,{"stream_name":"stdout","time":1027.558651606,"data":"   math_accuracy_by_budget.md\n"}
+,{"stream_name":"stdout","time":1027.558655181,"data":"   math_accuracy_by_budget.tex\n"}
+,{"stream_name":"stdout","time":1027.558658711,"data":"   math_adaptive_agreement_by_pool_correctness.csv\n"}
+,{"stream_name":"stdout","time":1027.558662341,"data":"   math_adaptive_agreement_by_pool_correctness.md\n"}
+,{"stream_name":"stdout","time":1027.55866601,"data":"   math_adaptive_agreement_by_pool_correctness.tex\n"}
+,{"stream_name":"stdout","time":1027.558669596,"data":"   math_adaptive_dev_grid.csv\n"}
+,{"stream_name":"stdout","time":1027.558673177,"data":"   math_adaptive_dev_grid.md\n"}
+,{"stream_name":"stdout","time":1027.558676817,"data":"   math_adaptive_dev_grid.tex\n"}
+,{"stream_name":"stdout","time":1027.558680331,"data":"   math_adaptive_quality_by_pool_correctness.csv\n"}
+,{"stream_name":"stdout","time":1027.558683915,"data":"   math_adaptive_quality_by_pool_correctness.md\n"}
+,{"stream_name":"stdout","time":1027.558687501,"data":"   math_adaptive_quality_by_pool_correctness.tex\n"}
+,{"stream_name":"stdout","time":1027.558706261,"data":"   math_adaptive_selected.json\n"}
+,{"stream_name":"stdout","time":1027.558709573,"data":"   math_adaptive_stopping.csv\n"}
+,{"stream_name":"stdout","time":1027.558712549,"data":"   math_adaptive_stopping.md\n"}
+,{"stream_name":"stdout","time":1027.558715427,"data":"   math_adaptive_stopping.tex\n"}
+,{"stream_name":"stdout","time":1027.558718289,"data":"   math_adaptive_vs_fixed.csv\n"}
+,{"stream_name":"stdout","time":1027.558721112,"data":"   math_adaptive_vs_fixed.md\n"}
+,{"stream_name":"stdout","time":1027.558723997,"data":"   math_adaptive_vs_fixed.tex\n"}
+,{"stream_name":"stdout","time":1027.558726889,"data":"   math_failure_decomposition.csv\n"}
+,{"stream_name":"stdout","time":1027.558738785,"data":"   math_failure_decomposition.md\n"}
+,{"stream_name":"stdout","time":1027.558741812,"data":"   math_failure_decomposition.tex\n"}
+,{"stream_name":"stdout","time":1027.558744869,"data":"   math_method_comparison.csv\n"}
+,{"stream_name":"stdout","time":1027.558747872,"data":"   math_method_comparison.md\n"}
+,{"stream_name":"stdout","time":1027.558750902,"data":"   math_method_comparison.tex\n"}
+,{"stream_name":"stdout","time":1027.558753875,"data":"   math_qualitative.md\n"}
+,{"stream_name":"stdout","time":1027.55875684,"data":"   math_signal_associations.csv\n"}
+,{"stream_name":"stdout","time":1027.558759952,"data":"   math_signal_associations.md\n"}
+,{"stream_name":"stdout","time":1027.558762962,"data":"   math_signal_associations.tex\n"}
+,{"stream_name":"stdout","time":1027.558766034,"data":"   mathvista_accuracy_by_budget.csv\n"}
+,{"stream_name":"stdout","time":1027.558769073,"data":"   mathvista_accuracy_by_budget.md\n"}
+,{"stream_name":"stdout","time":1027.558772149,"data":"   mathvista_accuracy_by_budget.tex\n"}
+,{"stream_name":"stdout","time":1027.558775567,"data":"   mathvista_adaptive_agreement_by_pool_correctness.csv\n"}
+,{"stream_name":"stdout","time":1027.558778672,"data":"   mathvista_adaptive_agreement_by_pool_correctness.md\n"}
+,{"stream_name":"stdout","time":1027.558781761,"data":"   mathvista_adaptive_agreement_by_pool_correctness.tex\n"}
+,{"stream_name":"stdout","time":1027.558784896,"data":"   mathvista_adaptive_dev_grid.csv\n"}
+,{"stream_name":"stdout","time":1027.558787905,"data":"   mathvista_adaptive_dev_grid.md\n"}
+,{"stream_name":"stdout","time":1027.558790918,"data":"   mathvista_adaptive_dev_grid.tex\n"}
+,{"stream_name":"stdout","time":1027.558794021,"data":"   mathvista_adaptive_quality_by_pool_correctness.csv\n"}
+,{"stream_name":"stdout","time":1027.558797142,"data":"   mathvista_adaptive_quality_by_pool_correctness.md\n"}
+,{"stream_name":"stdout","time":1027.55880028,"data":"   mathvista_adaptive_quality_by_pool_correctness.tex\n"}
+,{"stream_name":"stdout","time":1027.558803325,"data":"   mathvista_adaptive_selected.json\n"}
+,{"stream_name":"stdout","time":1027.558806347,"data":"   mathvista_adaptive_stopping.csv\n"}
+,{"stream_name":"stdout","time":1027.558809406,"data":"   mathvista_adaptive_stopping.md\n"}
+,{"stream_name":"stdout","time":1027.55881365,"data":"   mathvista_adaptive_stopping.tex\n"}
+,{"stream_name":"stdout","time":1027.558816717,"data":"   mathvista_adaptive_vs_fixed.csv\n"}
+,{"stream_name":"stdout","time":1027.558819741,"data":"   mathvista_adaptive_vs_fixed.md\n"}
+,{"stream_name":"stdout","time":1027.558822756,"data":"   mathvista_adaptive_vs_fixed.tex\n"}
+,{"stream_name":"stdout","time":1027.558825746,"data":"   mathvista_confidence_vision.csv\n"}
+,{"stream_name":"stdout","time":1027.558828749,"data":"   mathvista_confidence_vision.md\n"}
+,{"stream_name":"stdout","time":1027.558831777,"data":"   mathvista_confidence_vision.tex\n"}
+,{"stream_name":"stdout","time":1027.558843412,"data":"   mathvista_failure_decomposition.csv\n"}
+,{"stream_name":"stdout","time":1027.558846592,"data":"   mathvista_failure_decomposition.md\n"}
+,{"stream_name":"stdout","time":1027.558849656,"data":"   mathvista_failure_decomposition.tex\n"}
+,{"stream_name":"stdout","time":1027.558852707,"data":"   mathvista_fusion_identity.json\n"}
+,{"stream_name":"stdout","time":1027.558855719,"data":"   mathvista_method_comparison.csv\n"}
+,{"stream_name":"stdout","time":1027.558858727,"data":"   mathvista_method_comparison.md\n"}
+,{"stream_name":"stdout","time":1027.558861735,"data":"   mathvista_method_comparison.tex\n"}
+,{"stream_name":"stdout","time":1027.558864822,"data":"   mathvista_qualitative.md\n"}
+,{"stream_name":"stdout","time":1027.558867843,"data":"   mathvista_signal_associations.csv\n"}
+,{"stream_name":"stdout","time":1027.558870875,"data":"   mathvista_signal_associations.md\n"}
+,{"stream_name":"stdout","time":1027.558873901,"data":"   mathvista_signal_associations.tex\n"}
+,{"stream_name":"stdout","time":1027.877461233,"data":"\n"}
+,{"stream_name":"stdout","time":1027.877507675,"data":"=== [0.29 h] python verify.py --out /kaggle/working/task3_out --part offline\n"}
+,{"stream_name":"stdout","time":1036.531663027,"data":"[PASS] math: 32,000 rows, 1,000 questions x 32 rollouts, files joined on (dataset, sample_id, rollout_id) — 32000\n"}
+,{"stream_name":"stdout","time":1036.531760198,"data":"[PASS] math: every per-token list aligned with generated_token_ids — [32000, 32000, 32000]\n"}
+,{"stream_name":"stdout","time":1036.531766624,"data":"[PASS] math: totals match README (tokens 20,742,094, capped 523, null 521) — (20742094, 523, 521)\n"}
+,{"stream_name":"stdout","time":1036.531771895,"data":"[PASS] mathvista: 32,000 rows, 1,000 questions x 32 rollouts, files joined on (dataset, sample_id, rollout_id) — 32000\n"}
+,{"stream_name":"stdout","time":1036.531776444,"data":"[PASS] mathvista: every per-token list aligned with generated_token_ids — [32000, 32000, 32000, 32000]\n"}
+,{"stream_name":"stdout","time":1036.53178134,"data":"[PASS] mathvista: attention n_generated_text_tokens lists are 0..N-1; first generated-text attention is 0\n"}
+,{"stream_name":"stdout","time":1036.531786697,"data":"[PASS] mathvista: totals match README (tokens 8,961,703, capped 487, null 3032) — (8961703, 487, 3032)\n"}
+,{"stream_name":"stdout","time":1036.531791617,"data":"[PASS] scorer fixed and versioned before evaluation — 0.9.0\n"}
+,{"stream_name":"stdout","time":1036.531794896,"data":"[PASS] math: 200 dev / 800 eval, disjoint, from sorted IDs permuted with default_rng(6304)\n"}
+,{"stream_name":"stdout","time":1036.531798343,"data":"[PASS] math: 10 saved reveal orders per question\n"}
+,{"stream_name":"stdout","time":1036.531803074,"data":"[PASS] mathvista: 200 dev / 800 eval, disjoint, from sorted IDs permuted with default_rng(6304)\n"}
+,{"stream_name":"stdout","time":1036.531808164,"data":"[PASS] mathvista: 10 saved reveal orders per question\n"}
+,{"stream_name":"stdout","time":1036.531812705,"data":"[PASS] live subset = first 50 MATH evaluation questions\n"}
+,{"stream_name":"stdout","time":1036.531817291,"data":"[PASS] math: all required methods at N in {1,2,4,8,16,32} x 10 orders x 1,000 questions — 360000\n"}
+,{"stream_name":"stdout","time":1036.531822083,"data":"[PASS] math: at N=1 every rule returns the only candidate\n"}
+,{"stream_name":"stdout","time":1036.531826528,"data":"[PASS] math: oracle coverage non-decreasing over nested prefixes\n"}
+,{"stream_name":"stdout","time":1036.531831138,"data":"[PASS] math: FirstAns charged only its first candidate; others charged all N\n"}
+,{"stream_name":"stdout","time":1036.531835977,"data":"[PASS] math: adaptive settings chosen on dev within 1 pp of fixed-32 SC and frozen before held-out evaluation — {'agreement': {'tau': 0.625, 'gamma': None, 'dev': {'acc': 0.8260000000000001, 'cost': 7088.955499999999, 'rollouts': 9.15}}, 'quality': {'tau': 0.5, 'gamma': 0.0, 'dev': {'acc': 0.8215, 'cost': 5479.\n"}
+,{"stream_name":"stdout","time":1036.531855212,"data":"[PASS] math: adaptive held-out results for 800 questions x 10 orders x 2 controllers — 16000\n"}
+,{"stream_name":"stdout","time":1036.531860501,"data":"[PASS] math: stopping only at 4, 8, 16 or 32\n"}
+,{"stream_name":"stdout","time":1036.531865227,"data":"[PASS] mathvista: all required methods at N in {1,2,4,8,16,32} x 10 orders x 1,000 questions — 720000\n"}
+,{"stream_name":"stdout","time":1036.53187183,"data":"[PASS] mathvista: at N=1 every rule returns the only candidate\n"}
+,{"stream_name":"stdout","time":1036.531876568,"data":"[PASS] mathvista: oracle coverage non-decreasing over nested prefixes\n"}
+,{"stream_name":"stdout","time":1036.53188128,"data":"[PASS] mathvista: FirstAns charged only its first candidate; others charged all N\n"}
+,{"stream_name":"stdout","time":1036.53188614,"data":"[PASS] mathvista: adaptive settings chosen on dev within 1 pp of fixed-32 SC and frozen before held-out evaluation — {'agreement': {'tau': 0.5, 'gamma': None, 'dev': {'acc': 0.636, 'cost': 3705.4309999999996, 'rollouts': 9.36}}, 'quality': {'tau': 0.5, 'gamma': 0.0, 'dev': {'acc': 0.6395000000000001, 'cost': 4120.64\n"}
+,{"stream_name":"stdout","time":1036.531891855,"data":"[PASS] mathvista: adaptive held-out results for 800 questions x 10 orders x 2 controllers — 16000\n"}
+,{"stream_name":"stdout","time":1036.531896878,"data":"[PASS] mathvista: stopping only at 4, 8, 16 or 32\n"}
+,{"stream_name":"stdout","time":1036.531901007,"data":"[PASS] tokenwise fusion identity Z_token - Z = Cov(c, v) holds numerically — 1.8686544672741334e-09\n"}
+,{"stream_name":"stdout","time":1036.531905946,"data":"[PASS] report artefact fig_math_accuracy_vs_budget.png\n"}
+,{"stream_name":"stdout","time":1036.531910633,"data":"[PASS] report artefact math_accuracy_by_budget.csv\n"}
+,{"stream_name":"stdout","time":1036.531915259,"data":"[PASS] report artefact math_method_comparison.csv\n"}
+,{"stream_name":"stdout","time":1036.531919467,"data":"[PASS] report artefact math_failure_decomposition.csv\n"}
+,{"stream_name":"stdout","time":1036.531923897,"data":"[PASS] report artefact math_signal_associations.csv\n"}
+,{"stream_name":"stdout","time":1036.531928341,"data":"[PASS] report artefact math_adaptive_vs_fixed.csv\n"}
+,{"stream_name":"stdout","time":1036.531932675,"data":"[PASS] report artefact math_adaptive_stopping.csv\n"}
+,{"stream_name":"stdout","time":1036.531937185,"data":"[PASS] report artefact fig_math_adaptive_cost.png\n"}
+,{"stream_name":"stdout","time":1036.531941571,"data":"[PASS] report artefact math_qualitative.md\n"}
+,{"stream_name":"stdout","time":1036.531946113,"data":"[PASS] report artefact fig_mathvista_accuracy_vs_budget.png\n"}
+,{"stream_name":"stdout","time":1036.531950921,"data":"[PASS] report artefact mathvista_accuracy_by_budget.csv\n"}
+,{"stream_name":"stdout","time":1036.531955528,"data":"[PASS] report artefact mathvista_method_comparison.csv\n"}
+,{"stream_name":"stdout","time":1036.531960195,"data":"[PASS] report artefact mathvista_failure_decomposition.csv\n"}
+,{"stream_name":"stdout","time":1036.531964898,"data":"[PASS] report artefact mathvista_signal_associations.csv\n"}
+,{"stream_name":"stdout","time":1036.531969548,"data":"[PASS] report artefact mathvista_adaptive_vs_fixed.csv\n"}
+,{"stream_name":"stdout","time":1036.531974205,"data":"[PASS] report artefact mathvista_adaptive_stopping.csv\n"}
+,{"stream_name":"stdout","time":1036.531978767,"data":"[PASS] report artefact fig_mathvista_adaptive_cost.png\n"}
+,{"stream_name":"stdout","time":1036.531987431,"data":"[PASS] report artefact mathvista_qualitative.md\n"}
+,{"stream_name":"stdout","time":1036.531991661,"data":"[PASS] report artefact mathvista_confidence_vision.csv\n"}
+,{"stream_name":"stdout","time":1036.531996408,"data":"[PASS] report artefact fig_mathvista_trajectories.png\n"}
+,{"stream_name":"stdout","time":1036.532001491,"data":"\n"}
+,{"stream_name":"stdout","time":1036.532006081,"data":"48 passed, 0 warnings, 0 failed\n"}
+,{"stream_name":"stdout","time":1036.655110539,"data":"done at 0.29 h\n"}
+,{"stream_name":"stderr","time":1039.340484656,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1039.3405288,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1039.790269617,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1039.790298749,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1040.871152086,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1042.449049408,"data":"[NbConvertApp] Writing 282047 bytes to __results__.html\n"}
+]

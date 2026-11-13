@@ -1,0 +1,62 @@
+{
+  "method": "lora4",
+  "config": {
+    "kind": "lora",
+    "lr": 0.0002,
+    "r": 4,
+    "alpha": 8,
+    "dropout": 0.05,
+    "seed": 6304,
+    "micro_bs": 2,
+    "grad_accum": 16,
+    "eff_bs": 32,
+    "updates": 1250,
+    "warmup": 38,
+    "weight_decay": 0.01,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "clip": 1.0,
+    "max_len": 2048,
+    "fp16_amp": true,
+    "grad_ckpt": true,
+    "targets": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ]
+  },
+  "trainable_params": 2523136,
+  "total_params_in_graph": 598573056,
+  "train_time_s": 11493.421870946884,
+  "train_time_h": 3.1926171863741346,
+  "peak_gpu_mem_alloc_GB": 3.140305995941162,
+  "peak_gpu_mem_reserved_GB": 3.50390625,
+  "skipped_updates": [],
+  "checkpoint_sizes_bytes": {
+    "312": 30769555,
+    "625": 30769555,
+    "937": 30769619,
+    "1250": 30769747
+  },
+  "export_sizes_bytes": {
+    "1250": 20268773
+  },
+  "displacement_l2": {
+    "1250": 9.145933163553517
+  },
+  "overhead": {
+    "init_A_sha": "90182ebdb278f53d",
+    "export_s_update_1250": 0.09084558486938477,
+    "displacement_s_update_1250": 0.06612229347229004
+  },
+  "smoke": false,
+  "gpu": "Tesla T4",
+  "torch": "2.11.0+cu128"
+}

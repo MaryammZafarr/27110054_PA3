@@ -1,0 +1,8 @@
+condition,format,coherence,no_repetition,unnecessary_math,inappropriate,truncated
+Baseline,1.5,1.0,2.0,0,0,0
+Full FT (mid),1.0,0.83,0.67,3,0,3
+Full FT,1.33,1.33,1.67,4,0,1
+Full FT + L2-SP,1.5,1.17,1.5,3,0,1
+LoRA-4,2.0,1.67,1.83,0,0,0
+LoRA-16,1.67,1.33,1.17,0,0,2
+OPLoRA-16,1.67,1.33,1.17,0,0,2

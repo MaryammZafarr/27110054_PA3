@@ -1,0 +1,9 @@
+{
+ "rule": "scale = mean ||text embedding|| (training text tokens, frequency weighted) / mean ||connector output|| at init (256 training images x 196 tokens)",
+ "text_embedding_norm": 0.8119615316390991,
+ "connector_output_norm_at_init": 15.846739768981934,
+ "scale": 0.05123839625538719,
+ "n_text_token_types": 8027,
+ "n_text_tokens": 1829296,
+ "n_images": 256
+}

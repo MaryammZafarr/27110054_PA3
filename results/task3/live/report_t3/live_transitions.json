@@ -1,0 +1,18 @@
+{
+ "transitions": {
+  "wrong_to_correct": 3,
+  "correct_to_wrong": 0,
+  "correct_to_correct": 28,
+  "wrong_to_wrong": 19,
+  "answer_changed": 10,
+  "n": 50
+ },
+ "gpu": "Tesla T4",
+ "model": "Qwen/Qwen2.5-3B-Instruct",
+ "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+ "paired_bootstrap_pp": {
+  "parallel-single": "-8.0 [-20.0, +4.0]",
+  "refinement-single": "+0.0 [-12.0, +14.0]",
+  "refinement-parallel": "+8.0 [-2.0, +18.0]"
+ }
+}

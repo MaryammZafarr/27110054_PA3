@@ -1,0 +1,1107 @@
+[
+  {
+    "check": "training data prepared",
+    "status": "PASS",
+    "detail": "/kaggle/working/task1_out/data/train_tokenized.pt"
+  },
+  {
+    "check": "exactly 40,000 training examples",
+    "status": "PASS",
+    "detail": "40000"
+  },
+  {
+    "check": "source order kept (indices strictly increasing, unique)",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "no example longer than 2,048 tokens (no truncation needed)",
+    "status": "PASS",
+    "detail": "1941"
+  },
+  {
+    "check": "every response ends with <|im_end|>",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "no empty response",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "training prompt uses non-thinking chat template",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "exclusion statistics saved",
+    "status": "PASS",
+    "detail": "{'scanned': 40002, 'kept': 40000, 'empty': 0, 'gsm8k_overlap': 0, 'too_long': 2, 'last_source_index': 40001, 'tokens_total': 9908423, 'response_tokens_total': 7100056, 'len_mean': 247.710575, 'len_max': 1941}"
+  },
+  {
+    "check": "no selected example matches a GSM8K test question (re-checked)",
+    "status": "PASS",
+    "detail": "0"
+  },
+  {
+    "check": "probe set: 32 GSM8K test + 32 HellaSwag val, seed 6304",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "24 qualitative prompts (8 plain / 8 json / 8 template)",
+    "status": "PASS",
+    "detail": "['what_is_your_wish', 'enough_of_my_husband']"
+  },
+  {
+    "check": "full_ft: training finished",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "full_ft: not a smoke run",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "full_ft: 1,250 consecutive optimizer updates logged",
+    "status": "PASS",
+    "detail": "1250"
+  },
+  {
+    "check": "full_ft: 40,000 examples seen",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "full_ft: cosine schedule peaks after 38 warmup updates at lr=2e-05",
+    "status": "PASS",
+    "detail": "peak at update 39"
+  },
+  {
+    "check": "full_ft: SFT loss and LR logged",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "full_ft: skipped (inf/NaN) updates logged",
+    "status": "PASS",
+    "detail": "0 skipped: []"
+  },
+  {
+    "check": "full_ft: recovery checkpoints at updates 312/625/937/1250",
+    "status": "PASS",
+    "detail": "[312, 625, 937, 1250]"
+  },
+  {
+    "check": "full_ft: export at update 625",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "full_ft: export at update 1250",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "full_ft: resource field trainable_params",
+    "status": "PASS",
+    "detail": "596049920"
+  },
+  {
+    "check": "full_ft: resource field train_time_s",
+    "status": "PASS",
+    "detail": "8597.862785339355"
+  },
+  {
+    "check": "full_ft: resource field peak_gpu_mem_alloc_GB",
+    "status": "PASS",
+    "detail": "11.68628740310669"
+  },
+  {
+    "check": "full_ft: resource field checkpoint_sizes_bytes",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "full_ft: resource field export_sizes_bytes",
+    "status": "PASS",
+    "detail": "{'625': 1241312999, '1250': 1241312999}"
+  },
+  {
+    "check": "full_ft: all parameters trainable",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "full_ft: \u2016\u03b8\u2212\u03b80\u2016 recorded at 625",
+    "status": "PASS",
+    "detail": "10.018162993748417"
+  },
+  {
+    "check": "full_ft: \u2016\u03b8\u2212\u03b80\u2016 recorded at 1250",
+    "status": "PASS",
+    "detail": "10.659564958244546"
+  },
+  {
+    "check": "l2sp: training finished",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "l2sp: not a smoke run",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "l2sp: 1,250 consecutive optimizer updates logged",
+    "status": "PASS",
+    "detail": "1250"
+  },
+  {
+    "check": "l2sp: 40,000 examples seen",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "l2sp: cosine schedule peaks after 38 warmup updates at lr=2e-05",
+    "status": "PASS",
+    "detail": "peak at update 39"
+  },
+  {
+    "check": "l2sp: SFT loss and LR logged",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "l2sp: skipped (inf/NaN) updates logged",
+    "status": "PASS",
+    "detail": "0 skipped: []"
+  },
+  {
+    "check": "l2sp: recovery checkpoints at updates 312/625/937/1250",
+    "status": "PASS",
+    "detail": "[312, 625, 937, 1250]"
+  },
+  {
+    "check": "l2sp: export at update 1250",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "l2sp: resource field trainable_params",
+    "status": "PASS",
+    "detail": "596049920"
+  },
+  {
+    "check": "l2sp: resource field train_time_s",
+    "status": "PASS",
+    "detail": "9233.17544388771"
+  },
+  {
+    "check": "l2sp: resource field peak_gpu_mem_alloc_GB",
+    "status": "PASS",
+    "detail": "11.686291217803955"
+  },
+  {
+    "check": "l2sp: resource field checkpoint_sizes_bytes",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "l2sp: resource field export_sizes_bytes",
+    "status": "PASS",
+    "detail": "{'1250': 1241312999}"
+  },
+  {
+    "check": "l2sp: all parameters trainable",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "l2sp: \u2016\u03b8\u2212\u03b80\u2016 recorded at 1250",
+    "status": "PASS",
+    "detail": "6.270435236946196"
+  },
+  {
+    "check": "l2sp: \u03a9, \u03bb\u03a9, total loss logged every update",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "l2sp: \u03bb = 1e-3",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "l2sp: reference storage / build / penalty time recorded",
+    "status": "PASS",
+    "detail": "{'l2sp_ref_bytes': 2384199680, 'l2sp_ref_device': 'cpu'}"
+  },
+  {
+    "check": "l2sp: displacement consistent with \u03a9 (\u2016\u03b8\u2212\u03b80\u2016\u00b2 = 2\u03a9)",
+    "status": "PASS",
+    "detail": "\u03a9 is logged before the last step, so a small difference is expected"
+  },
+  {
+    "check": "lora4: training finished",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "lora4: not a smoke run",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "lora4: 1,250 consecutive optimizer updates logged",
+    "status": "PASS",
+    "detail": "1250"
+  },
+  {
+    "check": "lora4: 40,000 examples seen",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "lora4: cosine schedule peaks after 38 warmup updates at lr=0.0002",
+    "status": "PASS",
+    "detail": "peak at update 39"
+  },
+  {
+    "check": "lora4: SFT loss and LR logged",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "lora4: skipped (inf/NaN) updates logged",
+    "status": "PASS",
+    "detail": "0 skipped: []"
+  },
+  {
+    "check": "lora4: recovery checkpoints at updates 312/625/937/1250",
+    "status": "PASS",
+    "detail": "[312, 625, 937, 1250]"
+  },
+  {
+    "check": "lora4: export at update 1250",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "lora4: resource field trainable_params",
+    "status": "PASS",
+    "detail": "2523136"
+  },
+  {
+    "check": "lora4: resource field train_time_s",
+    "status": "PASS",
+    "detail": "11493.421870946884"
+  },
+  {
+    "check": "lora4: resource field peak_gpu_mem_alloc_GB",
+    "status": "PASS",
+    "detail": "3.140305995941162"
+  },
+  {
+    "check": "lora4: resource field checkpoint_sizes_bytes",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "lora4: resource field export_sizes_bytes",
+    "status": "PASS",
+    "detail": "{'1250': 20268773}"
+  },
+  {
+    "check": "lora4: adapter parameter count r\u00d7630,784",
+    "status": "PASS",
+    "detail": "2,523,136"
+  },
+  {
+    "check": "lora16: training finished",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "lora16: not a smoke run",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "lora16: 1,250 consecutive optimizer updates logged",
+    "status": "PASS",
+    "detail": "1250"
+  },
+  {
+    "check": "lora16: 40,000 examples seen",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "lora16: cosine schedule peaks after 38 warmup updates at lr=0.0002",
+    "status": "PASS",
+    "detail": "peak at update 39"
+  },
+  {
+    "check": "lora16: SFT loss and LR logged",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "lora16: skipped (inf/NaN) updates logged",
+    "status": "PASS",
+    "detail": "0 skipped: []"
+  },
+  {
+    "check": "lora16: recovery checkpoints at updates 312/625/937/1250",
+    "status": "PASS",
+    "detail": "[312, 625, 937, 1250]"
+  },
+  {
+    "check": "lora16: export at update 1250",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "lora16: resource field trainable_params",
+    "status": "PASS",
+    "detail": "10092544"
+  },
+  {
+    "check": "lora16: resource field train_time_s",
+    "status": "PASS",
+    "detail": "11101.331827163696"
+  },
+  {
+    "check": "lora16: resource field peak_gpu_mem_alloc_GB",
+    "status": "PASS",
+    "detail": "3.253098964691162"
+  },
+  {
+    "check": "lora16: resource field checkpoint_sizes_bytes",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "lora16: resource field export_sizes_bytes",
+    "status": "PASS",
+    "detail": "{'1250': 80825471}"
+  },
+  {
+    "check": "lora16: adapter parameter count r\u00d7630,784",
+    "status": "PASS",
+    "detail": "10,092,544"
+  },
+  {
+    "check": "oplora16: training finished",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "oplora16: not a smoke run",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "oplora16: 1,250 consecutive optimizer updates logged",
+    "status": "PASS",
+    "detail": "1250"
+  },
+  {
+    "check": "oplora16: 40,000 examples seen",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "oplora16: cosine schedule peaks after 38 warmup updates at lr=0.0002",
+    "status": "PASS",
+    "detail": "peak at update 39"
+  },
+  {
+    "check": "oplora16: SFT loss and LR logged",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "oplora16: skipped (inf/NaN) updates logged",
+    "status": "PASS",
+    "detail": "0 skipped: []"
+  },
+  {
+    "check": "oplora16: recovery checkpoints at updates 312/625/937/1250",
+    "status": "PASS",
+    "detail": "[312, 625, 937, 1250]"
+  },
+  {
+    "check": "oplora16: export at update 1250",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "oplora16: resource field trainable_params",
+    "status": "PASS",
+    "detail": "10092544"
+  },
+  {
+    "check": "oplora16: resource field train_time_s",
+    "status": "PASS",
+    "detail": "12233.834152698517"
+  },
+  {
+    "check": "oplora16: resource field peak_gpu_mem_alloc_GB",
+    "status": "PASS",
+    "detail": "3.553880214691162"
+  },
+  {
+    "check": "oplora16: resource field checkpoint_sizes_bytes",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "oplora16: resource field export_sizes_bytes",
+    "status": "PASS",
+    "detail": "{'1250': 80870347}"
+  },
+  {
+    "check": "oplora16: adapter parameter count r\u00d7630,784",
+    "status": "PASS",
+    "detail": "10,092,544"
+  },
+  {
+    "check": "oplora16: SVD time, basis storage, export time recorded",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "oplora16: Uk^T B~ \u2248 0 and A~ Vk \u2248 0 for every module (FP32)",
+    "status": "FAIL",
+    "detail": "{'max_out_rel': 0.00011979628470726311, 'max_in_rel': 0.00018587129306979477, 'max_dW_out_rel': 0.0001218087418237701, 'max_dW_in_rel': 0.00018630246631801128}"
+  },
+  {
+    "check": "LoRA-16 and OPLoRA-16 share identical initial unprojected factors",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "LoRA-16 has 4\u00d7 the adapter parameters of LoRA-4",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "baseline: benchmark scores",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "baseline: full splits (no --limit)",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "baseline: gsm8k_cot per-example outputs, n=1319",
+    "status": "PASS",
+    "detail": "1319"
+  },
+  {
+    "check": "baseline: gsm8k_cot primary metric exact_match,flexible-extract",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "baseline: hellaswag per-example outputs, n=10042",
+    "status": "PASS",
+    "detail": "10042"
+  },
+  {
+    "check": "baseline: hellaswag primary metric acc_norm,none",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "baseline: boolq per-example outputs, n=3270",
+    "status": "PASS",
+    "detail": "3270"
+  },
+  {
+    "check": "baseline: boolq primary metric acc,none",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "baseline: arc_easy per-example outputs, n=2376",
+    "status": "PASS",
+    "detail": "2376"
+  },
+  {
+    "check": "baseline: arc_easy primary metric acc_norm,none",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "baseline: GSM8K prompts use non-thinking chat template",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "baseline: GSM8K extracted answers + truncation flags saved",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "baseline: truncation measured from generate() (not re-tokenised)",
+    "status": "PASS",
+    "detail": "1319/1319"
+  },
+  {
+    "check": "baseline: 24 qualitative responses",
+    "status": "PASS",
+    "detail": "24"
+  },
+  {
+    "check": "full_ft_mid: benchmark scores",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "full_ft_mid: full splits (no --limit)",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "full_ft_mid: gsm8k_cot per-example outputs, n=1319",
+    "status": "PASS",
+    "detail": "1319"
+  },
+  {
+    "check": "full_ft_mid: gsm8k_cot primary metric exact_match,flexible-extract",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "full_ft_mid: hellaswag per-example outputs, n=10042",
+    "status": "PASS",
+    "detail": "10042"
+  },
+  {
+    "check": "full_ft_mid: hellaswag primary metric acc_norm,none",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "full_ft_mid: boolq per-example outputs, n=3270",
+    "status": "PASS",
+    "detail": "3270"
+  },
+  {
+    "check": "full_ft_mid: boolq primary metric acc,none",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "full_ft_mid: arc_easy per-example outputs, n=2376",
+    "status": "PASS",
+    "detail": "2376"
+  },
+  {
+    "check": "full_ft_mid: arc_easy primary metric acc_norm,none",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "full_ft_mid: GSM8K prompts use non-thinking chat template",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "full_ft_mid: GSM8K extracted answers + truncation flags saved",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "full_ft_mid: truncation measured from generate() (not re-tokenised)",
+    "status": "PASS",
+    "detail": "1319/1319"
+  },
+  {
+    "check": "full_ft_mid: 24 qualitative responses",
+    "status": "PASS",
+    "detail": "24"
+  },
+  {
+    "check": "full_ft: benchmark scores",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "full_ft: full splits (no --limit)",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "full_ft: gsm8k_cot per-example outputs, n=1319",
+    "status": "PASS",
+    "detail": "1319"
+  },
+  {
+    "check": "full_ft: gsm8k_cot primary metric exact_match,flexible-extract",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "full_ft: hellaswag per-example outputs, n=10042",
+    "status": "PASS",
+    "detail": "10042"
+  },
+  {
+    "check": "full_ft: hellaswag primary metric acc_norm,none",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "full_ft: boolq per-example outputs, n=3270",
+    "status": "PASS",
+    "detail": "3270"
+  },
+  {
+    "check": "full_ft: boolq primary metric acc,none",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "full_ft: arc_easy per-example outputs, n=2376",
+    "status": "PASS",
+    "detail": "2376"
+  },
+  {
+    "check": "full_ft: arc_easy primary metric acc_norm,none",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "full_ft: GSM8K prompts use non-thinking chat template",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "full_ft: GSM8K extracted answers + truncation flags saved",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "full_ft: truncation measured from generate() (not re-tokenised)",
+    "status": "PASS",
+    "detail": "1319/1319"
+  },
+  {
+    "check": "full_ft: 24 qualitative responses",
+    "status": "PASS",
+    "detail": "24"
+  },
+  {
+    "check": "l2sp: benchmark scores",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "l2sp: full splits (no --limit)",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "l2sp: gsm8k_cot per-example outputs, n=1319",
+    "status": "PASS",
+    "detail": "1319"
+  },
+  {
+    "check": "l2sp: gsm8k_cot primary metric exact_match,flexible-extract",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "l2sp: hellaswag per-example outputs, n=10042",
+    "status": "PASS",
+    "detail": "10042"
+  },
+  {
+    "check": "l2sp: hellaswag primary metric acc_norm,none",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "l2sp: boolq per-example outputs, n=3270",
+    "status": "PASS",
+    "detail": "3270"
+  },
+  {
+    "check": "l2sp: boolq primary metric acc,none",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "l2sp: arc_easy per-example outputs, n=2376",
+    "status": "PASS",
+    "detail": "2376"
+  },
+  {
+    "check": "l2sp: arc_easy primary metric acc_norm,none",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "l2sp: GSM8K prompts use non-thinking chat template",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "l2sp: GSM8K extracted answers + truncation flags saved",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "l2sp: truncation measured from generate() (not re-tokenised)",
+    "status": "PASS",
+    "detail": "1319/1319"
+  },
+  {
+    "check": "l2sp: 24 qualitative responses",
+    "status": "PASS",
+    "detail": "24"
+  },
+  {
+    "check": "lora4: benchmark scores",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "lora4: full splits (no --limit)",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "lora4: gsm8k_cot per-example outputs, n=1319",
+    "status": "PASS",
+    "detail": "1319"
+  },
+  {
+    "check": "lora4: gsm8k_cot primary metric exact_match,flexible-extract",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "lora4: hellaswag per-example outputs, n=10042",
+    "status": "PASS",
+    "detail": "10042"
+  },
+  {
+    "check": "lora4: hellaswag primary metric acc_norm,none",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "lora4: boolq per-example outputs, n=3270",
+    "status": "PASS",
+    "detail": "3270"
+  },
+  {
+    "check": "lora4: boolq primary metric acc,none",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "lora4: arc_easy per-example outputs, n=2376",
+    "status": "PASS",
+    "detail": "2376"
+  },
+  {
+    "check": "lora4: arc_easy primary metric acc_norm,none",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "lora4: GSM8K prompts use non-thinking chat template",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "lora4: GSM8K extracted answers + truncation flags saved",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "lora4: truncation measured from generate() (not re-tokenised)",
+    "status": "PASS",
+    "detail": "1319/1319"
+  },
+  {
+    "check": "lora4: merged vs unmerged logits check",
+    "status": "PASS",
+    "detail": "{'fp32': {'max_abs_diff': 0.0001430511474609375, 'mean_abs_diff': 5.492853233590722e-06, 'mean_abs_logit': 2.4594428539276123, 'top1_agreement': 1.0, 'n_positions': 228}, 'fp16': {'max_abs_diff': 0.12509918212890625, 'mean_abs_diff': 0.006455007009208202, 'mean_abs_logit': 2.4588685035705566, 'top1_agreement': 1.0, 'n_positions': 228}, 'pass': True}"
+  },
+  {
+    "check": "lora4: 24 qualitative responses",
+    "status": "PASS",
+    "detail": "24"
+  },
+  {
+    "check": "lora16: benchmark scores",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "lora16: full splits (no --limit)",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "lora16: gsm8k_cot per-example outputs, n=1319",
+    "status": "PASS",
+    "detail": "1319"
+  },
+  {
+    "check": "lora16: gsm8k_cot primary metric exact_match,flexible-extract",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "lora16: hellaswag per-example outputs, n=10042",
+    "status": "PASS",
+    "detail": "10042"
+  },
+  {
+    "check": "lora16: hellaswag primary metric acc_norm,none",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "lora16: boolq per-example outputs, n=3270",
+    "status": "PASS",
+    "detail": "3270"
+  },
+  {
+    "check": "lora16: boolq primary metric acc,none",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "lora16: arc_easy per-example outputs, n=2376",
+    "status": "PASS",
+    "detail": "2376"
+  },
+  {
+    "check": "lora16: arc_easy primary metric acc_norm,none",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "lora16: GSM8K prompts use non-thinking chat template",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "lora16: GSM8K extracted answers + truncation flags saved",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "lora16: truncation measured from generate() (not re-tokenised)",
+    "status": "PASS",
+    "detail": "1319/1319"
+  },
+  {
+    "check": "lora16: merged vs unmerged logits check",
+    "status": "PASS",
+    "detail": "{'fp32': {'max_abs_diff': 0.00010204315185546875, 'mean_abs_diff': 5.49873084310093e-06, 'mean_abs_logit': 2.453590154647827, 'top1_agreement': 1.0, 'n_positions': 228}, 'fp16': {'max_abs_diff': 0.109375, 'mean_abs_diff': 0.006064358167350292, 'mean_abs_logit': 2.453324317932129, 'top1_agreement': 1.0, 'n_positions': 228}, 'pass': True}"
+  },
+  {
+    "check": "lora16: 24 qualitative responses",
+    "status": "PASS",
+    "detail": "24"
+  },
+  {
+    "check": "oplora16: benchmark scores",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "oplora16: full splits (no --limit)",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "oplora16: gsm8k_cot per-example outputs, n=1319",
+    "status": "PASS",
+    "detail": "1319"
+  },
+  {
+    "check": "oplora16: gsm8k_cot primary metric exact_match,flexible-extract",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "oplora16: hellaswag per-example outputs, n=10042",
+    "status": "PASS",
+    "detail": "10042"
+  },
+  {
+    "check": "oplora16: hellaswag primary metric acc_norm,none",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "oplora16: boolq per-example outputs, n=3270",
+    "status": "PASS",
+    "detail": "3270"
+  },
+  {
+    "check": "oplora16: boolq primary metric acc,none",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "oplora16: arc_easy per-example outputs, n=2376",
+    "status": "PASS",
+    "detail": "2376"
+  },
+  {
+    "check": "oplora16: arc_easy primary metric acc_norm,none",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "oplora16: GSM8K prompts use non-thinking chat template",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "oplora16: GSM8K extracted answers + truncation flags saved",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "oplora16: truncation measured from generate() (not re-tokenised)",
+    "status": "PASS",
+    "detail": "1319/1319"
+  },
+  {
+    "check": "oplora16: merged vs unmerged logits check",
+    "status": "PASS",
+    "detail": "{'fp32': {'max_abs_diff': 0.0001163482666015625, 'mean_abs_diff': 5.509574293682817e-06, 'mean_abs_logit': 2.492309093475342, 'top1_agreement': 1.0, 'n_positions': 228}, 'fp16': {'max_abs_diff': 0.142822265625, 'mean_abs_diff': 0.006498576141893864, 'mean_abs_logit': 2.4917898178100586, 'top1_agreement': 1.0, 'n_positions': 228}, 'pass': True}"
+  },
+  {
+    "check": "oplora16: 24 qualitative responses",
+    "status": "PASS",
+    "detail": "24"
+  },
+  {
+    "check": "168 qualitative responses in total",
+    "status": "PASS",
+    "detail": "168"
+  },
+  {
+    "check": "probe prompts identical to lm-eval benchmark prompts (GSM8K)",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "probe prompts identical to lm-eval benchmark prompts (HellaSwag)",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "weight-space diagnostics: 6 checkpoints \u00d7 3 layers",
+    "status": "PASS",
+    "detail": "18"
+  },
+  {
+    "check": "activation diagnostics: 6 \u00d7 3 layers \u00d7 64 probes",
+    "status": "PASS",
+    "detail": "1152"
+  },
+  {
+    "check": "OPLoRA \u03c1k \u2248 0 at layers 0/13/27",
+    "status": "PASS",
+    "detail": "['9.34660460139014e-10', '8.822423347432107e-10', '1.8591571615544922e-09']"
+  },
+  {
+    "check": "diagnostics use the OPLoRA training bases",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "report artefact table_benchmarks.csv",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "report artefact table_gsm8k_extraction.csv",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "report artefact table_controlled_comparisons.csv",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "report artefact fig_benchmark_deltas.png",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "report artefact fig_sft_loss.png",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "report artefact fig_l2sp_penalty.png",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "report artefact table_regularisation.csv",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "report artefact table_resources.csv",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "report artefact table_diagnostics.csv",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "report artefact fig_diagnostics.png",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "report artefact qualitative_168_grouped.json",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "report artefact annotation_sheet_42.csv",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "report artefact qualitative_aligned_annotated_questions.md",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "annotation sheet has 42 rows",
+    "status": "PASS",
+    "detail": "42"
+  },
+  {
+    "check": "benchmark table has 7 conditions",
+    "status": "PASS",
+    "detail": "7"
+  }
+]

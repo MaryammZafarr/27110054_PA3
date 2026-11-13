@@ -1,0 +1,5 @@
+{
+ "max_abs_identity_error": 1.8686544672741334e-09,
+ "n": 25572,
+ "identity": "Z_token - Z = Cov_t(c, v) (population covariance)"
+}

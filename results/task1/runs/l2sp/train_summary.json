@@ -1,0 +1,56 @@
+{
+  "method": "l2sp",
+  "config": {
+    "kind": "full",
+    "lr": 2e-05,
+    "lam": 0.001,
+    "seed": 6304,
+    "micro_bs": 2,
+    "grad_accum": 16,
+    "eff_bs": 32,
+    "updates": 1250,
+    "warmup": 38,
+    "weight_decay": 0.01,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "clip": 1.0,
+    "max_len": 2048,
+    "fp16_amp": true,
+    "grad_ckpt": true,
+    "targets": "all"
+  },
+  "trainable_params": 596049920,
+  "total_params_in_graph": 596049920,
+  "train_time_s": 9233.17544388771,
+  "train_time_h": 2.564770956635475,
+  "peak_gpu_mem_alloc_GB": 11.686291217803955,
+  "peak_gpu_mem_reserved_GB": 13.23046875,
+  "skipped_updates": [],
+  "checkpoint_sizes_bytes": {
+    "312": 7153023723,
+    "625": 7153023723,
+    "937": 7153023787,
+    "1250": 7153023915
+  },
+  "export_sizes_bytes": {
+    "1250": 1241312999
+  },
+  "displacement_l2": {
+    "1250": 6.270435236946196
+  },
+  "overhead": {
+    "l2sp_ref_build_s": 4.083850622177124,
+    "l2sp_ref_bytes": 2384199680,
+    "l2sp_ref_device": "cpu",
+    "l2sp_n_unique_params": 310,
+    "l2sp_penalty_s": 401.65284967422485,
+    "export_s_update_1250": 1.429927110671997,
+    "displacement_s_update_1250": 0.28349995613098145
+  },
+  "smoke": false,
+  "gpu": "Tesla T4",
+  "torch": "2.11.0+cu128"
+}

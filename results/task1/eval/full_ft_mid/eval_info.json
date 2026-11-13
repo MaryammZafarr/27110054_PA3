@@ -1,0 +1,11 @@
+{
+  "build_s": 1.187760829925537,
+  "lmeval_s": 1944.0602252483368,
+  "qual_s": 228.62799453735352,
+  "dtype": "float16",
+  "condition": [
+    "full_ft_mid",
+    "full_ft",
+    625
+  ]
+}

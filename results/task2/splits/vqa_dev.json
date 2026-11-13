@@ -1,0 +1,2306 @@
+[
+ {
+  "pair_id": "vqa-val2014-117719002-274538003",
+  "suite": "vqa",
+  "kind": "yes/no",
+  "question": "Is anyone having a drink?",
+  "items": [
+   {
+    "qid": 117719002,
+    "image": "val2014:117719",
+    "image_id": 117719,
+    "target": "yes",
+    "canonical": "yes",
+    "answers": [
+     "yes",
+     "yes",
+     "yes",
+     "no",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes"
+    ],
+    "answers_norm": [
+     "yes",
+     "yes",
+     "yes",
+     "no",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes"
+    ],
+    "agree": 9
+   },
+   {
+    "qid": 274538003,
+    "image": "val2014:274538",
+    "image_id": 274538,
+    "target": "no",
+    "canonical": "no",
+    "answers": [
+     "no",
+     "no",
+     "no",
+     "no",
+     "yes",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no"
+    ],
+    "answers_norm": [
+     "no",
+     "no",
+     "no",
+     "no",
+     "yes",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no"
+    ],
+    "agree": 9
+   }
+  ]
+ },
+ {
+  "pair_id": "vqa-val2014-2434002-58886003",
+  "suite": "vqa",
+  "kind": "yes/no",
+  "question": "Are there any photographs?",
+  "items": [
+   {
+    "qid": 2434002,
+    "image": "val2014:2434",
+    "image_id": 2434,
+    "target": "yes",
+    "canonical": "yes",
+    "answers": [
+     "yes",
+     "no",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes"
+    ],
+    "answers_norm": [
+     "yes",
+     "no",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes"
+    ],
+    "agree": 9
+   },
+   {
+    "qid": 58886003,
+    "image": "val2014:58886",
+    "image_id": 58886,
+    "target": "no",
+    "canonical": "no",
+    "answers": [
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no"
+    ],
+    "answers_norm": [
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no"
+    ],
+    "agree": 10
+   }
+  ]
+ },
+ {
+  "pair_id": "vqa-val2014-518224002-392967000",
+  "suite": "vqa",
+  "kind": "yes/no",
+  "question": "Is the bat broken?",
+  "items": [
+   {
+    "qid": 518224002,
+    "image": "val2014:518224",
+    "image_id": 518224,
+    "target": "yes",
+    "canonical": "yes",
+    "answers": [
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes"
+    ],
+    "answers_norm": [
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes"
+    ],
+    "agree": 10
+   },
+   {
+    "qid": 392967000,
+    "image": "val2014:392967",
+    "image_id": 392967,
+    "target": "no",
+    "canonical": "no",
+    "answers": [
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no"
+    ],
+    "answers_norm": [
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no"
+    ],
+    "agree": 10
+   }
+  ]
+ },
+ {
+  "pair_id": "vqa-val2014-336568001-61564013",
+  "suite": "vqa",
+  "kind": "yes/no",
+  "question": "Are the animals the same color?",
+  "items": [
+   {
+    "qid": 336568001,
+    "image": "val2014:336568",
+    "image_id": 336568,
+    "target": "no",
+    "canonical": "no",
+    "answers": [
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no"
+    ],
+    "answers_norm": [
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no"
+    ],
+    "agree": 10
+   },
+   {
+    "qid": 61564013,
+    "image": "val2014:61564",
+    "image_id": 61564,
+    "target": "yes",
+    "canonical": "yes",
+    "answers": [
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes"
+    ],
+    "answers_norm": [
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes"
+    ],
+    "agree": 10
+   }
+  ]
+ },
+ {
+  "pair_id": "vqa-val2014-482910002-144243001",
+  "suite": "vqa",
+  "kind": "yes/no",
+  "question": "Are they playing soccer?",
+  "items": [
+   {
+    "qid": 482910002,
+    "image": "val2014:482910",
+    "image_id": 482910,
+    "target": "no",
+    "canonical": "no",
+    "answers": [
+     "no",
+     "no",
+     "yes",
+     "no",
+     "no",
+     "no",
+     "yes",
+     "no",
+     "no",
+     "no"
+    ],
+    "answers_norm": [
+     "no",
+     "no",
+     "yes",
+     "no",
+     "no",
+     "no",
+     "yes",
+     "no",
+     "no",
+     "no"
+    ],
+    "agree": 8
+   },
+   {
+    "qid": 144243001,
+    "image": "val2014:144243",
+    "image_id": 144243,
+    "target": "yes",
+    "canonical": "yes",
+    "answers": [
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes"
+    ],
+    "answers_norm": [
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes"
+    ],
+    "agree": 10
+   }
+  ]
+ },
+ {
+  "pair_id": "vqa-val2014-142318000-23033001",
+  "suite": "vqa",
+  "kind": "yes/no",
+  "question": "Is there a fence?",
+  "items": [
+   {
+    "qid": 142318000,
+    "image": "val2014:142318",
+    "image_id": 142318,
+    "target": "yes",
+    "canonical": "yes",
+    "answers": [
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes"
+    ],
+    "answers_norm": [
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes"
+    ],
+    "agree": 10
+   },
+   {
+    "qid": 23033001,
+    "image": "val2014:23033",
+    "image_id": 23033,
+    "target": "no",
+    "canonical": "no",
+    "answers": [
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no"
+    ],
+    "answers_norm": [
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no"
+    ],
+    "agree": 10
+   }
+  ]
+ },
+ {
+  "pair_id": "vqa-val2014-20912000-149298015",
+  "suite": "vqa",
+  "kind": "yes/no",
+  "question": "Is there a light on in the storage bin?",
+  "items": [
+   {
+    "qid": 20912000,
+    "image": "val2014:20912",
+    "image_id": 20912,
+    "target": "yes",
+    "canonical": "yes",
+    "answers": [
+     "no",
+     "no",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes"
+    ],
+    "answers_norm": [
+     "no",
+     "no",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes"
+    ],
+    "agree": 8
+   },
+   {
+    "qid": 149298015,
+    "image": "val2014:149298",
+    "image_id": 149298,
+    "target": "no",
+    "canonical": "no",
+    "answers": [
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no"
+    ],
+    "answers_norm": [
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no"
+    ],
+    "agree": 10
+   }
+  ]
+ },
+ {
+  "pair_id": "vqa-val2014-161879001-283217015",
+  "suite": "vqa",
+  "kind": "yes/no",
+  "question": "Is the sun shining?",
+  "items": [
+   {
+    "qid": 161879001,
+    "image": "val2014:161879",
+    "image_id": 161879,
+    "target": "yes",
+    "canonical": "yes",
+    "answers": [
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "no",
+     "yes",
+     "yes"
+    ],
+    "answers_norm": [
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "no",
+     "yes",
+     "yes"
+    ],
+    "agree": 9
+   },
+   {
+    "qid": 283217015,
+    "image": "val2014:283217",
+    "image_id": 283217,
+    "target": "no",
+    "canonical": "no",
+    "answers": [
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no"
+    ],
+    "answers_norm": [
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no"
+    ],
+    "agree": 10
+   }
+  ]
+ },
+ {
+  "pair_id": "vqa-val2014-504152001-191265002",
+  "suite": "vqa",
+  "kind": "yes/no",
+  "question": "Is this a workbench?",
+  "items": [
+   {
+    "qid": 504152001,
+    "image": "val2014:504152",
+    "image_id": 504152,
+    "target": "yes",
+    "canonical": "yes",
+    "answers": [
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes"
+    ],
+    "answers_norm": [
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes"
+    ],
+    "agree": 10
+   },
+   {
+    "qid": 191265002,
+    "image": "val2014:191265",
+    "image_id": 191265,
+    "target": "no",
+    "canonical": "no",
+    "answers": [
+     "yes",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "yes",
+     "no",
+     "no"
+    ],
+    "answers_norm": [
+     "yes",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "yes",
+     "no",
+     "no"
+    ],
+    "agree": 8
+   }
+  ]
+ },
+ {
+  "pair_id": "vqa-val2014-229134000-441496011",
+  "suite": "vqa",
+  "kind": "yes/no",
+  "question": "Is one of the boats creating a wake?",
+  "items": [
+   {
+    "qid": 229134000,
+    "image": "val2014:229134",
+    "image_id": 229134,
+    "target": "yes",
+    "canonical": "yes",
+    "answers": [
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes"
+    ],
+    "answers_norm": [
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes"
+    ],
+    "agree": 10
+   },
+   {
+    "qid": 441496011,
+    "image": "val2014:441496",
+    "image_id": 441496,
+    "target": "no",
+    "canonical": "no",
+    "answers": [
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no"
+    ],
+    "answers_norm": [
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no"
+    ],
+    "agree": 10
+   }
+  ]
+ },
+ {
+  "pair_id": "vqa-val2014-328668002-88360005",
+  "suite": "vqa",
+  "kind": "yes/no",
+  "question": "Are any females playing?",
+  "items": [
+   {
+    "qid": 328668002,
+    "image": "val2014:328668",
+    "image_id": 328668,
+    "target": "no",
+    "canonical": "no",
+    "answers": [
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "yes",
+     "no",
+     "no"
+    ],
+    "answers_norm": [
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "yes",
+     "no",
+     "no"
+    ],
+    "agree": 9
+   },
+   {
+    "qid": 88360005,
+    "image": "val2014:88360",
+    "image_id": 88360,
+    "target": "yes",
+    "canonical": "yes",
+    "answers": [
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes"
+    ],
+    "answers_norm": [
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes"
+    ],
+    "agree": 10
+   }
+  ]
+ },
+ {
+  "pair_id": "vqa-val2014-439738000-521282001",
+  "suite": "vqa",
+  "kind": "yes/no",
+  "question": "Are there any flowers in the picture?",
+  "items": [
+   {
+    "qid": 439738000,
+    "image": "val2014:439738",
+    "image_id": 439738,
+    "target": "no",
+    "canonical": "no",
+    "answers": [
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "yes",
+     "no"
+    ],
+    "answers_norm": [
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "no",
+     "yes",
+     "no"
+    ],
+    "agree": 9
+   },
+   {
+    "qid": 521282001,
+    "image": "val2014:521282",
+    "image_id": 521282,
+    "target": "yes",
+    "canonical": "yes",
+    "answers": [
+     "yes",
+     "yes",
+     "yes",
+     "twenty",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes"
+    ],
+    "answers_norm": [
+     "yes",
+     "yes",
+     "yes",
+     "twenty",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes",
+     "yes"
+    ],
+    "agree": 9
+   }
+  ]
+ },
+ {
+  "pair_id": "vqa-val2014-83049003-61684003",
+  "suite": "vqa",
+  "kind": "number",
+  "question": "How many adults are in this image?",
+  "items": [
+   {
+    "qid": 83049003,
+    "image": "val2014:83049",
+    "image_id": 83049,
+    "target": "3",
+    "canonical": "3",
+    "answers": [
+     "3",
+     "3",
+     "3",
+     "3",
+     "3",
+     "3",
+     "3",
+     "3",
+     "3",
+     "3"
+    ],
+    "answers_norm": [
+     "3",
+     "3",
+     "3",
+     "3",
+     "3",
+     "3",
+     "3",
+     "3",
+     "3",
+     "3"
+    ],
+    "agree": 10
+   },
+   {
+    "qid": 61684003,
+    "image": "val2014:61684",
+    "image_id": 61684,
+    "target": "1",
+    "canonical": "1",
+    "answers": [
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1"
+    ],
+    "answers_norm": [
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1"
+    ],
+    "agree": 10
+   }
+  ]
+ },
+ {
+  "pair_id": "vqa-val2014-413839000-423039006",
+  "suite": "vqa",
+  "kind": "number",
+  "question": "How many people are on the bench?",
+  "items": [
+   {
+    "qid": 413839000,
+    "image": "val2014:413839",
+    "image_id": 413839,
+    "target": "1",
+    "canonical": "1",
+    "answers": [
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1"
+    ],
+    "answers_norm": [
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1"
+    ],
+    "agree": 10
+   },
+   {
+    "qid": 423039006,
+    "image": "val2014:423039",
+    "image_id": 423039,
+    "target": "0",
+    "canonical": "0",
+    "answers": [
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "no",
+     "0",
+     "0"
+    ],
+    "answers_norm": [
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "0",
+     "no",
+     "0",
+     "0"
+    ],
+    "agree": 9
+   }
+  ]
+ },
+ {
+  "pair_id": "vqa-val2014-180739001-282680002",
+  "suite": "vqa",
+  "kind": "number",
+  "question": "How many people are pictured?",
+  "items": [
+   {
+    "qid": 180739001,
+    "image": "val2014:180739",
+    "image_id": 180739,
+    "target": "2",
+    "canonical": "2",
+    "answers": [
+     "2",
+     "2",
+     "2",
+     "2",
+     "2",
+     "2",
+     "2",
+     "2",
+     "2",
+     "2"
+    ],
+    "answers_norm": [
+     "2",
+     "2",
+     "2",
+     "2",
+     "2",
+     "2",
+     "2",
+     "2",
+     "2",
+     "2"
+    ],
+    "agree": 10
+   },
+   {
+    "qid": 282680002,
+    "image": "val2014:282680",
+    "image_id": 282680,
+    "target": "1",
+    "canonical": "1",
+    "answers": [
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1"
+    ],
+    "answers_norm": [
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1"
+    ],
+    "agree": 10
+   }
+  ]
+ },
+ {
+  "pair_id": "vqa-val2014-522782004-477112007",
+  "suite": "vqa",
+  "kind": "number",
+  "question": "How many monitors are on?",
+  "items": [
+   {
+    "qid": 522782004,
+    "image": "val2014:522782",
+    "image_id": 522782,
+    "target": "3",
+    "canonical": "3",
+    "answers": [
+     "3",
+     "3",
+     "3",
+     "2",
+     "2",
+     "3",
+     "3",
+     "3",
+     "3",
+     "3"
+    ],
+    "answers_norm": [
+     "3",
+     "3",
+     "3",
+     "2",
+     "2",
+     "3",
+     "3",
+     "3",
+     "3",
+     "3"
+    ],
+    "agree": 8
+   },
+   {
+    "qid": 477112007,
+    "image": "val2014:477112",
+    "image_id": 477112,
+    "target": "1",
+    "canonical": "1",
+    "answers": [
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1"
+    ],
+    "answers_norm": [
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1"
+    ],
+    "agree": 10
+   }
+  ]
+ },
+ {
+  "pair_id": "vqa-val2014-532338000-268371005",
+  "suite": "vqa",
+  "kind": "number",
+  "question": "How many planes are there?",
+  "items": [
+   {
+    "qid": 532338000,
+    "image": "val2014:532338",
+    "image_id": 532338,
+    "target": "1",
+    "canonical": "1",
+    "answers": [
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1"
+    ],
+    "answers_norm": [
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1"
+    ],
+    "agree": 10
+   },
+   {
+    "qid": 268371005,
+    "image": "val2014:268371",
+    "image_id": 268371,
+    "target": "6",
+    "canonical": "6",
+    "answers": [
+     "6",
+     "6",
+     "6",
+     "6",
+     "6",
+     "6",
+     "6",
+     "6",
+     "6",
+     "6"
+    ],
+    "answers_norm": [
+     "6",
+     "6",
+     "6",
+     "6",
+     "6",
+     "6",
+     "6",
+     "6",
+     "6",
+     "6"
+    ],
+    "agree": 10
+   }
+  ]
+ },
+ {
+  "pair_id": "vqa-val2014-43997018-175310049",
+  "suite": "vqa",
+  "kind": "number",
+  "question": "How many sinks?",
+  "items": [
+   {
+    "qid": 43997018,
+    "image": "val2014:43997",
+    "image_id": 43997,
+    "target": "4",
+    "canonical": "4",
+    "answers": [
+     "4",
+     "4",
+     "4",
+     "4",
+     "4",
+     "4",
+     "4",
+     "4",
+     "4",
+     "4"
+    ],
+    "answers_norm": [
+     "4",
+     "4",
+     "4",
+     "4",
+     "4",
+     "4",
+     "4",
+     "4",
+     "4",
+     "4"
+    ],
+    "agree": 10
+   },
+   {
+    "qid": 175310049,
+    "image": "val2014:175310",
+    "image_id": 175310,
+    "target": "1",
+    "canonical": "1",
+    "answers": [
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1"
+    ],
+    "answers_norm": [
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1",
+     "1"
+    ],
+    "agree": 10
+   }
+  ]
+ },
+ {
+  "pair_id": "vqa-val2014-556012002-237324000",
+  "suite": "vqa",
+  "kind": "number",
+  "question": "What is the number on the taxi?",
+  "items": [
+   {
+    "qid": 556012002,
+    "image": "val2014:556012",
+    "image_id": 556012,
+    "target": "3531",
+    "canonical": "3531",
+    "answers": [
+     "3531",
+     "3531",
+     "3531",
+     "3531",
+     "1537",
+     "3531",
+     "3531",
+     "3531",
+     "3531",
+     "3531"
+    ],
+    "answers_norm": [
+     "3531",
+     "3531",
+     "3531",
+     "3531",
+     "1537",
+     "3531",
+     "3531",
+     "3531",
+     "3531",
+     "3531"
+    ],
+    "agree": 9
+   },
+   {
+    "qid": 237324000,
+    "image": "val2014:237324",
+    "image_id": 237324,
+    "target": "328",
+    "canonical": "328",
+    "answers": [
+     "328",
+     "unknown",
+     "328",
+     "328",
+     "328",
+     "328",
+     "328",
+     "328",
+     "328",
+     "328"
+    ],
+    "answers_norm": [
+     "328",
+     "unknown",
+     "328",
+     "328",
+     "328",
+     "328",
+     "328",
+     "328",
+     "328",
+     "328"
+    ],
+    "agree": 9
+   }
+  ]
+ },
+ {
+  "pair_id": "vqa-val2014-409345000-36333002",
+  "suite": "vqa",
+  "kind": "number",
+  "question": "How many children are on the half pipe?",
+  "items": [
+   {
+    "qid": 409345000,
+    "image": "val2014:409345",
+    "image_id": 409345,
+    "target": "4",
+    "canonical": "4",
+    "answers": [
+     "4",
+     "5",
+     "4",
+     "5",
+     "4",
+     "4",
+     "4",
+     "4",
+     "4",
+     "4"
+    ],
+    "answers_norm": [
+     "4",
+     "5",
+     "4",
+     "5",
+     "4",
+     "4",
+     "4",
+     "4",
+     "4",
+     "4"
+    ],
+    "agree": 8
+   },
+   {
+    "qid": 36333002,
+    "image": "val2014:36333",
+    "image_id": 36333,
+    "target": "1",
+    "canonical": "1",
+    "answers": [
+     "1",
+     "1",
+     "0",
+     "1",
+     "1",
+     "1",
+     "0",
+     "1",
+     "1",
+     "1"
+    ],
+    "answers_norm": [
+     "1",
+     "1",
+     "0",
+     "1",
+     "1",
+     "1",
+     "0",
+     "1",
+     "1",
+     "1"
+    ],
+    "agree": 8
+   }
+  ]
+ },
+ {
+  "pair_id": "vqa-val2014-405249003-89557015",
+  "suite": "vqa",
+  "kind": "other",
+  "question": "Are the people adults or children?",
+  "items": [
+   {
+    "qid": 405249003,
+    "image": "val2014:405249",
+    "image_id": 405249,
+    "target": "children",
+    "canonical": "children",
+    "answers": [
+     "children",
+     "children",
+     "children",
+     "children",
+     "children",
+     "children",
+     "children",
+     "children",
+     "children",
+     "children"
+    ],
+    "answers_norm": [
+     "children",
+     "children",
+     "children",
+     "children",
+     "children",
+     "children",
+     "children",
+     "children",
+     "children",
+     "children"
+    ],
+    "agree": 10
+   },
+   {
+    "qid": 89557015,
+    "image": "val2014:89557",
+    "image_id": 89557,
+    "target": "adults",
+    "canonical": "adults",
+    "answers": [
+     "adults",
+     "adults",
+     "adults",
+     "adults",
+     "adults",
+     "adults",
+     "adults",
+     "adults",
+     "adults",
+     "adults"
+    ],
+    "answers_norm": [
+     "adults",
+     "adults",
+     "adults",
+     "adults",
+     "adults",
+     "adults",
+     "adults",
+     "adults",
+     "adults",
+     "adults"
+    ],
+    "agree": 10
+   }
+  ]
+ },
+ {
+  "pair_id": "vqa-val2014-489588004-510877002",
+  "suite": "vqa",
+  "kind": "other",
+  "question": "What kind of animal is this?",
+  "items": [
+   {
+    "qid": 489588004,
+    "image": "val2014:489588",
+    "image_id": 489588,
+    "target": "sheep",
+    "canonical": "sheep",
+    "answers": [
+     "sheep",
+     "sheep",
+     "sheep",
+     "sheep",
+     "sheep",
+     "sheep",
+     "sheep",
+     "sheep",
+     "sheep",
+     "sheep"
+    ],
+    "answers_norm": [
+     "sheep",
+     "sheep",
+     "sheep",
+     "sheep",
+     "sheep",
+     "sheep",
+     "sheep",
+     "sheep",
+     "sheep",
+     "sheep"
+    ],
+    "agree": 10
+   },
+   {
+    "qid": 510877002,
+    "image": "val2014:510877",
+    "image_id": 510877,
+    "target": "horse",
+    "canonical": "horse",
+    "answers": [
+     "horse",
+     "horse",
+     "horse",
+     "horse",
+     "horse",
+     "horse",
+     "horse",
+     "horse",
+     "horse",
+     "horse"
+    ],
+    "answers_norm": [
+     "horse",
+     "horse",
+     "horse",
+     "horse",
+     "horse",
+     "horse",
+     "horse",
+     "horse",
+     "horse",
+     "horse"
+    ],
+    "agree": 10
+   }
+  ]
+ },
+ {
+  "pair_id": "vqa-val2014-250167002-262274002",
+  "suite": "vqa",
+  "kind": "other",
+  "question": "What is written on the board?",
+  "items": [
+   {
+    "qid": 250167002,
+    "image": "val2014:250167",
+    "image_id": 250167,
+    "target": "sunrise",
+    "canonical": "sunrise",
+    "answers": [
+     "sunrise",
+     "?",
+     "sunrise",
+     "sunrise",
+     "sunrise",
+     "sunrise",
+     "sunrise",
+     "sunrise",
+     "sunrise",
+     "sunrise bottoms"
+    ],
+    "answers_norm": [
+     "sunrise",
+     "",
+     "sunrise",
+     "sunrise",
+     "sunrise",
+     "sunrise",
+     "sunrise",
+     "sunrise",
+     "sunrise",
+     "sunrise bottoms"
+    ],
+    "agree": 8
+   },
+   {
+    "qid": 262274002,
+    "image": "val2014:262274",
+    "image_id": 262274,
+    "target": "lifeguard",
+    "canonical": "lifeguard",
+    "answers": [
+     "lifeguard",
+     "lifeguard",
+     "lifeguard",
+     "lifeguard",
+     "lifeguard",
+     "keracare lifeguard",
+     "lifeguard",
+     "lifeguard",
+     "lifeguard",
+     "lifeguard"
+    ],
+    "answers_norm": [
+     "lifeguard",
+     "lifeguard",
+     "lifeguard",
+     "lifeguard",
+     "lifeguard",
+     "keracare lifeguard",
+     "lifeguard",
+     "lifeguard",
+     "lifeguard",
+     "lifeguard"
+    ],
+    "agree": 9
+   }
+  ]
+ },
+ {
+  "pair_id": "vqa-val2014-298225002-261603006",
+  "suite": "vqa",
+  "kind": "other",
+  "question": "What is he wearing on his head?",
+  "items": [
+   {
+    "qid": 298225002,
+    "image": "val2014:298225",
+    "image_id": 298225,
+    "target": "hat",
+    "canonical": "hat",
+    "answers": [
+     "hat",
+     "hat",
+     "fedora",
+     "hat",
+     "hat",
+     "hat",
+     "hat",
+     "fedora",
+     "hat",
+     "hat"
+    ],
+    "answers_norm": [
+     "hat",
+     "hat",
+     "fedora",
+     "hat",
+     "hat",
+     "hat",
+     "hat",
+     "fedora",
+     "hat",
+     "hat"
+    ],
+    "agree": 8
+   },
+   {
+    "qid": 261603006,
+    "image": "val2014:261603",
+    "image_id": 261603,
+    "target": "helmet",
+    "canonical": "helmet",
+    "answers": [
+     "helmet",
+     "helmet",
+     "helmet",
+     "helmet",
+     "helmet",
+     "helmet",
+     "helmet",
+     "helmet",
+     "helmet",
+     "helmet"
+    ],
+    "answers_norm": [
+     "helmet",
+     "helmet",
+     "helmet",
+     "helmet",
+     "helmet",
+     "helmet",
+     "helmet",
+     "helmet",
+     "helmet",
+     "helmet"
+    ],
+    "agree": 10
+   }
+  ]
+ },
+ {
+  "pair_id": "vqa-val2014-155341002-328301009",
+  "suite": "vqa",
+  "kind": "other",
+  "question": "What color is the car?",
+  "items": [
+   {
+    "qid": 155341002,
+    "image": "val2014:155341",
+    "image_id": 155341,
+    "target": "red",
+    "canonical": "red",
+    "answers": [
+     "red",
+     "red",
+     "red",
+     "red",
+     "red",
+     "red",
+     "red",
+     "red",
+     "red",
+     "red"
+    ],
+    "answers_norm": [
+     "red",
+     "red",
+     "red",
+     "red",
+     "red",
+     "red",
+     "red",
+     "red",
+     "red",
+     "red"
+    ],
+    "agree": 10
+   },
+   {
+    "qid": 328301009,
+    "image": "val2014:328301",
+    "image_id": 328301,
+    "target": "yellow",
+    "canonical": "yellow",
+    "answers": [
+     "yellow",
+     "yellow",
+     "yellow",
+     "yellow",
+     "yellow",
+     "yellow",
+     "yellow",
+     "yellow",
+     "off white",
+     "cream"
+    ],
+    "answers_norm": [
+     "yellow",
+     "yellow",
+     "yellow",
+     "yellow",
+     "yellow",
+     "yellow",
+     "yellow",
+     "yellow",
+     "off white",
+     "cream"
+    ],
+    "agree": 8
+   }
+  ]
+ },
+ {
+  "pair_id": "vqa-val2014-219737001-43670009",
+  "suite": "vqa",
+  "kind": "other",
+  "question": "What sport is being played?",
+  "items": [
+   {
+    "qid": 219737001,
+    "image": "val2014:219737",
+    "image_id": 219737,
+    "target": "tennis",
+    "canonical": "tennis",
+    "answers": [
+     "tennis",
+     "tennis",
+     "tennis",
+     "tennis",
+     "tennis",
+     "tennis",
+     "tennis",
+     "tennis",
+     "tennis",
+     "tennis"
+    ],
+    "answers_norm": [
+     "tennis",
+     "tennis",
+     "tennis",
+     "tennis",
+     "tennis",
+     "tennis",
+     "tennis",
+     "tennis",
+     "tennis",
+     "tennis"
+    ],
+    "agree": 10
+   },
+   {
+    "qid": 43670009,
+    "image": "val2014:43670",
+    "image_id": 43670,
+    "target": "baseball",
+    "canonical": "baseball",
+    "answers": [
+     "baseball",
+     "baseball",
+     "baseball",
+     "baseball",
+     "baseball",
+     "baseball",
+     "baseball",
+     "golf",
+     "baseball",
+     "baseball"
+    ],
+    "answers_norm": [
+     "baseball",
+     "baseball",
+     "baseball",
+     "baseball",
+     "baseball",
+     "baseball",
+     "baseball",
+     "golf",
+     "baseball",
+     "baseball"
+    ],
+    "agree": 9
+   }
+  ]
+ },
+ {
+  "pair_id": "vqa-val2014-353300000-578324002",
+  "suite": "vqa",
+  "kind": "other",
+  "question": "What brand of computer is in the image?",
+  "items": [
+   {
+    "qid": 353300000,
+    "image": "val2014:353300",
+    "image_id": 353300,
+    "target": "apple",
+    "canonical": "apple",
+    "answers": [
+     "apple",
+     "imac",
+     "apple",
+     "apple",
+     "apple",
+     "apple",
+     "apple",
+     "apple",
+     "apple",
+     "apple"
+    ],
+    "answers_norm": [
+     "apple",
+     "imac",
+     "apple",
+     "apple",
+     "apple",
+     "apple",
+     "apple",
+     "apple",
+     "apple",
+     "apple"
+    ],
+    "agree": 9
+   },
+   {
+    "qid": 578324002,
+    "image": "val2014:578324",
+    "image_id": 578324,
+    "target": "dell",
+    "canonical": "dell",
+    "answers": [
+     "dell",
+     "dell",
+     "dell",
+     "gateway",
+     "dell",
+     "dell",
+     "lenovo",
+     "dell",
+     "dell",
+     "dell"
+    ],
+    "answers_norm": [
+     "dell",
+     "dell",
+     "dell",
+     "gateway",
+     "dell",
+     "dell",
+     "lenovo",
+     "dell",
+     "dell",
+     "dell"
+    ],
+    "agree": 8
+   }
+  ]
+ },
+ {
+  "pair_id": "vqa-val2014-14338000-79837023",
+  "suite": "vqa",
+  "kind": "other",
+  "question": "Is it night or day?",
+  "items": [
+   {
+    "qid": 14338000,
+    "image": "val2014:14338",
+    "image_id": 14338,
+    "target": "day",
+    "canonical": "day",
+    "answers": [
+     "day",
+     "day",
+     "day",
+     "day",
+     "day",
+     "day",
+     "day",
+     "day",
+     "day",
+     "day"
+    ],
+    "answers_norm": [
+     "day",
+     "day",
+     "day",
+     "day",
+     "day",
+     "day",
+     "day",
+     "day",
+     "day",
+     "day"
+    ],
+    "agree": 10
+   },
+   {
+    "qid": 79837023,
+    "image": "val2014:79837",
+    "image_id": 79837,
+    "target": "night",
+    "canonical": "night",
+    "answers": [
+     "night",
+     "night",
+     "night",
+     "night",
+     "night",
+     "night",
+     "night",
+     "night",
+     "night",
+     "night"
+    ],
+    "answers_norm": [
+     "night",
+     "night",
+     "night",
+     "night",
+     "night",
+     "night",
+     "night",
+     "night",
+     "night",
+     "night"
+    ],
+    "agree": 10
+   }
+  ]
+ },
+ {
+  "pair_id": "vqa-val2014-450719000-493161000",
+  "suite": "vqa",
+  "kind": "other",
+  "question": "What is it doing?",
+  "items": [
+   {
+    "qid": 450719000,
+    "image": "val2014:450719",
+    "image_id": 450719,
+    "target": "drinking",
+    "canonical": "drinking",
+    "answers": [
+     "drinking",
+     "drinking",
+     "drinking",
+     "drinking",
+     "drinking",
+     "drinking",
+     "drinking",
+     "drinking",
+     "drinking",
+     "drinking water"
+    ],
+    "answers_norm": [
+     "drinking",
+     "drinking",
+     "drinking",
+     "drinking",
+     "drinking",
+     "drinking",
+     "drinking",
+     "drinking",
+     "drinking",
+     "drinking water"
+    ],
+    "agree": 9
+   },
+   {
+    "qid": 493161000,
+    "image": "val2014:493161",
+    "image_id": 493161,
+    "target": "eating",
+    "canonical": "eating",
+    "answers": [
+     "eating",
+     "eating",
+     "eating",
+     "eating",
+     "grazing",
+     "eating",
+     "kissing",
+     "eating",
+     "eating",
+     "eating"
+    ],
+    "answers_norm": [
+     "eating",
+     "eating",
+     "eating",
+     "eating",
+     "grazing",
+     "eating",
+     "kissing",
+     "eating",
+     "eating",
+     "eating"
+    ],
+    "agree": 8
+   }
+  ]
+ },
+ {
+  "pair_id": "vqa-val2014-264948003-182681000",
+  "suite": "vqa",
+  "kind": "other",
+  "question": "What color hat is she wearing?",
+  "items": [
+   {
+    "qid": 264948003,
+    "image": "val2014:264948",
+    "image_id": 264948,
+    "target": "white",
+    "canonical": "white",
+    "answers": [
+     "white",
+     "white",
+     "white",
+     "white",
+     "white",
+     "white",
+     "white",
+     "white",
+     "white",
+     "white"
+    ],
+    "answers_norm": [
+     "white",
+     "white",
+     "white",
+     "white",
+     "white",
+     "white",
+     "white",
+     "white",
+     "white",
+     "white"
+    ],
+    "agree": 10
+   },
+   {
+    "qid": 182681000,
+    "image": "val2014:182681",
+    "image_id": 182681,
+    "target": "black",
+    "canonical": "black",
+    "answers": [
+     "black",
+     "black",
+     "black",
+     "black",
+     "black",
+     "black",
+     "black",
+     "blue",
+     "black",
+     "blue"
+    ],
+    "answers_norm": [
+     "black",
+     "black",
+     "black",
+     "black",
+     "black",
+     "black",
+     "black",
+     "blue",
+     "black",
+     "blue"
+    ],
+    "agree": 8
+   }
+  ]
+ },
+ {
+  "pair_id": "vqa-val2014-398203002-237783002",
+  "suite": "vqa",
+  "kind": "other",
+  "question": "What sport are they playing?",
+  "items": [
+   {
+    "qid": 398203002,
+    "image": "val2014:398203",
+    "image_id": 398203,
+    "target": "soccer",
+    "canonical": "soccer",
+    "answers": [
+     "soccer",
+     "soccer",
+     "soccer",
+     "soccer",
+     "soccer",
+     "soccer",
+     "soccer",
+     "soccer",
+     "soccer",
+     "soccer"
+    ],
+    "answers_norm": [
+     "soccer",
+     "soccer",
+     "soccer",
+     "soccer",
+     "soccer",
+     "soccer",
+     "soccer",
+     "soccer",
+     "soccer",
+     "soccer"
+    ],
+    "agree": 10
+   },
+   {
+    "qid": 237783002,
+    "image": "val2014:237783",
+    "image_id": 237783,
+    "target": "frisbee",
+    "canonical": "frisbee",
+    "answers": [
+     "frisbee",
+     "ultimate frisbee",
+     "frisbee",
+     "frisbee",
+     "frisbee",
+     "frisbee",
+     "disc",
+     "frisbee",
+     "frisbee",
+     "frisbee"
+    ],
+    "answers_norm": [
+     "frisbee",
+     "ultimate frisbee",
+     "frisbee",
+     "frisbee",
+     "frisbee",
+     "frisbee",
+     "disc",
+     "frisbee",
+     "frisbee",
+     "frisbee"
+    ],
+    "agree": 8
+   }
+  ]
+ },
+ {
+  "pair_id": "vqa-val2014-479866002-474028010",
+  "suite": "vqa",
+  "kind": "other",
+  "question": "What game are they playing?",
+  "items": [
+   {
+    "qid": 479866002,
+    "image": "val2014:479866",
+    "image_id": 479866,
+    "target": "frisbee",
+    "canonical": "frisbee",
+    "answers": [
+     "frisbee",
+     "frisbee",
+     "frisbee",
+     "frisbee",
+     "frisbee",
+     "frisbee",
+     "soccer",
+     "frisbee",
+     "frisbee",
+     "frisbee"
+    ],
+    "answers_norm": [
+     "frisbee",
+     "frisbee",
+     "frisbee",
+     "frisbee",
+     "frisbee",
+     "frisbee",
+     "soccer",
+     "frisbee",
+     "frisbee",
+     "frisbee"
+    ],
+    "agree": 9
+   },
+   {
+    "qid": 474028010,
+    "image": "val2014:474028",
+    "image_id": 474028,
+    "target": "soccer",
+    "canonical": "soccer",
+    "answers": [
+     "soccer",
+     "soccer",
+     "soccer",
+     "soccer",
+     "soccer",
+     "soccer",
+     "soccer",
+     "soccer",
+     "soccer",
+     "soccer"
+    ],
+    "answers_norm": [
+     "soccer",
+     "soccer",
+     "soccer",
+     "soccer",
+     "soccer",
+     "soccer",
+     "soccer",
+     "soccer",
+     "soccer",
+     "soccer"
+    ],
+    "agree": 10
+   }
+  ]
+ }
+]

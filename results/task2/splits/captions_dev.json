@@ -1,0 +1,674 @@
+[
+ {
+  "ex_id": "cap-247286",
+  "image": "val2014:560623",
+  "image_id": 560623,
+  "caption_id": 247286,
+  "target": "Planes on a wet tarmac unloading at arrival gates."
+ },
+ {
+  "ex_id": "cap-214759",
+  "image": "val2014:458790",
+  "image_id": 458790,
+  "caption_id": 214759,
+  "target": "A view from the inside of a train from a side window."
+ },
+ {
+  "ex_id": "cap-233482",
+  "image": "val2014:30067",
+  "image_id": 30067,
+  "caption_id": 233482,
+  "target": "A man is playing tennis with a racquet and ball."
+ },
+ {
+  "ex_id": "cap-583728",
+  "image": "val2014:573214",
+  "image_id": 573214,
+  "caption_id": 583728,
+  "target": "A biker riding down a street on a motorcycle."
+ },
+ {
+  "ex_id": "cap-602963",
+  "image": "val2014:461753",
+  "image_id": 461753,
+  "caption_id": 602963,
+  "target": "a group of young children holding up toothbrushes"
+ },
+ {
+  "ex_id": "cap-623314",
+  "image": "val2014:25708",
+  "image_id": 25708,
+  "caption_id": 623314,
+  "target": "A bowl of pasta, broccoli, onion, and carrots."
+ },
+ {
+  "ex_id": "cap-146608",
+  "image": "val2014:576017",
+  "image_id": 576017,
+  "caption_id": 146608,
+  "target": "There are two different street signs together in a different language"
+ },
+ {
+  "ex_id": "cap-823581",
+  "image": "val2014:258061",
+  "image_id": 258061,
+  "caption_id": 823581,
+  "target": "A man is surfing and crouches under a wave."
+ },
+ {
+  "ex_id": "cap-766554",
+  "image": "val2014:102056",
+  "image_id": 102056,
+  "caption_id": 766554,
+  "target": "some people in line waiting to board a bus"
+ },
+ {
+  "ex_id": "cap-757336",
+  "image": "val2014:555772",
+  "image_id": 555772,
+  "caption_id": 757336,
+  "target": "A stop sign specifying about no zamboni crossing."
+ },
+ {
+  "ex_id": "cap-545055",
+  "image": "val2014:321579",
+  "image_id": 321579,
+  "caption_id": 545055,
+  "target": "Two pizzas siting on top of a table next to each other."
+ },
+ {
+  "ex_id": "cap-604286",
+  "image": "val2014:484986",
+  "image_id": 484986,
+  "caption_id": 604286,
+  "target": "The view from the airplane shows a mountain range."
+ },
+ {
+  "ex_id": "cap-586955",
+  "image": "val2014:63516",
+  "image_id": 63516,
+  "caption_id": 586955,
+  "target": "a couple of horse that are walking in a field"
+ },
+ {
+  "ex_id": "cap-347040",
+  "image": "val2014:559790",
+  "image_id": 559790,
+  "caption_id": 347040,
+  "target": "A colorful train is waiting on the tracks at the station."
+ },
+ {
+  "ex_id": "cap-238106",
+  "image": "val2014:148395",
+  "image_id": 148395,
+  "caption_id": 238106,
+  "target": "A truck and several vehicles inside a building."
+ },
+ {
+  "ex_id": "cap-96281",
+  "image": "val2014:261186",
+  "image_id": 261186,
+  "caption_id": 96281,
+  "target": "A large elephant is climbing out of the muddy river."
+ },
+ {
+  "ex_id": "cap-116132",
+  "image": "val2014:540733",
+  "image_id": 540733,
+  "caption_id": 116132,
+  "target": "A picture of a stop sign and some buildings."
+ },
+ {
+  "ex_id": "cap-44340",
+  "image": "val2014:109092",
+  "image_id": 109092,
+  "caption_id": 44340,
+  "target": "A man in a suit stares at a chili dog with cheese."
+ },
+ {
+  "ex_id": "cap-160174",
+  "image": "val2014:579060",
+  "image_id": 579060,
+  "caption_id": 160174,
+  "target": "A male Tennis player is just about to hit the ball."
+ },
+ {
+  "ex_id": "cap-533854",
+  "image": "val2014:10766",
+  "image_id": 10766,
+  "caption_id": 533854,
+  "target": "a little asian girl holding a stuffed rabbit close to her face"
+ },
+ {
+  "ex_id": "cap-372407",
+  "image": "val2014:225791",
+  "image_id": 225791,
+  "caption_id": 372407,
+  "target": "a skateboarder in a gray shirt is doing a trick"
+ },
+ {
+  "ex_id": "cap-203652",
+  "image": "val2014:55017",
+  "image_id": 55017,
+  "caption_id": 203652,
+  "target": "A large sandwich cut in half on top of checkered paper."
+ },
+ {
+  "ex_id": "cap-498704",
+  "image": "val2014:8688",
+  "image_id": 8688,
+  "caption_id": 498704,
+  "target": "A mattress sitting above the mattress frame in a small room"
+ },
+ {
+  "ex_id": "cap-448836",
+  "image": "val2014:205811",
+  "image_id": 205811,
+  "caption_id": 448836,
+  "target": "People dressed in business attire smile while sitting at a dinner table."
+ },
+ {
+  "ex_id": "cap-49613",
+  "image": "val2014:490178",
+  "image_id": 490178,
+  "caption_id": 49613,
+  "target": "A little boy stands looking away from the camera holding on to a red suitcase."
+ },
+ {
+  "ex_id": "cap-314980",
+  "image": "val2014:12827",
+  "image_id": 12827,
+  "caption_id": 314980,
+  "target": "A woman taking a selfie with a cat next to her."
+ },
+ {
+  "ex_id": "cap-759889",
+  "image": "val2014:313924",
+  "image_id": 313924,
+  "caption_id": 759889,
+  "target": "a tennis player with a racket on a court"
+ },
+ {
+  "ex_id": "cap-649099",
+  "image": "val2014:422391",
+  "image_id": 422391,
+  "caption_id": 649099,
+  "target": "A HORSE TRAILER WITH THE HORSE AND JOCKEY PICTURED ON IT"
+ },
+ {
+  "ex_id": "cap-609549",
+  "image": "val2014:154584",
+  "image_id": 154584,
+  "caption_id": 609549,
+  "target": "a large bear is standing on a road near some people"
+ },
+ {
+  "ex_id": "cap-454968",
+  "image": "val2014:183500",
+  "image_id": 183500,
+  "caption_id": 454968,
+  "target": "A red and white plane flying through a cloudy sky."
+ },
+ {
+  "ex_id": "cap-77241",
+  "image": "val2014:505157",
+  "image_id": 505157,
+  "caption_id": 77241,
+  "target": "A man performs a skateboard trick in the air."
+ },
+ {
+  "ex_id": "cap-784872",
+  "image": "val2014:304320",
+  "image_id": 304320,
+  "caption_id": 784872,
+  "target": "Several cows standing while grazing in a field."
+ },
+ {
+  "ex_id": "cap-639829",
+  "image": "val2014:576939",
+  "image_id": 576939,
+  "caption_id": 639829,
+  "target": "A bunch of surgical scissors are sitting on a table labeled with tags."
+ },
+ {
+  "ex_id": "cap-198156",
+  "image": "val2014:134178",
+  "image_id": 134178,
+  "caption_id": 198156,
+  "target": "several elderly europeans sitting on a bench and chatting"
+ },
+ {
+  "ex_id": "cap-221051",
+  "image": "val2014:540816",
+  "image_id": 540816,
+  "caption_id": 221051,
+  "target": "A large passenger jet flying through a blue sky."
+ },
+ {
+  "ex_id": "cap-707540",
+  "image": "val2014:266853",
+  "image_id": 266853,
+  "caption_id": 707540,
+  "target": "a wooden skate with a toy elephant inside of it"
+ },
+ {
+  "ex_id": "cap-174731",
+  "image": "val2014:450599",
+  "image_id": 450599,
+  "caption_id": 174731,
+  "target": "A man in sandals playing tennis with two rackets"
+ },
+ {
+  "ex_id": "cap-195042",
+  "image": "val2014:263412",
+  "image_id": 263412,
+  "caption_id": 195042,
+  "target": "A clock tower stands on a sidewalk near parked cars and barren trees."
+ },
+ {
+  "ex_id": "cap-68762",
+  "image": "val2014:166868",
+  "image_id": 166868,
+  "caption_id": 68762,
+  "target": "A herd of cattle grazing out in a grassy open field"
+ },
+ {
+  "ex_id": "cap-197764",
+  "image": "val2014:332141",
+  "image_id": 332141,
+  "caption_id": 197764,
+  "target": "A body of water at night with two boats docked."
+ },
+ {
+  "ex_id": "cap-268274",
+  "image": "val2014:573778",
+  "image_id": 573778,
+  "caption_id": 268274,
+  "target": "The giraffe is laying down on the grass."
+ },
+ {
+  "ex_id": "cap-375394",
+  "image": "val2014:490051",
+  "image_id": 490051,
+  "caption_id": 375394,
+  "target": "Three skiers and a snowboarder walking on the snow together."
+ },
+ {
+  "ex_id": "cap-185152",
+  "image": "val2014:566576",
+  "image_id": 566576,
+  "caption_id": 185152,
+  "target": "A bus station with glass entry doors and roof."
+ },
+ {
+  "ex_id": "cap-791594",
+  "image": "val2014:575931",
+  "image_id": 575931,
+  "caption_id": 791594,
+  "target": "a child clings to his fathers back under an umbrella in a rain storm"
+ },
+ {
+  "ex_id": "cap-793936",
+  "image": "val2014:360540",
+  "image_id": 360540,
+  "caption_id": 793936,
+  "target": "A view of a street corner with an umbrella on it."
+ },
+ {
+  "ex_id": "cap-129658",
+  "image": "val2014:229342",
+  "image_id": 229342,
+  "caption_id": 129658,
+  "target": "A living room scene with a dog and a cat sleeping on the floor."
+ },
+ {
+  "ex_id": "cap-526061",
+  "image": "val2014:541493",
+  "image_id": 541493,
+  "caption_id": 526061,
+  "target": "The sink has a mirrored cabinet above it"
+ },
+ {
+  "ex_id": "cap-640977",
+  "image": "val2014:570952",
+  "image_id": 570952,
+  "caption_id": 640977,
+  "target": "A cat is sitting near a clock posing for the camera."
+ },
+ {
+  "ex_id": "cap-663993",
+  "image": "val2014:97427",
+  "image_id": 97427,
+  "caption_id": 663993,
+  "target": "A small kitchen with a washer and dryer in the middle of it."
+ },
+ {
+  "ex_id": "cap-502546",
+  "image": "val2014:502953",
+  "image_id": 502953,
+  "caption_id": 502546,
+  "target": "A girl is flying a kite near the water."
+ },
+ {
+  "ex_id": "cap-729209",
+  "image": "val2014:118181",
+  "image_id": 118181,
+  "caption_id": 729209,
+  "target": "A person sits on a couch in the restroom"
+ },
+ {
+  "ex_id": "cap-408036",
+  "image": "val2014:180541",
+  "image_id": 180541,
+  "caption_id": 408036,
+  "target": "A black double decker bus that gives ghost tours"
+ },
+ {
+  "ex_id": "cap-711973",
+  "image": "val2014:281722",
+  "image_id": 281722,
+  "caption_id": 711973,
+  "target": "The sailboat became beached during the recent storm."
+ },
+ {
+  "ex_id": "cap-140781",
+  "image": "val2014:450169",
+  "image_id": 450169,
+  "caption_id": 140781,
+  "target": "A young child is brushing its teeth in the tub."
+ },
+ {
+  "ex_id": "cap-751266",
+  "image": "val2014:321118",
+  "image_id": 321118,
+  "caption_id": 751266,
+  "target": "A pair of hairy objects sitting on a laptop next to a mouse."
+ },
+ {
+  "ex_id": "cap-515906",
+  "image": "val2014:489719",
+  "image_id": 489719,
+  "caption_id": 515906,
+  "target": "An adult elephant attending to a child elephant near some water."
+ },
+ {
+  "ex_id": "cap-510055",
+  "image": "val2014:101913",
+  "image_id": 101913,
+  "caption_id": 510055,
+  "target": "Three people watch a train drive by."
+ },
+ {
+  "ex_id": "cap-50165",
+  "image": "val2014:362812",
+  "image_id": 362812,
+  "caption_id": 50165,
+  "target": "A group of well dressed men and women."
+ },
+ {
+  "ex_id": "cap-244066",
+  "image": "val2014:531995",
+  "image_id": 531995,
+  "caption_id": 244066,
+  "target": "Cat on carpet looking into a black boot."
+ },
+ {
+  "ex_id": "cap-217133",
+  "image": "val2014:262425",
+  "image_id": 262425,
+  "caption_id": 217133,
+  "target": "A marine filled with boats floating on water."
+ },
+ {
+  "ex_id": "cap-459111",
+  "image": "val2014:518937",
+  "image_id": 518937,
+  "caption_id": 459111,
+  "target": "Some people are sitting at tables under umbrellas."
+ },
+ {
+  "ex_id": "cap-432649",
+  "image": "val2014:6220",
+  "image_id": 6220,
+  "caption_id": 432649,
+  "target": "A variety of food dishes are shown on display."
+ },
+ {
+  "ex_id": "cap-267922",
+  "image": "val2014:261333",
+  "image_id": 261333,
+  "caption_id": 267922,
+  "target": "A black cat drinking out of a blue cup."
+ },
+ {
+  "ex_id": "cap-71798",
+  "image": "val2014:351744",
+  "image_id": 351744,
+  "caption_id": 71798,
+  "target": "A train is passing by an empty platform"
+ },
+ {
+  "ex_id": "cap-11027",
+  "image": "val2014:529494",
+  "image_id": 529494,
+  "caption_id": 11027,
+  "target": "A clock is shown with birds replacing the numbers."
+ },
+ {
+  "ex_id": "cap-795808",
+  "image": "val2014:141962",
+  "image_id": 141962,
+  "caption_id": 795808,
+  "target": "A person with a helmet on a blue motorcycle."
+ },
+ {
+  "ex_id": "cap-11989",
+  "image": "val2014:492785",
+  "image_id": 492785,
+  "caption_id": 11989,
+  "target": "A sandwich is cut in half and sitting on it's wrapper."
+ },
+ {
+  "ex_id": "cap-87757",
+  "image": "val2014:520996",
+  "image_id": 520996,
+  "caption_id": 87757,
+  "target": "An elephant tied up in a city park."
+ },
+ {
+  "ex_id": "cap-302024",
+  "image": "val2014:484573",
+  "image_id": 484573,
+  "caption_id": 302024,
+  "target": "A pile of food on a white plate."
+ },
+ {
+  "ex_id": "cap-563207",
+  "image": "val2014:527060",
+  "image_id": 527060,
+  "caption_id": 563207,
+  "target": "The group of people are getting ready to eat cake."
+ },
+ {
+  "ex_id": "cap-725624",
+  "image": "val2014:363403",
+  "image_id": 363403,
+  "caption_id": 725624,
+  "target": "A man wearing a suit and tie walking down the street."
+ },
+ {
+  "ex_id": "cap-724721",
+  "image": "val2014:260141",
+  "image_id": 260141,
+  "caption_id": 724721,
+  "target": "a bunch of boats all lined up on a dock."
+ },
+ {
+  "ex_id": "cap-70425",
+  "image": "val2014:441500",
+  "image_id": 441500,
+  "caption_id": 70425,
+  "target": "The child is putting the tooth brush in his mouth."
+ },
+ {
+  "ex_id": "cap-174480",
+  "image": "val2014:82662",
+  "image_id": 82662,
+  "caption_id": 174480,
+  "target": "A small figure has been drawn on a stop sign."
+ },
+ {
+  "ex_id": "cap-359661",
+  "image": "val2014:533896",
+  "image_id": 533896,
+  "caption_id": 359661,
+  "target": "Directional signs on pole near bricked roadway at intersection."
+ },
+ {
+  "ex_id": "cap-286081",
+  "image": "val2014:556246",
+  "image_id": 556246,
+  "caption_id": 286081,
+  "target": "Five teenage boys are skateboarding in a skate park"
+ },
+ {
+  "ex_id": "cap-46745",
+  "image": "val2014:45603",
+  "image_id": 45603,
+  "caption_id": 46745,
+  "target": "A cat stares at its reflection in a mirror."
+ },
+ {
+  "ex_id": "cap-695823",
+  "image": "val2014:30356",
+  "image_id": 30356,
+  "caption_id": 695823,
+  "target": "a black gray and white cat a toilet sink and mirror"
+ },
+ {
+  "ex_id": "cap-151999",
+  "image": "val2014:410589",
+  "image_id": 410589,
+  "caption_id": 151999,
+  "target": "a sail boat and umbrella along a beach with tall grass"
+ },
+ {
+  "ex_id": "cap-563873",
+  "image": "val2014:511384",
+  "image_id": 511384,
+  "caption_id": 563873,
+  "target": "A person tossing an orange frisbee on top of a green field."
+ },
+ {
+  "ex_id": "cap-803028",
+  "image": "val2014:36561",
+  "image_id": 36561,
+  "caption_id": 803028,
+  "target": "A group of people gathered around a dining table."
+ },
+ {
+  "ex_id": "cap-54679",
+  "image": "val2014:576305",
+  "image_id": 576305,
+  "caption_id": 54679,
+  "target": "A little girl with a snack laughing on a bench."
+ },
+ {
+  "ex_id": "cap-359039",
+  "image": "val2014:6473",
+  "image_id": 6473,
+  "caption_id": 359039,
+  "target": "A decorated birthday cake with a surfing theme"
+ },
+ {
+  "ex_id": "cap-439817",
+  "image": "val2014:342770",
+  "image_id": 342770,
+  "caption_id": 439817,
+  "target": "Man in a white shirt standing next to a green truck."
+ },
+ {
+  "ex_id": "cap-20979",
+  "image": "val2014:282346",
+  "image_id": 282346,
+  "caption_id": 20979,
+  "target": "A skate boarder at night prepairing to skate away."
+ },
+ {
+  "ex_id": "cap-48928",
+  "image": "val2014:226631",
+  "image_id": 226631,
+  "caption_id": 48928,
+  "target": "A cruise ship is near the dock towards buildings."
+ },
+ {
+  "ex_id": "cap-141331",
+  "image": "val2014:420230",
+  "image_id": 420230,
+  "caption_id": 141331,
+  "target": "An elephant with tusks walking with a wet trunk."
+ },
+ {
+  "ex_id": "cap-575871",
+  "image": "val2014:441286",
+  "image_id": 441286,
+  "caption_id": 575871,
+  "target": "Surfer riding large breaking wave on open ocean."
+ },
+ {
+  "ex_id": "cap-125442",
+  "image": "val2014:207264",
+  "image_id": 207264,
+  "caption_id": 125442,
+  "target": "A herd of elephants are grazing in a vast prairie."
+ },
+ {
+  "ex_id": "cap-434367",
+  "image": "val2014:382584",
+  "image_id": 382584,
+  "caption_id": 434367,
+  "target": "A bus driving into parking garage, with a do not enter sign in front of it."
+ },
+ {
+  "ex_id": "cap-87524",
+  "image": "val2014:423125",
+  "image_id": 423125,
+  "caption_id": 87524,
+  "target": "A female surf boarder coming in from a wave."
+ },
+ {
+  "ex_id": "cap-578496",
+  "image": "val2014:134981",
+  "image_id": 134981,
+  "caption_id": 578496,
+  "target": "Two people are going hiking in the snow."
+ },
+ {
+  "ex_id": "cap-527178",
+  "image": "val2014:129690",
+  "image_id": 129690,
+  "caption_id": 527178,
+  "target": "Standing man talking to woman sitting on a park bench."
+ },
+ {
+  "ex_id": "cap-760285",
+  "image": "val2014:165518",
+  "image_id": 165518,
+  "caption_id": 760285,
+  "target": "a person that is on a motorcycle in the dark"
+ },
+ {
+  "ex_id": "cap-500795",
+  "image": "val2014:158084",
+  "image_id": 158084,
+  "caption_id": 500795,
+  "target": "A train with people in it touring the sights."
+ },
+ {
+  "ex_id": "cap-242876",
+  "image": "val2014:311295",
+  "image_id": 311295,
+  "caption_id": 242876,
+  "target": "A field with various wildlife and trees in the background."
+ }
+]

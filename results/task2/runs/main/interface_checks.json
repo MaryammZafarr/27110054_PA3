@@ -1,0 +1,24 @@
+{
+ "feature_shape": [
+  2,
+  196,
+  768
+ ],
+ "connector_output_shape": [
+  2,
+  196,
+  1024
+ ],
+ "lm_hidden": 1024,
+ "visual_slots_per_example": 196,
+ "visual_slots_start_after_user_header": true,
+ "user_header_text": "<|im_start|>user\n",
+ "labels_only_on_target": true,
+ "connector_grad_norm": 1039.2129955291748,
+ "connector_receives_gradient": true,
+ "backbone_trainable_params": 0,
+ "backbone_has_grads": false,
+ "no_image_length_reduction": 196,
+ "no_image_positions_contiguous": true,
+ "split_isolation": "asserted in prepare_data.py (eval sets mutually image-disjoint, none in training/replay)"
+}

@@ -1,0 +1,12 @@
+\begin{tabular}{llrrr}
+\toprule
+phase & trainable\_params & time\_min & peak\_gpu\_GB & note \\
+\midrule
+feature caching (SigLIP, separate) & 0 & 3.269 & 1.329 & 9333 images, 2.62 GB FP16 \\
+train caption\_alignment & 1837056 & 47.741 & 1.542 & connector 1,837,056 + LoRA 0 \\
+train visual\_instruction & 6424576 & 38.017 & 1.564 & connector 1,837,056 + LoRA 4,587,520 \\
+train natural\_vqa & 6424576 & 18.611 & 1.560 & connector 1,837,056 + LoRA 4,587,520 \\
+development evaluations (all) & 0 & 1.630 & nan & 12 evaluation points \\
+final evaluation generation & 0 & 0.861 & 1.664 & grounding\_test/correct: 37.8 ms/answer; grounding\_test/swap: 35.6 ms/answer; grounding\_test/mismatched: 36.9 ms/answer; grounding\_test/none: 17.2 ms/answer; vqa\_test/correct: 41.8 ms/answer; vqa\_test/swap: 40.8 ms/answer; vqa\_test/mismatched: 39.6 ms/answer; vqa\_test/none: 19.5 ms/answer \\
+\bottomrule
+\end{tabular}

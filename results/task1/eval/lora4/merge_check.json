@@ -1,0 +1,17 @@
+{
+  "fp32": {
+    "max_abs_diff": 0.0001430511474609375,
+    "mean_abs_diff": 5.492853233590722e-06,
+    "mean_abs_logit": 2.4594428539276123,
+    "top1_agreement": 1.0,
+    "n_positions": 228
+  },
+  "fp16": {
+    "max_abs_diff": 0.12509918212890625,
+    "mean_abs_diff": 0.006455007009208202,
+    "mean_abs_logit": 2.4588685035705566,
+    "top1_agreement": 1.0,
+    "n_positions": 228
+  },
+  "pass": true
+}

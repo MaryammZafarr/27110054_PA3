@@ -1,0 +1,50 @@
+{
+ "vqa_filter_train": {
+  "agreement<8": 121255,
+  "same_or_empty_consensus": 7093,
+  "answer_type_differs": 84,
+  "kept": 71962
+ },
+ "vqa_filter_val": {
+  "agreement<8": 57777,
+  "same_or_empty_consensus": 3384,
+  "answer_type_differs": 64,
+  "kept": 33919
+ },
+ "n_caption_train": 18000,
+ "n_caption_train_images": 6000,
+ "n_caption_dev": 96,
+ "n_vqa": {
+  "train": 1536,
+  "dev": 32,
+  "test": 96
+ },
+ "n_grounding": {
+  "dev": 24,
+  "test": 96
+ },
+ "grounding_pool": {
+  "presence": 10049,
+  "counting": 10096,
+  "images": 8741
+ },
+ "n_images": {
+  "train": 8741,
+  "eval": 592
+ },
+ "label_filters": {
+  "min_area_px": 1024,
+  "counting": "no crowd boxes and every instance >= min area, count 1-4",
+  "presence": "positive: >=1 non-crowd instance >= min area; negative: no annotation of the category"
+ },
+ "prompt_template": "<|im_start|>user\n<<<IMAGE_SLOT>>>\nQQQ<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+ "caption_instruction": "Write a short caption describing this image.",
+ "qa_instruction": "Answer the question using a single word or phrase.",
+ "seconds_selection": 318.02541422843933,
+ "image_fetch": {
+  "n_needed": 9333,
+  "n_fetched": 9333,
+  "seconds": 297.02449655532837
+ },
+ "audit_rows": 240
+}

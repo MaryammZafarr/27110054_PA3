@@ -1,0 +1,22 @@
+| comparison | benchmark | A (%) | B (%) | B − A (pp) | A✓B✗ | A✗B✓ | McNemar p |
+|---|---|---|---|---|---|---|---|
+| Rank (LoRA-4 → LoRA-16) | GSM8K | 60.20 | 62.70 | 2.50 | 88 | 121 | 0.03 |
+| Rank (LoRA-4 → LoRA-16) | HellaSwag | 47.34 | 47.23 | -0.11 | 151 | 140 | 0.56 |
+| Rank (LoRA-4 → LoRA-16) | BoolQ | 69.27 | 72.08 | 2.81 | 120 | 212 | 5.031e-07 |
+| Rank (LoRA-4 → LoRA-16) | ARC-Easy | 63.64 | 63.59 | -0.04 | 62 | 61 | 1.00 |
+| Regularisation (Full FT → +L2-SP) | GSM8K | 64.82 | 63.84 | -0.99 | 80 | 67 | 0.32 |
+| Regularisation (Full FT → +L2-SP) | HellaSwag | 45.95 | 46.43 | 0.49 | 149 | 198 | 9.872e-03 |
+| Regularisation (Full FT → +L2-SP) | BoolQ | 59.91 | 64.34 | 4.43 | 67 | 212 | 1.038e-18 |
+| Regularisation (Full FT → +L2-SP) | ARC-Easy | 63.51 | 63.30 | -0.21 | 66 | 61 | 0.72 |
+| Orthogonal protection (LoRA-16 → OPLoRA-16) | GSM8K | 62.70 | 62.77 | 0.08 | 51 | 52 | 1.00 |
+| Orthogonal protection (LoRA-16 → OPLoRA-16) | HellaSwag | 47.23 | 47.19 | -0.04 | 75 | 71 | 0.80 |
+| Orthogonal protection (LoRA-16 → OPLoRA-16) | BoolQ | 72.08 | 71.65 | -0.43 | 92 | 78 | 0.32 |
+| Orthogonal protection (LoRA-16 → OPLoRA-16) | ARC-Easy | 63.59 | 63.09 | -0.51 | 32 | 20 | 0.13 |
+| Full FT → LoRA-16 | GSM8K | 64.82 | 62.70 | -2.12 | 130 | 102 | 0.08 |
+| Full FT → LoRA-16 | HellaSwag | 45.95 | 47.23 | 1.28 | 236 | 365 | 1.601e-07 |
+| Full FT → LoRA-16 | BoolQ | 59.91 | 72.08 | 12.17 | 333 | 731 | 7.191e-35 |
+| Full FT → LoRA-16 | ARC-Easy | 63.51 | 63.59 | 0.08 | 100 | 102 | 0.94 |
+| Full FT progression (mid → final) | GSM8K | 57.16 | 64.82 | 7.66 | 92 | 193 | 2.159e-09 |
+| Full FT progression (mid → final) | HellaSwag | 45.65 | 45.95 | 0.30 | 142 | 172 | 0.10 |
+| Full FT progression (mid → final) | BoolQ | 60.73 | 59.91 | -0.83 | 80 | 53 | 0.02 |
+| Full FT progression (mid → final) | ARC-Easy | 62.50 | 63.51 | 1.01 | 28 | 52 | 9.683e-03 |

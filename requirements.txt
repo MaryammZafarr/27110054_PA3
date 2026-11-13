@@ -1,0 +1,14 @@
+torch==2.11.0
+transformers>=4.51
+safetensors
+numpy
+pandas
+pyarrow
+matplotlib
+pillow
+pyyaml
+datasets
+sentencepiece
+lm_eval==0.4.13
+math-verify[antlr4_13_2]==0.9.0
+gdown

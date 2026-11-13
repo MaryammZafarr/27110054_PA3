@@ -1,0 +1,4 @@
+| run | ‖θ−θ0‖ mid | ‖θ−θ0‖ final | final SFT (EMA) | final Ω | final λΩ | mean λΩ | final λΩ / SFT |
+|---|---|---|---|---|---|---|---|
+| Full FT | 10.02 | 10.66 | 0.19 | nan | nan | nan | nan |
+| Full FT + L2-SP | nan | 6.27 | 0.19 | 19.66 | 0.02 | 0.02 | 0.12 |

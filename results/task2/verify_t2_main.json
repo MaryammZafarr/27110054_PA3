@@ -1,0 +1,357 @@
+[
+ {
+  "check": "caption training: 6,000 images x 3 captions = 18,000",
+  "status": "PASS",
+  "detail": "18000"
+ },
+ {
+  "check": "caption development: 96 images, one caption each",
+  "status": "PASS",
+  "detail": "96"
+ },
+ {
+  "check": "VQAv2 train: yes/no/number/other = 640/256/640 pairs",
+  "status": "PASS",
+  "detail": "{'yes/no': 640, 'number': 256, 'other': 640}"
+ },
+ {
+  "check": "VQAv2 train: >=8/10 agreement, differing consensus, same question, 10 answers kept",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "VQAv2 train: training target is an original string from the consensus group",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "VQAv2 dev: yes/no/number/other = 12/8/12 pairs",
+  "status": "PASS",
+  "detail": "{'yes/no': 12, 'number': 8, 'other': 12}"
+ },
+ {
+  "check": "VQAv2 dev: >=8/10 agreement, differing consensus, same question, 10 answers kept",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "VQAv2 dev: training target is an original string from the consensus group",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "VQAv2 test: yes/no/number/other = 36/24/36 pairs",
+  "status": "PASS",
+  "detail": "{'yes/no': 36, 'number': 24, 'other': 36}"
+ },
+ {
+  "check": "VQAv2 test: >=8/10 agreement, differing consensus, same question, 10 answers kept",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "VQAv2 test: training target is an original string from the consensus group",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "grounding dev: presence/counting = 12/12 pairs",
+  "status": "PASS",
+  "detail": "{'presence': 12, 'counting': 12}"
+ },
+ {
+  "check": "grounding dev: presence yes/no targets, counting 1-4 and different",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "grounding test: presence/counting = 48/48 pairs",
+  "status": "PASS",
+  "detail": "{'presence': 48, 'counting': 48}"
+ },
+ {
+  "check": "grounding test: presence yes/no targets, counting 1-4 and different",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "grounding training pools exist (presence and counting)",
+  "status": "PASS",
+  "detail": "{'presence': 10049, 'counting': 10096}"
+ },
+ {
+  "check": "all development and final-test sets are mutually image-disjoint",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "no evaluation image in training or replay; train=train2014, eval=val2014",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "mismatched-image mapping fixed, excludes both pair images, drawn from the same suite",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "content-token caps respected (question 80, answer 16, caption 64)",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "label audit sheet created",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "label audit filled in by hand (MANUAL step)",
+  "status": "PASS",
+  "detail": "240/240 labels checked"
+ },
+ {
+  "check": "features: (N, 196, 768) FP16 for every image",
+  "status": "PASS",
+  "detail": "[9333, 196, 768]"
+ },
+ {
+  "check": "SigLIP final LayerNorm applied exactly once",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "deterministic preprocessing / re-encoding",
+  "status": "WARN",
+  "detail": ""
+ },
+ {
+  "check": "feature-caching time and memory recorded",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "training finished (train_summary.json)",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "not a smoke run",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "4,500 consecutive updates logged (72,000 presentations)",
+  "status": "PASS",
+  "detail": "4500"
+ },
+ {
+  "check": "stage 1 'caption_alignment' has 2250 updates",
+  "status": "PASS",
+  "detail": "2250"
+ },
+ {
+  "check": "stage 1: connector peak LR 0.001, ends at 10% of peak",
+  "status": "PASS",
+  "detail": "peak 0.001, last 0.0001"
+ },
+ {
+  "check": "stage 1: connector only (no LoRA)",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "stage 2 'visual_instruction' has 1500 updates",
+  "status": "PASS",
+  "detail": "1500"
+ },
+ {
+  "check": "stage 2: connector peak LR 0.0001, ends at 10% of peak",
+  "status": "PASS",
+  "detail": "peak 0.0001, last 1e-05"
+ },
+ {
+  "check": "stage 2: LoRA peak LR 2e-05",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "stage 2: realised mixture close to {'presence': 0.5, 'counting': 0.25, 'caption': 0.25}",
+  "status": "PASS",
+  "detail": "{'presence': 0.505, 'counting': 0.258, 'caption': 0.237}"
+ },
+ {
+  "check": "stage 3 'natural_vqa' has 750 updates",
+  "status": "PASS",
+  "detail": "750"
+ },
+ {
+  "check": "stage 3: connector peak LR 5e-05, ends at 10% of peak",
+  "status": "PASS",
+  "detail": "peak 5e-05, last 5e-06"
+ },
+ {
+  "check": "stage 3: LoRA peak LR 1e-05",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "stage 3: realised mixture close to {'vqa': 0.7, 'presence': 0.1, 'counting': 0.1, 'caption': 0.1}",
+  "status": "PASS",
+  "detail": "{'vqa': 0.691, 'presence': 0.103, 'counting': 0.103, 'caption': 0.102}"
+ },
+ {
+  "check": "skipped (inf/NaN) updates logged",
+  "status": "PASS",
+  "detail": "[1, 2, 3, 4, 8]"
+ },
+ {
+  "check": "trainable parameters by stage recorded (connector 1,837,056; + LoRA 4,587,520 in stages 2-3)",
+  "status": "PASS",
+  "detail": "{'caption_alignment': {'connector': 1837056, 'lora': 0, 'total': 1837056}, 'visual_instruction': {'connector': 1837056, 'lora': 4587520, 'total': 6424576}, 'natural_vqa': {'connector': 1837056, 'lora': 4587520, 'total': 6424576}}"
+ },
+ {
+  "check": "development evaluation at [0, 500, 1000, 1500, 2000, np.int64(2250), 2500, 3000, 3500, np.int64(3750), 4000, 4500]",
+  "status": "PASS",
+  "detail": "[0, 500, 1000, 1500, 2000, 2250, 2500, 3000, 3500, 3750, 4000, 4500]"
+ },
+ {
+  "check": "dev metrics: caption loss + answer NLL (correct/swap/none) + \u0394NLL for both suites",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "weights saved: stage1",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "weights saved: stage2",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "weights saved: stage3",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "weights saved: final",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "resumable checkpoints every 250 updates + stage ends (optimizer, scaler, sampler position, RNG)",
+  "status": "FAIL",
+  "detail": "missing [250, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500]"
+ },
+ {
+  "check": "connector magnitude calibration rule and scale recorded",
+  "status": "PASS",
+  "detail": "scale=0.05124"
+ },
+ {
+  "check": "interface checks: shapes, frozen backbone, connector gradients, visual slots, no-image rebuild",
+  "status": "PASS",
+  "detail": "{'feature_shape': [2, 196, 768], 'connector_output_shape': [2, 196, 1024]}"
+ },
+ {
+  "check": "runtime and peak memory per stage recorded",
+  "status": "PASS",
+  "detail": "{'caption_alignment': 1.5420494079589844, 'visual_instruction': 1.5640873908996582, 'natural_vqa': 1.5602731704711914}"
+ },
+ {
+  "check": "final evaluation finished",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "predictions: 2 suites x 4 conditions x all questions",
+  "status": "PASS",
+  "detail": "1536"
+ },
+ {
+  "check": "16-new-token cap respected",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "raw references, generations and per-example metrics saved",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "greedy, batch size 8, 16 tokens",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "grounding_test: no-image answers identical within each pair (same text -> same greedy output)",
+  "status": "PASS",
+  "detail": "100.0%"
+ },
+ {
+  "check": "vqa_test: no-image answers identical within each pair (same text -> same greedy output)",
+  "status": "PASS",
+  "detail": "100.0%"
+ },
+ {
+  "check": "report artefact fig_learning_curves.png",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "report artefact table_dev_curves.csv",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "report artefact table_final_main.csv",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "report artefact table_final_by_type.csv",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "report artefact table_correct_image_advantage.csv",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "report artefact table_swap_behaviour.csv",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "report artefact fig_final_accuracy_by_condition.png",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "report artefact fig_qualitative_grounding_test.png",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "report artefact fig_qualitative_vqa_test.png",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "report artefact qualitative_pairs.md",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "report artefact table_resources.csv",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "report artefact table_mixture_counts.csv",
+  "status": "PASS",
+  "detail": ""
+ }
+]

@@ -1,0 +1,12 @@
+{
+  "scanned": 40002,
+  "kept": 40000,
+  "empty": 0,
+  "gsm8k_overlap": 0,
+  "too_long": 2,
+  "last_source_index": 40001,
+  "tokens_total": 9908423,
+  "response_tokens_total": 7100056,
+  "len_mean": 247.710575,
+  "len_max": 1941
+}

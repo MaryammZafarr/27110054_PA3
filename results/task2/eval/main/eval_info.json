@@ -1,0 +1,51 @@
+{
+ "run": "main",
+ "weights": "final",
+ "tokens": 196,
+ "conditions": [
+  "correct",
+  "swap",
+  "mismatched",
+  "none"
+ ],
+ "max_new_tokens": 16,
+ "batch_size": 8,
+ "decoding": "greedy, thinking disabled",
+ "timing": {
+  "grounding_test/correct": {
+   "gen_s": 7.249361276626587,
+   "per_answer_s": 0.03775708998243014
+  },
+  "grounding_test/swap": {
+   "gen_s": 6.836750268936157,
+   "per_answer_s": 0.03560807431737582
+  },
+  "grounding_test/mismatched": {
+   "gen_s": 7.0780932903289795,
+   "per_answer_s": 0.03686506922046343
+  },
+  "grounding_test/none": {
+   "gen_s": 3.300154209136963,
+   "per_answer_s": 0.01718830317258835
+  },
+  "vqa_test/correct": {
+   "gen_s": 8.018824100494385,
+   "per_answer_s": 0.041764708856741585
+  },
+  "vqa_test/swap": {
+   "gen_s": 7.824916362762451,
+   "per_answer_s": 0.0407547727227211
+  },
+  "vqa_test/mismatched": {
+   "gen_s": 7.6024439334869385,
+   "per_answer_s": 0.039596062153577805
+  },
+  "vqa_test/none": {
+   "gen_s": 3.740717649459839,
+   "per_answer_s": 0.019482904424269993
+  }
+ },
+ "peak_gpu_mem_GB": 1.6642632484436035,
+ "n_records": 1536,
+ "smoke": false
+}

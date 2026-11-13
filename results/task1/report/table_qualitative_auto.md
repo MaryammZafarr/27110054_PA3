@@ -1,0 +1,9 @@
+| condition | n | truncated | JSON valid strict | JSON valid lenient | mean 4-gram repetition | responses with math markers | mean gen tokens |
+|---|---|---|---|---|---|---|---|
+| Baseline | 24 | 1 | 0/8 | 8/8 | 0.05 | 0 | 101.08 |
+| Full FT (mid) | 24 | 5 | 3/8 | 3/8 | 0.26 | 14 | 207.88 |
+| Full FT | 24 | 2 | 2/8 | 2/8 | 0.21 | 20 | 158.79 |
+| Full FT + L2-SP | 24 | 5 | 2/8 | 2/8 | 0.19 | 11 | 195.75 |
+| LoRA-4 | 24 | 2 | 4/8 | 4/8 | 0.14 | 1 | 110.25 |
+| LoRA-16 | 24 | 3 | 3/8 | 3/8 | 0.27 | 8 | 176.62 |
+| OPLoRA-16 | 24 | 6 | 2/8 | 2/8 | 0.33 | 3 | 205.71 |
